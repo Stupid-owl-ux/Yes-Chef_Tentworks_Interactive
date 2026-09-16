@@ -5,8 +5,8 @@ This repo holds the files for the unity game called Yes, chef as a project given
 # Yes Chef! - Tentworks Interactive Dev Test
 
 ## Controls
-WASD - Move
-E - Interact
+WASD - Move,
+E - Interact,
 ESC - Pause
 
 ## Gameplay
