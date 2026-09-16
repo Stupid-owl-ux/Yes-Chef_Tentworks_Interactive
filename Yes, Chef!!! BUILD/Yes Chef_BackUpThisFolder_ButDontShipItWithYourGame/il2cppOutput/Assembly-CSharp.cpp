@@ -1,0 +1,10697 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Action_1_tC95790E55CF4D5C803FAD201917F7CB367351E3F;
+struct Action_1_tB4B0D0DB16148980518A9D58761727D77FA1F1D3;
+struct Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1;
+struct Dictionary_2_t105D472D44D47824865F70DA14E6FF232779B17C;
+struct Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C;
+struct Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5;
+struct HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2;
+struct IEnumerable_1_tB82D425E367FD74F75186C33F930850D72D2D28D;
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+struct InputProcessor_1_tFE49B42CB371A9A2A3F29802695BD251947AD0B4;
+struct List_1_tFED1C27AA4B8AC9813FF4858B3ABB1B3F74558EF;
+struct List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35;
+struct List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A;
+struct List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct Action_1U5BU5D_t525E90B5D1212F32F34CD47670B3553347DFB133;
+struct Action_1U5BU5D_t22E45C2BFF8C89B61E349730E6255288D35F6B88;
+struct InputProcessor_1U5BU5D_tFEE411B67EEAA6B997AF875A65D072993C8C809C;
+struct TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787;
+struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
+struct CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD;
+struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
+struct FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA;
+struct HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622;
+struct HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658;
+struct IngredientDataU5BU5D_t72844ADBB86210141966DD1EE645A7E45C332B2C;
+struct InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5;
+struct KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D;
+struct SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99;
+struct TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A;
+struct UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83;
+struct UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9;
+struct ControlBitRangeNodeU5BU5D_t912A404149DE6D350D1735A026182C409C510F27;
+struct SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4;
+struct TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113;
+struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074;
+struct AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14;
+struct ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A;
+struct ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115;
+struct FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6;
+struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914;
+struct GameTimerUI_t6A39CFA21F196BC90E254BB5F9AA49506B719646;
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct IInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E;
+struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6;
+struct IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D;
+struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
+struct KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0;
+struct Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43;
+struct LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A;
+struct MainMenu_t5A8A8E4906FD2B24D16567A6BFFDAA6B91DD12DF;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B;
+struct OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9;
+struct OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA;
+struct PauseMenu_t36539DEACE8377BD498A235C80769301799E1985;
+struct PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95;
+struct PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED;
+struct PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F;
+struct PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC;
+struct PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5;
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39;
+struct ScoreUI_t129DB09BDD97A1D22CA9CD0452C85E2784D3FA31;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5;
+struct String_t;
+struct StringBuilder_t;
+struct StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428;
+struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
+struct TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB;
+struct TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160;
+struct TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4;
+struct TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39;
+struct TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C;
+struct TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859;
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9;
+struct TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5;
+struct TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D;
+struct TestInteractable_t72C9F815BDF6AD4FBF90844A0CACD48CC75B27BA;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct TrashBin_t1BC703CBE84DB437AF75681AE60C5E4921D2D853;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425;
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401;
+struct SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555;
+struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
+
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringBuilder_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3C7184C085FD01A0B7E755F49160DC63F0C063B89953A4D98EC5D4B80534B05D_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____D6F6E0E16A71CA5FE0B3B34C12B9865F84DBDA0B79111C9C3ECA2765AB264F6C_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719;
+IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD;
+IL2CPP_EXTERN_C String_t* _stringLiteral1656A3259720F5FAFEB4668F706DB840D5145D90;
+IL2CPP_EXTERN_C String_t* _stringLiteral16A760C6FBBD8B58B87A84E3A64D159FDDACD765;
+IL2CPP_EXTERN_C String_t* _stringLiteral16F779FD4828272AE85589C8D4D27A847CA7D468;
+IL2CPP_EXTERN_C String_t* _stringLiteral19E30120BF148B4BD74A0C6CE7F85A461E68A628;
+IL2CPP_EXTERN_C String_t* _stringLiteral1B1340CD5A7B722CBA512201F52BB1E5DFCCF7A2;
+IL2CPP_EXTERN_C String_t* _stringLiteral202817957E925A0976480F265A2C60F529845B8A;
+IL2CPP_EXTERN_C String_t* _stringLiteral215CFA1248FF7BC7D31A02CCCC75E64D8A728AF7;
+IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
+IL2CPP_EXTERN_C String_t* _stringLiteral2446498657E07D94CCC525F5C4E73DB878030B2D;
+IL2CPP_EXTERN_C String_t* _stringLiteral26E8BDE9915DF2D5F52CB03181CA01C4854A0AB3;
+IL2CPP_EXTERN_C String_t* _stringLiteral2E70354345FBAEA9D67F70E6B6422851212896F3;
+IL2CPP_EXTERN_C String_t* _stringLiteral31109A1C04FD12F1B5514AE2D2CCA2428B6FD280;
+IL2CPP_EXTERN_C String_t* _stringLiteral36624137CD309CCF5BB9CCF672DF5FCD52FBB8E5;
+IL2CPP_EXTERN_C String_t* _stringLiteral395A4A029DE8D9375C9ED5D58CE1A21E418ED560;
+IL2CPP_EXTERN_C String_t* _stringLiteral3BD49FAE6144AF7FCA61D6B3232A69073EA99CAD;
+IL2CPP_EXTERN_C String_t* _stringLiteral458268149182DF497B8C679578D8CFD2D648D098;
+IL2CPP_EXTERN_C String_t* _stringLiteral518D34A6E4F1574A69E8A1CF90CFCA1F8084D364;
+IL2CPP_EXTERN_C String_t* _stringLiteral55706C7EEE13B573CED539A60499C76B0ADB0451;
+IL2CPP_EXTERN_C String_t* _stringLiteral558AE68FDF4115DE1C84526C8A5C6EE1330FEA6C;
+IL2CPP_EXTERN_C String_t* _stringLiteral58C7DC3DDD58A5115E9FC4D913D4B65FBCA68D81;
+IL2CPP_EXTERN_C String_t* _stringLiteral5D402F80A0058CB1396DCF166F6F50F5599C6380;
+IL2CPP_EXTERN_C String_t* _stringLiteral679C291DDDABA344C75D8BC842F0F95E46B6B2EA;
+IL2CPP_EXTERN_C String_t* _stringLiteral68B1697B014FE16A16FE8D9A8095E3582C8BF865;
+IL2CPP_EXTERN_C String_t* _stringLiteral690E4D552E54C51D9C45F129F48D79864452A991;
+IL2CPP_EXTERN_C String_t* _stringLiteral6FCA0CECBC80FA2DCB8732487A54B7A82956124E;
+IL2CPP_EXTERN_C String_t* _stringLiteral70692651222C0F3108D99236FC245A926CDBA68D;
+IL2CPP_EXTERN_C String_t* _stringLiteral76C2A406A097643EEEA7B4B9880B09D9C4565C9C;
+IL2CPP_EXTERN_C String_t* _stringLiteral7DE05BAF24EF001D3805B3DAC0CF7FB7EF5E15D3;
+IL2CPP_EXTERN_C String_t* _stringLiteral7FEEF9DD4418BF7C830804EFB61D7812E3E7C672;
+IL2CPP_EXTERN_C String_t* _stringLiteral884820433266E121D9AF505AF4DE98B3BA081DC8;
+IL2CPP_EXTERN_C String_t* _stringLiteral8DDD74C40BDFB3F654161FC63A965B50083CBF17;
+IL2CPP_EXTERN_C String_t* _stringLiteral8E0BF8A2047266257FC4376A05577CA290A1A9DA;
+IL2CPP_EXTERN_C String_t* _stringLiteral9D59519899633F841B5620CC2037B9B55F46472F;
+IL2CPP_EXTERN_C String_t* _stringLiteral9DDB2E0D948AEA069663122B5CE08F313B4AE61F;
+IL2CPP_EXTERN_C String_t* _stringLiteralA1880C1F12027D7490DB96D2C770C5E31CEB69BB;
+IL2CPP_EXTERN_C String_t* _stringLiteralAB033203FDE20DD78C6E473F1B01979FF309A495;
+IL2CPP_EXTERN_C String_t* _stringLiteralB2B86CD64D7504E042D718B350C9ABE58D353C29;
+IL2CPP_EXTERN_C String_t* _stringLiteralB9598297C58EC45625BAE3E3953373EB4E2D4F1E;
+IL2CPP_EXTERN_C String_t* _stringLiteralC4500C80FF2DD8CCB3BB56902A5E4CE400CC6C5C;
+IL2CPP_EXTERN_C String_t* _stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8;
+IL2CPP_EXTERN_C String_t* _stringLiteralD97991C25CB704FDE20A3204B3AF4A55F319172F;
+IL2CPP_EXTERN_C String_t* _stringLiteralDF0A644F13CC53812773220FA84F15A30F573469;
+IL2CPP_EXTERN_C String_t* _stringLiteralDFE74026C9F8073D12CF8D729B82E71A090A5DB0;
+IL2CPP_EXTERN_C String_t* _stringLiteralF69158F86D9ECCA85CC5E02E72699C9046125690;
+IL2CPP_EXTERN_C String_t* _stringLiteralFAB26B76C5BC4AB82BD5FDE8AA07D8BD73DC951B;
+IL2CPP_EXTERN_C String_t* _stringLiteralFC4F004994ADB7624BDD54B6DC94B83F76CB7174;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisIInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E_m83574D1D9EE09D47FAA56546DCF22DC6B07ED199_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m64EB86DDB49F92CFAAF6003C9EAC7D7D8B0F35DB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mBDB4BDE48EF38D7C67DD01C07D3EF0FBF9450181_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m778A48AEB1373307A3BFAB3EB1DB7512F84521F0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m3F426C90800A277E998126095C4507F4F0CE747D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m4DDA1F2904AE9CD46261280A02C5A4B64D43E4F9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m12C700AB2B4A0C3875CEF6F420AB1EE18D8C2182_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m24B34C7E09338911F11E35163C1AEB30196059CF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m384D584B56DA9565485EEEFA4227C8F913362299_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m7EEAE398A4B92CA74150C2C52D6D5ED21E4FE0A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m0CE852F0BC654C52BB184A7BE9AB3AE046E08BA5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mE62EA8714F9AE882F82B506053F01F3426E8ABAF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_FindAnyObjectByType_TisPreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5_mAD6F10C3D7DFFE0AEBCA9068E0DE2FE4AEBB1DBC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisIngredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6_m6EFD82345CE39E15E76C5C86298C0D31757124FC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRespawnOrderAfterDelayU3Ed__13_System_Collections_IEnumerator_Reset_mBE331F91C36472D7652487CF3AD2C311EF641C17_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CShowScoreCoroutineU3Ed__5_System_Collections_IEnumerator_Reset_m6C9F9C77427627B8FF8A65E19A8F3B3098638106_RuntimeMethod_var;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787;
+struct CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD;
+struct IngredientDataU5BU5D_t72844ADBB86210141966DD1EE645A7E45C332B2C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A  : public RuntimeObject
+{
+	IngredientDataU5BU5D_t72844ADBB86210141966DD1EE645A7E45C332B2C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702  : public RuntimeObject
+{
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___U3CIngredientU3Ek__BackingField;
+	bool ___U3CIsCookingU3Ek__BackingField;
+	bool ___U3CIsFinishedU3Ek__BackingField;
+	float ___U3CRemainingTimeU3Ek__BackingField;
+	float ___U3CTotalTimeU3Ek__BackingField;
+	float ___finishTime;
+};
+struct Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B  : public RuntimeObject
+{
+	List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* ___U3CRequiredIngredientsU3Ek__BackingField;
+	float ___U3CStartTimeU3Ek__BackingField;
+	int32_t ___U3CBaseScoreU3Ek__BackingField;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct StringBuilder_t  : public RuntimeObject
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_ChunkChars;
+	StringBuilder_t* ___m_ChunkPrevious;
+	int32_t ___m_ChunkLength;
+	int32_t ___m_ChunkOffset;
+	int32_t ___m_MaxCapacity;
+};
+struct UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* ___U3CU3E4__this;
+	CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* ___window;
+};
+struct Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401  : public RuntimeObject
+{
+	String_t* ___heading;
+	String_t* ___text;
+	String_t* ___linkText;
+	String_t* ___url;
+};
+struct Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1 
+{
+	List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* ____current;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct InlinedArray_1_t031A607559EE9F23E8BC012CD9661BFB3EB2BFC1 
+{
+	int32_t ___length;
+	Action_1_tC95790E55CF4D5C803FAD201917F7CB367351E3F* ___firstValue;
+	Action_1U5BU5D_t525E90B5D1212F32F34CD47670B3553347DFB133* ___additionalValues;
+};
+struct InlinedArray_1_t8249EE706E2222F1A22F40FB70BEB230C11C5992 
+{
+	int32_t ___length;
+	Action_1_tB4B0D0DB16148980518A9D58761727D77FA1F1D3* ___firstValue;
+	Action_1U5BU5D_t22E45C2BFF8C89B61E349730E6255288D35F6B88* ___additionalValues;
+};
+struct InlinedArray_1_t2A86A6C75E0160EE14310E053C5249518871D847 
+{
+	int32_t ___length;
+	InputProcessor_1_tFE49B42CB371A9A2A3F29802695BD251947AD0B4* ___firstValue;
+	InputProcessor_1U5BU5D_tFEE411B67EEAA6B997AF875A65D072993C8C809C* ___additionalValues;
+};
+struct TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___itemStack;
+	int32_t ___index;
+	float ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C 
+{
+	TMP_ColorGradientU5BU5D_t2F65E8C42F268DFF33BB1392D94BCF5B5087308A* ___itemStack;
+	int32_t ___index;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___rgba;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___rgba_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			uint8_t ___r;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___r_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___g_OffsetPadding[1];
+			uint8_t ___g;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___g_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___g_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___b_OffsetPadding[2];
+			uint8_t ___b;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___b_OffsetPadding_forAlignmentOnly[2];
+			uint8_t ___b_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___a_OffsetPadding[3];
+			uint8_t ___a;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___a_OffsetPadding_forAlignmentOnly[3];
+			uint8_t ___a_forAlignmentOnly;
+		};
+	};
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1__padding[1];
+	};
+};
+struct EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 
+{
+	union
+	{
+		struct
+		{
+			int32_t ___m_Data;
+		};
+		uint8_t EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8__padding[4];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED 
+{
+	int32_t ___m_Code;
+};
+struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F 
+{
+	String_t* ___m_InterfaceName;
+	String_t* ___m_DeviceClass;
+	String_t* ___m_Manufacturer;
+	String_t* ___m_Product;
+	String_t* ___m_Serial;
+	String_t* ___m_Version;
+	String_t* ___m_Capabilities;
+};
+struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F_marshaled_pinvoke
+{
+	char* ___m_InterfaceName;
+	char* ___m_DeviceClass;
+	char* ___m_Manufacturer;
+	char* ___m_Product;
+	char* ___m_Serial;
+	char* ___m_Version;
+	char* ___m_Capabilities;
+};
+struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F_marshaled_com
+{
+	Il2CppChar* ___m_InterfaceName;
+	Il2CppChar* ___m_DeviceClass;
+	Il2CppChar* ___m_Manufacturer;
+	Il2CppChar* ___m_Product;
+	Il2CppChar* ___m_Serial;
+	Il2CppChar* ___m_Version;
+	Il2CppChar* ___m_Capabilities;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 
+{
+	String_t* ___m_StringOriginalCase;
+	String_t* ___m_StringLowerCase;
+};
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_pinvoke
+{
+	char* ___m_StringOriginalCase;
+	char* ___m_StringLowerCase;
+};
+struct InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735_marshaled_com
+{
+	Il2CppChar* ___m_StringOriginalCase;
+	Il2CppChar* ___m_StringLowerCase;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B 
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	bool ___isDefaultMaterial;
+	bool ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_pinvoke
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B_marshaled_com
+{
+	int32_t ___index;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___spriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___isDefaultMaterial;
+	int32_t ___isFallbackMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___fallbackMaterial;
+	float ___padding;
+	int32_t ___referenceCount;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD 
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_pinvoke
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_HighlightedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite;
+};
+struct TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC 
+{
+	uint8_t ___bold;
+	uint8_t ___italic;
+	uint8_t ___underline;
+	uint8_t ___strikethrough;
+	uint8_t ___highlight;
+	uint8_t ___superscript;
+	uint8_t ___subscript;
+	uint8_t ___uppercase;
+	uint8_t ___lowercase;
+	uint8_t ___smallcaps;
+};
+struct TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 
+{
+	float ___m_Left;
+	float ___m_Right;
+	float ___m_Top;
+	float ___m_Bottom;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D1212_t15E259E39EB0AACACF4B566F1F40C17C6858A470 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D1212_t15E259E39EB0AACACF4B566F1F40C17C6858A470__padding[1212];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D495_t4065771FB2BFEA1DE25ADB36F75B359874A2CC87 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D495_t4065771FB2BFEA1DE25ADB36F75B359874A2CC87__padding[495];
+	};
+};
+#pragma pack(pop, tp)
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_pinvoke
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777_marshaled_com
+{
+	TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35* ___character;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___fontAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material;
+	int32_t ___materialIndex;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 
+{
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361_marshaled_com
+{
+	Il2CppSafeArray* ___m_Array;
+	int32_t ___m_Index;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E 
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___FilePathsData;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	bool ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com
+{
+	Il2CppSafeArray* ___FilePathsData;
+	Il2CppSafeArray* ___TypesData;
+	int32_t ___TotalTypes;
+	int32_t ___TotalFiles;
+	int32_t ___IsEditorOnly;
+};
+struct TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 
+{
+	Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259* ___itemStack;
+	int32_t ___index;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___itemStack;
+	int32_t ___index;
+	MaterialReference_tFD98FFFBBDF168028E637446C6676507186F4D0B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct CollisionFlags_t3132E5D974C485D3F3C97B7AF475965AB0C3F9C1 
+{
+	int32_t ___value__;
+};
+struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_NormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_HighlightedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_PressedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_SelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_DisabledColor;
+	float ___m_ColorMultiplier;
+	float ___m_FadeDuration;
+};
+struct ColorMode_tA7A815AAB9F175EFBA0AE0814E55728432A880BF 
+{
+	int32_t ___value__;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___min;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___max;
+};
+struct FontStyles_t9E611EE6BBE6E192A73EAFF7872596517C527FF5 
+{
+	int32_t ___value__;
+};
+struct FontWeight_tA2585C0A73B70D31CE71E7843149098A5E16BC80 
+{
+	int32_t ___value__;
+};
+struct HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B 
+{
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color;
+	TMP_Offset_t2262BE4E87D9662487777FF8FFE1B17B0E4438C6 ___padding;
+};
+struct HorizontalAlignmentOptions_tCC21260E9FBEC656BA7783643ED5F44AFF7955A1 
+{
+	int32_t ___value__;
+};
+struct IngredientState_t24CAB47690DDC60B29AD6DFFCDCF83C04B05E1B1 
+{
+	int32_t ___value__;
+};
+struct IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC 
+{
+	int32_t ___value__;
+};
+struct InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 
+{
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___U3CformatU3Ek__BackingField;
+	uint32_t ___m_ByteOffset;
+	uint32_t ___U3CbitOffsetU3Ek__BackingField;
+	uint32_t ___U3CsizeInBitsU3Ek__BackingField;
+};
+struct Key_tA157C0DCB2A0D2BE58B76B3BB836A1B2E4EAF387 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
+{
+	intptr_t ___m_Ptr;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct SceneHandle_t4C3B517546B91EF78A6ED15DDC6C54AB5E03D8A3 
+{
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_Value;
+};
+struct TMP_TextElementType_t51EE6662436732F22C6B599F5757B7F35F706342 
+{
+	int32_t ___value__;
+};
+struct TextAlignmentOptions_tF3FA9020F7E2AF1A48660044540254009A22EF01 
+{
+	int32_t ___value__;
+};
+struct TextOverflowModes_t7DCCD00C16E3223CE50CDDCC53F785C0405BE203 
+{
+	int32_t ___value__;
+};
+struct TextRenderFlags_tE023FF398ECFE57A1DBC6FD2A1AF4AE9620F6E1C 
+{
+	int32_t ___value__;
+};
+struct TextWrappingModes_t982BC65D6DA703E73C04B99286285ECD3DDF207E 
+{
+	int32_t ___value__;
+};
+struct TextureMappingOptions_t0E1A47C529DEB45A875486256E7026E97C940DAE 
+{
+	int32_t ___value__;
+};
+struct TypeCode_tBEF9BE86C8BCF5A6B82F3381219738D27804EF79 
+{
+	int32_t ___value__;
+};
+struct VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F 
+{
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___topRight;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomLeft;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___bottomRight;
+};
+struct VertexSortingOrder_t95B7AEDBDCAACC3459B6476E5CCC594A6422FFA8 
+{
+	int32_t ___value__;
+};
+struct VerticalAlignmentOptions_tCEF70AF60282B71AEEE14D51253CE6A61E72D855 
+{
+	int32_t ___value__;
+};
+struct Clamp_tCB96E8D34067B0DCBED42C565F4443DF880DD284 
+{
+	int32_t ___value__;
+};
+struct U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* ___U3CU3E4__this;
+	int32_t ___score;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CstartPositionU3E5__2;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CtargetPositionU3E5__3;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___U3CstartColorU3E5__4;
+	float ___U3CelapsedU3E5__5;
+};
+struct GameState_tF18653D09671A1F94ABF841AE77599C578D4C289 
+{
+	int32_t ___value__;
+};
+struct ControlFlags_t9C297F208DE19CEB00A0560F7FDE59F6A2004132 
+{
+	int32_t ___value__;
+};
+struct DeviceFlags_tF02F85DA24FF16879A67B540FCA560EC955CE728 
+{
+	int32_t ___value__;
+};
+struct Mode_t2D49D0E10E2FDA0026278C2400C16033888D0542 
+{
+	int32_t ___value__;
+};
+struct Transition_tF856A77C9FAC6D26EA3CA158CF68B739D35397B3 
+{
+	int32_t ___value__;
+};
+struct Direction_t4C81D17BB6C089A0EC1C4934525B86E75E693EFA 
+{
+	int32_t ___value__;
+};
+struct TextInputSources_t41387D6C9CB16E60390F47A15AEB8185BE966D26 
+{
+	int32_t ___value__;
+};
+struct TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 
+{
+	FontWeightU5BU5D_t2A406B5BAB0DD0F06E7F1773DB062E4AF98067BA* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D 
+{
+	HighlightStateU5BU5D_tA878A0AF1F4F52882ACD29515AADC277EE135622* ___itemStack;
+	int32_t ___index;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 
+{
+	HorizontalAlignmentOptionsU5BU5D_t4D185662282BFB910D8B9A8199E91578E9422658* ___itemStack;
+	int32_t ___index;
+	int32_t ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C 
+{
+	int32_t ___m_Mode;
+	bool ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_pinvoke
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C_marshaled_com
+{
+	int32_t ___m_Mode;
+	int32_t ___m_WrapAround;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnUp;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnDown;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnLeft;
+	Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* ___m_SelectOnRight;
+};
+struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___m_Type;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___m_Type_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_BoolValue_OffsetPadding[4];
+			bool ___m_BoolValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_BoolValue_OffsetPadding_forAlignmentOnly[4];
+			bool ___m_BoolValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_CharValue_OffsetPadding[4];
+			Il2CppChar ___m_CharValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_CharValue_OffsetPadding_forAlignmentOnly[4];
+			Il2CppChar ___m_CharValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ByteValue_OffsetPadding[4];
+			uint8_t ___m_ByteValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ByteValue_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_ByteValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_SByteValue_OffsetPadding[4];
+			int8_t ___m_SByteValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_SByteValue_OffsetPadding_forAlignmentOnly[4];
+			int8_t ___m_SByteValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ShortValue_OffsetPadding[4];
+			int16_t ___m_ShortValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ShortValue_OffsetPadding_forAlignmentOnly[4];
+			int16_t ___m_ShortValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UShortValue_OffsetPadding[4];
+			uint16_t ___m_UShortValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UShortValue_OffsetPadding_forAlignmentOnly[4];
+			uint16_t ___m_UShortValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_IntValue_OffsetPadding[4];
+			int32_t ___m_IntValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_IntValue_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_IntValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UIntValue_OffsetPadding[4];
+			uint32_t ___m_UIntValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UIntValue_OffsetPadding_forAlignmentOnly[4];
+			uint32_t ___m_UIntValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_LongValue_OffsetPadding[4];
+			int64_t ___m_LongValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_LongValue_OffsetPadding_forAlignmentOnly[4];
+			int64_t ___m_LongValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ULongValue_OffsetPadding[4];
+			uint64_t ___m_ULongValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ULongValue_OffsetPadding_forAlignmentOnly[4];
+			uint64_t ___m_ULongValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_FloatValue_OffsetPadding[4];
+			float ___m_FloatValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_FloatValue_OffsetPadding_forAlignmentOnly[4];
+			float ___m_FloatValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_DoubleValue_OffsetPadding[4];
+			double ___m_DoubleValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_DoubleValue_OffsetPadding_forAlignmentOnly[4];
+			double ___m_DoubleValue_forAlignmentOnly;
+		};
+	};
+};
+struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_pinvoke
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___m_Type;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___m_Type_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_BoolValue_OffsetPadding[4];
+			int32_t ___m_BoolValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_BoolValue_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_BoolValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_CharValue_OffsetPadding[4];
+			uint8_t ___m_CharValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_CharValue_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_CharValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ByteValue_OffsetPadding[4];
+			uint8_t ___m_ByteValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ByteValue_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_ByteValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_SByteValue_OffsetPadding[4];
+			int8_t ___m_SByteValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_SByteValue_OffsetPadding_forAlignmentOnly[4];
+			int8_t ___m_SByteValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ShortValue_OffsetPadding[4];
+			int16_t ___m_ShortValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ShortValue_OffsetPadding_forAlignmentOnly[4];
+			int16_t ___m_ShortValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UShortValue_OffsetPadding[4];
+			uint16_t ___m_UShortValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UShortValue_OffsetPadding_forAlignmentOnly[4];
+			uint16_t ___m_UShortValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_IntValue_OffsetPadding[4];
+			int32_t ___m_IntValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_IntValue_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_IntValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UIntValue_OffsetPadding[4];
+			uint32_t ___m_UIntValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UIntValue_OffsetPadding_forAlignmentOnly[4];
+			uint32_t ___m_UIntValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_LongValue_OffsetPadding[4];
+			int64_t ___m_LongValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_LongValue_OffsetPadding_forAlignmentOnly[4];
+			int64_t ___m_LongValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ULongValue_OffsetPadding[4];
+			uint64_t ___m_ULongValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ULongValue_OffsetPadding_forAlignmentOnly[4];
+			uint64_t ___m_ULongValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_FloatValue_OffsetPadding[4];
+			float ___m_FloatValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_FloatValue_OffsetPadding_forAlignmentOnly[4];
+			float ___m_FloatValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_DoubleValue_OffsetPadding[4];
+			double ___m_DoubleValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_DoubleValue_OffsetPadding_forAlignmentOnly[4];
+			double ___m_DoubleValue_forAlignmentOnly;
+		};
+	};
+};
+struct PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4_marshaled_com
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			int32_t ___m_Type;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___m_Type_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_BoolValue_OffsetPadding[4];
+			int32_t ___m_BoolValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_BoolValue_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_BoolValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_CharValue_OffsetPadding[4];
+			uint8_t ___m_CharValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_CharValue_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_CharValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ByteValue_OffsetPadding[4];
+			uint8_t ___m_ByteValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ByteValue_OffsetPadding_forAlignmentOnly[4];
+			uint8_t ___m_ByteValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_SByteValue_OffsetPadding[4];
+			int8_t ___m_SByteValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_SByteValue_OffsetPadding_forAlignmentOnly[4];
+			int8_t ___m_SByteValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ShortValue_OffsetPadding[4];
+			int16_t ___m_ShortValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ShortValue_OffsetPadding_forAlignmentOnly[4];
+			int16_t ___m_ShortValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UShortValue_OffsetPadding[4];
+			uint16_t ___m_UShortValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UShortValue_OffsetPadding_forAlignmentOnly[4];
+			uint16_t ___m_UShortValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_IntValue_OffsetPadding[4];
+			int32_t ___m_IntValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_IntValue_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___m_IntValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_UIntValue_OffsetPadding[4];
+			uint32_t ___m_UIntValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_UIntValue_OffsetPadding_forAlignmentOnly[4];
+			uint32_t ___m_UIntValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_LongValue_OffsetPadding[4];
+			int64_t ___m_LongValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_LongValue_OffsetPadding_forAlignmentOnly[4];
+			int64_t ___m_LongValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_ULongValue_OffsetPadding[4];
+			uint64_t ___m_ULongValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_ULongValue_OffsetPadding_forAlignmentOnly[4];
+			uint64_t ___m_ULongValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_FloatValue_OffsetPadding[4];
+			float ___m_FloatValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_FloatValue_OffsetPadding_forAlignmentOnly[4];
+			float ___m_FloatValue_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___m_DoubleValue_OffsetPadding[4];
+			double ___m_DoubleValue;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___m_DoubleValue_OffsetPadding_forAlignmentOnly[4];
+			double ___m_DoubleValue_forAlignmentOnly;
+		};
+	};
+};
+struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
+{
+	SceneHandle_t4C3B517546B91EF78A6ED15DDC6C54AB5E03D8A3 ___m_Handle;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 
+{
+	int32_t ___controlCharacterCount;
+	int32_t ___characterCount;
+	int32_t ___visibleCharacterCount;
+	int32_t ___spaceCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___wordCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharacterIndex;
+	float ___length;
+	float ___lineHeight;
+	float ___ascender;
+	float ___baseline;
+	float ___descender;
+	float ___maxAdvance;
+	float ___width;
+	float ___marginLeft;
+	float ___marginRight;
+	int32_t ___alignment;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___lineExtents;
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	int32_t ___type;
+	int32_t ___scoreValue;
+	bool ___requiresPreparation;
+	float ___preparationTime;
+};
+struct InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E  : public RuntimeObject
+{
+	InputStateBlock_t0E05211ACF29A99C0FE7FC9EA7042196BFF1F3B5 ___m_StateBlock;
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___m_Name;
+	String_t* ___m_Path;
+	String_t* ___m_DisplayName;
+	String_t* ___m_DisplayNameFromLayout;
+	String_t* ___m_ShortDisplayName;
+	String_t* ___m_ShortDisplayNameFromLayout;
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___m_Layout;
+	InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___m_Variants;
+	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___m_Device;
+	InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E* ___m_Parent;
+	int32_t ___m_UsageCount;
+	int32_t ___m_UsageStartIndex;
+	int32_t ___m_AliasCount;
+	int32_t ___m_AliasStartIndex;
+	int32_t ___m_ChildCount;
+	int32_t ___m_ChildStartIndex;
+	int32_t ___m_ControlFlags;
+	bool ___m_CachedValueIsStale;
+	bool ___m_UnprocessedCachedValueIsStale;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___m_DefaultState;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___m_MinValue;
+	PrimitiveValue_t1CC37566F40746757D5E3F87474A05909D85C2D4 ___m_MaxValue;
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___m_OptimizedControlDataType;
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___commonStyle;
+	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___darkStyle;
+	StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428* ___lightStyle;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___icon;
+	String_t* ___title;
+	SectionU5BU5D_t9D3017555FFF42E71BE91904A2486EAF429F24C4* ___sections;
+	bool ___loadedLayout;
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A 
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	bool ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	bool ___tagNoParsing;
+	bool ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_pinvoke
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A_marshaled_com
+{
+	int32_t ___previous_WordBreak;
+	int32_t ___total_CharacterCount;
+	int32_t ___visible_CharacterCount;
+	int32_t ___visibleSpaceCount;
+	int32_t ___visible_SpriteCount;
+	int32_t ___visible_LinkCount;
+	int32_t ___firstCharacterIndex;
+	int32_t ___firstVisibleCharacterIndex;
+	int32_t ___lastCharacterIndex;
+	int32_t ___lastVisibleCharIndex;
+	int32_t ___lineNumber;
+	float ___maxCapHeight;
+	float ___maxAscender;
+	float ___maxDescender;
+	float ___startOfLineAscender;
+	float ___maxLineAscender;
+	float ___maxLineDescender;
+	float ___pageAscender;
+	int32_t ___horizontalAlignment;
+	float ___marginLeft;
+	float ___marginRight;
+	float ___xAdvance;
+	float ___preferredWidth;
+	float ___preferredHeight;
+	float ___renderedWidth;
+	float ___renderedHeight;
+	float ___previousLineScale;
+	int32_t ___wordCount;
+	int32_t ___fontStyle;
+	int32_t ___italicAngle;
+	float ___fontScaleMultiplier;
+	float ___currentFontSize;
+	float ___baselineOffset;
+	float ___lineOffset;
+	int32_t ___isDrivenLineSpacing;
+	int32_t ___lastBaseGlyphIndex;
+	float ___cSpace;
+	float ___mSpace;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___textInfo;
+	TMP_LineInfo_tB75C1965B58DB7B3A046C8CA55AD6AB92B6B17B3 ___lineInfo;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___vertexColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___highlightState;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___basicStyleStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___italicAngleStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___strikethroughColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___highlightColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___highlightStateStack;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___colorGradientStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___sizeStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___indentStack;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___fontWeightStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___styleStack;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___baselineStack;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___actionStack;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___materialReferenceStack;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___lineJustificationStack;
+	int32_t ___spriteAnimationID;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___currentFontAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___currentSpriteAsset;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___currentMaterial;
+	int32_t ___currentMaterialIndex;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___meshExtents;
+	int32_t ___tagNoParsing;
+	int32_t ___isNonBreakingSpace;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___fxRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___fxScale;
+};
+struct InputControl_1_t7A35A4AF63A7AA94678E000D4F3265A1FD84288A  : public InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E
+{
+	InlinedArray_1_t2A86A6C75E0160EE14310E053C5249518871D847 ___m_ProcessorStack;
+	float ___m_CachedValue;
+	float ___m_UnprocessedCachedValue;
+	bool ___evaluateProcessorsEveryRead;
+};
+struct TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F 
+{
+	WordWrapStateU5BU5D_t473D59C9DBCC949CE72EF1EB471CBA152A6CEAC9* ___itemStack;
+	int32_t ___index;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_DefaultItem;
+	int32_t ___m_Capacity;
+	int32_t ___m_RolloverSize;
+	int32_t ___m_Count;
+};
+struct CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A  : public Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76
+{
+};
+struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B  : public InputControl_t74F06B623518F992BF8E38656A5E0857169E3E2E
+{
+	int32_t ___m_DeviceFlags;
+	int32_t ___m_DeviceId;
+	int32_t ___m_ParticipantId;
+	int32_t ___m_DeviceIndex;
+	uint32_t ___m_CurrentProcessedEventBytesOnUpdate;
+	InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F ___m_Description;
+	double ___m_LastUpdateTimeInternal;
+	uint32_t ___m_CurrentUpdateStepCount;
+	InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* ___m_AliasesForEachControl;
+	InternedStringU5BU5D_t0B851758733FC0B118D84BE83AED10A0404C18D5* ___m_UsagesForEachControl;
+	InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* ___m_UsageToControl;
+	InputControlU5BU5D_t0B951FEF1504D6340387C4735F5D6F426F40FE17* ___m_ChildrenForEachControl;
+	HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* ___m_UpdatedButtons;
+	List_1_tFED1C27AA4B8AC9813FF4858B3ABB1B3F74558EF* ___m_ButtonControlsCheckingPressState;
+	bool ___m_UseCachePathForButtonPresses;
+	UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___m_StateOffsetToControlMap;
+	ControlBitRangeNodeU5BU5D_t912A404149DE6D350D1735A026182C409C510F27* ___m_ControlTreeNodes;
+	UInt16U5BU5D_tEB7C42D811D999D2AA815BADC3FCCDD9C67B3F83* ___m_ControlTreeIndices;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7  : public InputControl_1_t7A35A4AF63A7AA94678E000D4F3265A1FD84288A
+{
+	int32_t ___clamp;
+	float ___clampMin;
+	float ___clampMax;
+	float ___clampConstant;
+	bool ___invert;
+	bool ___normalize;
+	float ___normalizeMin;
+	float ___normalizeMax;
+	float ___normalizeZero;
+	bool ___scale;
+	float ___scaleFactor;
+};
+struct ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___ingredientPoint;
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___currentIngredient;
+	float ___choppingFinishTime;
+	float ___choppingDuration;
+	bool ___isChopping;
+	float ___U3CRemainingTimeU3Ek__BackingField;
+};
+struct CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* ___orderUI;
+	FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* ___floatingScoreUI;
+	Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* ___currentOrder;
+	OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* ___orderManager;
+};
+struct FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___scoreText;
+	float ___displayDuration;
+	float ___moveDistance;
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___displayCoroutine;
+};
+struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___gameDuration;
+	GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* ___gameOverUI;
+	int32_t ___U3CCurrentStateU3Ek__BackingField;
+	float ___U3CRemainingTimeU3Ek__BackingField;
+};
+struct GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* ___gameManager;
+	ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* ___scoreManager;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameOverPanel;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___finalScoreText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___highScoreText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___newHighScoreText;
+};
+struct GameTimerUI_t6A39CFA21F196BC90E254BB5F9AA49506B719646  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* ___gameManager;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timerText;
+};
+struct Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* ___data;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___ingredientRenderer;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___rawMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___preparedMaterial;
+	int32_t ___U3CStateU3Ek__BackingField;
+};
+struct Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43  : public InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B
+{
+	AnyKeyControl_t88E59A594CAF1E3A432C3BEC2634C0CA462D8A14* ___U3CanyKeyU3Ek__BackingField;
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CshiftKeyU3Ek__BackingField;
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CctrlKeyU3Ek__BackingField;
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CaltKeyU3Ek__BackingField;
+	ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* ___U3CimeSelectedU3Ek__BackingField;
+	InlinedArray_1_t031A607559EE9F23E8BC012CD9661BFB3EB2BFC1 ___m_TextInputListeners;
+	String_t* ___m_KeyboardLayoutName;
+	KeyControlU5BU5D_t247D92FAA9E46BA28BB54BB6E38E7F99BD2C02DA* ___m_Keys;
+	InlinedArray_1_t8249EE706E2222F1A22F40FB70BEB230C11C5992 ___m_ImeCompositionListeners;
+};
+struct MainMenu_t5A8A8E4906FD2B24D16567A6BFFDAA6B91DD12DF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___gameplaySceneName;
+};
+struct OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* ___customerWindows;
+	IngredientDataU5BU5D_t72844ADBB86210141966DD1EE645A7E45C332B2C* ___ingredientData;
+	float ___respawnDelay;
+	ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* ___scoreManager;
+	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* ___gameManager;
+};
+struct OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___ingredientsText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timerText;
+};
+struct PauseMenu_t36539DEACE8377BD498A235C80769301799E1985  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* ___gameManager;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___pausePanel;
+};
+struct PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___moveSpeed;
+	float ___rotationSpeed;
+	CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* ___characterController;
+};
+struct PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___handPoint;
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___U3CHeldIngredientU3Ek__BackingField;
+};
+struct PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___interactionRange;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___interactionOrigin;
+	PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* ___playerHand;
+	GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* ___gameManager;
+};
+struct PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* ___progressSlider;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___timeText;
+};
+struct PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* ___chopProgress;
+	PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* ___stoveProgress1;
+	PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* ___stoveProgress2;
+	ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* ___choppingStation;
+	Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* ___stove;
+};
+struct Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___vegetablePrefab;
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___cheesePrefab;
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___meatPrefab;
+	PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___currentInteractor;
+	bool ___selectionOpen;
+};
+struct ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	int32_t ___U3CCurrentScoreU3Ek__BackingField;
+	int32_t ___U3CHighScoreU3Ek__BackingField;
+	bool ___U3CIsNewHighScoreU3Ek__BackingField;
+};
+struct ScoreUI_t129DB09BDD97A1D22CA9CD0452C85E2784D3FA31  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* ___scoreManager;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___scoreText;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___highScoreText;
+};
+struct Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___slotPoint1;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___slotPoint2;
+	CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* ___slot1;
+	CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* ___slot2;
+};
+struct TestInteractable_t72C9F815BDF6AD4FBF90844A0CACD48CC75B27BA  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct TrashBin_t1BC703CBE84DB437AF75681AE60C5E4921D2D853  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF  : public AxisControl_tD6613A2445A3C2BFA22C77E16CA3201AF72354A7
+{
+	bool ___m_NeedsToCheckFramePress;
+	uint32_t ___m_UpdateCountLastPressed;
+	uint32_t ___m_UpdateCountLastReleased;
+	bool ___m_LastUpdateWasPress;
+	bool ___U3CneedsToCheckFramePressU3Ek__BackingField;
+	float ___pressPoint;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	bool ___m_EnableCalled;
+	Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C ___m_Navigation;
+	int32_t ___m_Transition;
+	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___m_Colors;
+	SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD ___m_SpriteState;
+	AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074* ___m_AnimationTriggers;
+	bool ___m_Interactable;
+	Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* ___m_TargetGraphic;
+	bool ___m_GroupsAllowInteraction;
+	int32_t ___m_CurrentIndex;
+	bool ___U3CisPointerInsideU3Ek__BackingField;
+	bool ___U3CisPointerDownU3Ek__BackingField;
+	bool ___U3ChasSelectionU3Ek__BackingField;
+	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache;
+};
+struct KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0  : public ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF
+{
+	int32_t ___U3CkeyCodeU3Ek__BackingField;
+	int32_t ___m_ScanCode;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillRect;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleRect;
+	int32_t ___m_Direction;
+	float ___m_MinValue;
+	float ___m_MaxValue;
+	bool ___m_WholeNumbers;
+	float ___m_Value;
+	SliderEvent_t92A82EF6C62E15AF92B640FE2D960E877E8C6555* ___m_OnValueChanged;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___m_FillImage;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_FillTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_FillContainerRect;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_HandleTransform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HandleContainerRect;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Offset;
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker;
+	bool ___m_DelayedUpdateVisuals;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	String_t* ___m_text;
+	bool ___m_IsTextBackingStringDirty;
+	RuntimeObject* ___m_TextPreprocessor;
+	bool ___m_isRightToLeft;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_fontAsset;
+	TMP_FontAsset_t923BF2F78D7C5AC36376E168A1193B7CB4855160* ___m_currentFontAsset;
+	bool ___m_isSDFShader;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_sharedMaterial;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_currentMaterial;
+	int32_t ___m_currentMaterialIndex;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontSharedMaterials;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_fontMaterial;
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___m_fontMaterials;
+	bool ___m_isMaterialDirty;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_fontColor32;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_fontColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_underlineColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_strikethroughColor;
+	HighlightState_tE4F50287E5E2E91D42AB77DEA281D88D3AD6A28B ___m_HighlightState;
+	bool ___m_ConvertToLinearSpace;
+	bool ___m_enableVertexGradient;
+	int32_t ___m_colorMode;
+	VertexGradient_t2C057B53C0EA6E987C2B7BAB0305E686DA1C9A8F ___m_fontColorGradient;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_fontColorGradientPreset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_spriteAsset;
+	bool ___m_tintAllSprites;
+	bool ___m_tintSprite;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_spriteColor;
+	TMP_StyleSheet_t70C71699F5CB2D855C361DBB78A44C901236C859* ___m_StyleSheet;
+	TMP_Style_tA9E5B1B35EBFE24EF980CEA03251B638282E120C* ___m_TextStyle;
+	int32_t ___m_TextStyleHashCode;
+	bool ___m_overrideHtmlColors;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_faceColor;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_outlineColor;
+	float ___m_outlineWidth;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_currentEnvMapRotation;
+	bool ___m_hasEnvMapProperty;
+	float ___m_fontSize;
+	float ___m_currentFontSize;
+	float ___m_fontSizeBase;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_sizeStack;
+	int32_t ___m_fontWeight;
+	int32_t ___m_FontWeightInternal;
+	TMP_TextProcessingStack_1_tA5C8CED87DD9E73F6359E23B334FFB5B6F813FD4 ___m_FontWeightStack;
+	bool ___m_enableAutoSizing;
+	float ___m_maxFontSize;
+	float ___m_minFontSize;
+	int32_t ___m_AutoSizeIterationCount;
+	int32_t ___m_AutoSizeMaxIterationCount;
+	bool ___m_IsAutoSizePointSizeSet;
+	float ___m_fontSizeMin;
+	float ___m_fontSizeMax;
+	int32_t ___m_fontStyle;
+	int32_t ___m_FontStyleInternal;
+	TMP_FontStyleStack_t52885F172FADBC21346C835B5302167BDA8020DC ___m_fontStyleStack;
+	bool ___m_isUsingBold;
+	int32_t ___m_HorizontalAlignment;
+	int32_t ___m_VerticalAlignment;
+	int32_t ___m_textAlignment;
+	int32_t ___m_lineJustification;
+	TMP_TextProcessingStack_1_t243EA1B5D7FD2295D6533B953F0BBE8F52EFB8A0 ___m_lineJustificationStack;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_textContainerLocalCorners;
+	float ___m_characterSpacing;
+	float ___m_cSpacing;
+	float ___m_monoSpacing;
+	bool ___m_duoSpace;
+	float ___m_characterHorizontalScale;
+	float ___m_wordSpacing;
+	float ___m_lineSpacing;
+	float ___m_lineSpacingDelta;
+	float ___m_lineHeight;
+	bool ___m_IsDrivenLineSpacing;
+	float ___m_lineSpacingMax;
+	float ___m_paragraphSpacing;
+	float ___m_charWidthMaxAdj;
+	float ___m_charWidthAdjDelta;
+	int32_t ___m_TextWrappingMode;
+	bool ___m_isCharacterWrappingEnabled;
+	bool ___m_isNonBreakingSpace;
+	bool ___m_isIgnoringAlignment;
+	float ___m_wordWrappingRatios;
+	int32_t ___m_overflowMode;
+	int32_t ___m_firstOverflowCharacterIndex;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___m_linkedTextComponent;
+	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___parentLinkedComponent;
+	bool ___m_isTextTruncated;
+	bool ___m_enableKerning;
+	int32_t ___m_LastBaseGlyphIndex;
+	List_1_t3A076A19AF26E22A128C32B5C19804DDD2877607* ___m_ActiveFontFeatures;
+	bool ___m_enableExtraPadding;
+	bool ___checkPaddingRequired;
+	bool ___m_isRichText;
+	bool ___m_EmojiFallbackSupport;
+	bool ___m_parseCtrlCharacters;
+	bool ___m_isOverlay;
+	bool ___m_isOrthographic;
+	bool ___m_isCullingEnabled;
+	bool ___m_isMaskingEnabled;
+	bool ___isMaskUpdateRequired;
+	bool ___m_ignoreCulling;
+	int32_t ___m_horizontalMapping;
+	int32_t ___m_verticalMapping;
+	float ___m_uvLineOffset;
+	int32_t ___m_renderMode;
+	int32_t ___m_geometrySortingOrder;
+	bool ___m_IsTextObjectScaleStatic;
+	bool ___m_VertexBufferAutoSizeReduction;
+	int32_t ___m_firstVisibleCharacter;
+	int32_t ___m_maxVisibleCharacters;
+	int32_t ___m_maxVisibleWords;
+	int32_t ___m_maxVisibleLines;
+	bool ___m_useMaxVisibleDescender;
+	int32_t ___m_pageToDisplay;
+	bool ___m_isNewPage;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_margin;
+	float ___m_marginLeft;
+	float ___m_marginRight;
+	float ___m_marginWidth;
+	float ___m_marginHeight;
+	float ___m_width;
+	TMP_TextInfo_t09A8E906329422C3F0C059876801DD695B8D524D* ___m_textInfo;
+	bool ___m_havePropertiesChanged;
+	bool ___m_isUsingLegacyAnimationComponent;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_transform;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_rectTransform;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousRectTransformSize;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PreviousPivotPosition;
+	bool ___U3CautoSizeTextContainerU3Ek__BackingField;
+	bool ___m_autoSizeTextContainer;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_mesh;
+	bool ___m_isVolumetricText;
+	Action_1_tB93AB717F9D419A1BEC832FF76E74EAA32184CC1* ___OnPreRenderText;
+	TMP_SpriteAnimator_t2E0F016A61CA343E3222FF51E7CF0E53F9F256E4* ___m_spriteAnimator;
+	float ___m_flexibleHeight;
+	float ___m_flexibleWidth;
+	float ___m_minWidth;
+	float ___m_minHeight;
+	float ___m_maxWidth;
+	float ___m_maxHeight;
+	LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* ___m_LayoutElement;
+	float ___m_preferredWidth;
+	float ___m_RenderedWidth;
+	bool ___m_isPreferredWidthDirty;
+	float ___m_preferredHeight;
+	float ___m_RenderedHeight;
+	bool ___m_isPreferredHeightDirty;
+	bool ___m_isCalculatingPreferredValues;
+	int32_t ___m_layoutPriority;
+	bool ___m_isLayoutDirty;
+	bool ___m_isAwake;
+	bool ___m_isWaitingOnResourceLoad;
+	int32_t ___m_inputSource;
+	float ___m_fontScaleMultiplier;
+	float ___tag_LineIndent;
+	float ___tag_Indent;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_indentStack;
+	bool ___tag_NoParsing;
+	bool ___m_isTextLayoutPhase;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___m_FXRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_FXScale;
+	TextProcessingElementU5BU5D_tC3E97D1672C8DB6E1F91DB2C0987D0ED9A2E7113* ___m_TextProcessingArray;
+	int32_t ___m_InternalTextProcessingArraySize;
+	TMP_CharacterInfoU5BU5D_t297D56FCF66DAA99D8FEA7C30F9F3926902C5B99* ___m_internalCharacterInfo;
+	int32_t ___m_totalCharacterCount;
+	int32_t ___m_characterCount;
+	int32_t ___m_firstCharacterOfLine;
+	int32_t ___m_firstVisibleCharacterOfLine;
+	int32_t ___m_lastCharacterOfLine;
+	int32_t ___m_lastVisibleCharacterOfLine;
+	int32_t ___m_lineNumber;
+	int32_t ___m_lineVisibleCharacterCount;
+	int32_t ___m_lineVisibleSpaceCount;
+	int32_t ___m_pageNumber;
+	float ___m_PageAscender;
+	float ___m_maxTextAscender;
+	float ___m_maxCapHeight;
+	float ___m_ElementAscender;
+	float ___m_ElementDescender;
+	float ___m_maxLineAscender;
+	float ___m_maxLineDescender;
+	float ___m_startOfLineAscender;
+	float ___m_startOfLineDescender;
+	float ___m_lineOffset;
+	Extents_tA2D2F95811D0A18CB7AC3570D2D8F8CD3AF4C4A8 ___m_meshExtents;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___m_htmlColor;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_colorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_underlineColorStack;
+	TMP_TextProcessingStack_1_tF2CD5BE59E5EB22EA9E3EE3043A004EA918C4BB3 ___m_strikethroughColorStack;
+	TMP_TextProcessingStack_1_t57AECDCC936A7FF1D6CF66CA11560B28A675648D ___m_HighlightStateStack;
+	TMP_ColorGradient_t17B51752B4E9499A1FF7D875DCEC1D15A0F4AEBB* ___m_colorGradientPreset;
+	TMP_TextProcessingStack_1_tC8FAEB17246D3B171EFD11165A5761AE39B40D0C ___m_colorGradientStack;
+	bool ___m_colorGradientPresetIsTinted;
+	float ___m_tabSpacing;
+	float ___m_spacing;
+	TMP_TextProcessingStack_1U5BU5D_t08293E0BB072311BB96170F351D1083BCA97B9B2* ___m_TextStyleStacks;
+	int32_t ___m_TextStyleStackDepth;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_ItalicAngleStack;
+	int32_t ___m_ItalicAngle;
+	TMP_TextProcessingStack_1_tFBA719426D68CE1F2B5849D97AF5E5D65846290C ___m_actionStack;
+	float ___m_padding;
+	float ___m_baselineOffset;
+	TMP_TextProcessingStack_1_t138EC06BE7F101AA0A3C8D2DC951E55AACE085E9 ___m_baselineOffsetStack;
+	float ___m_xAdvance;
+	int32_t ___m_textElementType;
+	TMP_TextElement_t262A55214F712D4274485ABE5676E5254B84D0A5* ___m_cached_TextElement;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Ellipsis;
+	SpecialCharacter_t6C1DBE8C490706D1620899BAB7F0B8091AD26777 ___m_Underline;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_defaultSpriteAsset;
+	TMP_SpriteAsset_t81F779E6F705CE190DC0D1F93A954CB8B1774B39* ___m_currentSpriteAsset;
+	int32_t ___m_spriteCount;
+	int32_t ___m_spriteIndex;
+	int32_t ___m_spriteAnimationID;
+	bool ___m_ignoreActiveState;
+	TextBackingContainer_t33D1CE628E7B26C45EDAC1D87BEF2DD22A5C6361 ___m_TextBackingArray;
+	DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615* ___k_Power;
+};
+struct List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A_StaticFields
+{
+	IngredientDataU5BU5D_t72844ADBB86210141966DD1EE645A7E45C332B2C* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D495_t4065771FB2BFEA1DE25ADB36F75B359874A2CC87 ___3C7184C085FD01A0B7E755F49160DC63F0C063B89953A4D98EC5D4B80534B05D;
+	__StaticArrayInitTypeSizeU3D1212_t15E259E39EB0AACACF4B566F1F40C17C6858A470 ___D6F6E0E16A71CA5FE0B3B34C12B9865F84DBDA0B79111C9C3ECA2765AB264F6C;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3_StaticFields
+{
+	int32_t ___k_ColorId;
+	int32_t ___k_MainTexId;
+};
+struct Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_StaticFields
+{
+	Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* ___U3CcurrentU3Ek__BackingField;
+};
+struct ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_StaticFields
+{
+	float ___s_GlobalDefaultButtonPressPoint;
+	float ___s_GlobalDefaultButtonReleaseThreshold;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper;
+};
+struct TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9_StaticFields
+{
+	MaterialReferenceU5BU5D_t7491D335AB3E3E13CE9C0F5E931F396F6A02E1F2* ___m_materialReferences;
+	Dictionary_2_t105D472D44D47824865F70DA14E6FF232779B17C* ___m_materialReferenceIndexLookup;
+	TMP_TextProcessingStack_1_tB03E08F69415B281A5A81138F09E49EE58402DF9 ___m_materialReferenceStack;
+	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___s_colorWhite;
+	Func_3_tC721DF8CDD07ED66A4833A19A2ED2302608C906C* ___OnFontAssetRequest;
+	Func_3_t6F6D9932638EA1A5A45303C6626C818C25D164E5* ___OnSpriteAssetRequest;
+	MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6* ___OnMissingCharacter;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___m_htmlTag;
+	RichTextTagAttributeU5BU5D_t5816316EFD8F59DBC30B9F88E15828C564E47B6D* ___m_xmlAttribute;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___m_attributeParameterValues;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedWordWrapState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLineState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedEllipsisState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedLastValidState;
+	WordWrapState_t80F67D8CAA9B1A0A3D5266521E23A9F3100EDD0A ___m_SavedSoftLineBreakState;
+	TMP_TextProcessingStack_1_t2DDA00FFC64AF6E3AFD475AB2086D16C34787E0F ___m_EllipsisInsertionCandidateStack;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_ParseTextMarker;
+	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___k_InsertNewLineMarker;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargePositiveVector2;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_LargeNegativeVector2;
+	float ___k_LargePositiveFloat;
+	float ___k_LargeNegativeFloat;
+	int32_t ___k_LargePositiveInt;
+	int32_t ___k_LargeNegativeInt;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD  : public RuntimeArray
+{
+	ALIGN_FIELD (8) CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* m_Items[1];
+
+	inline CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct IngredientDataU5BU5D_t72844ADBB86210141966DD1EE645A7E45C332B2C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* m_Items[1];
+
+	inline IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* m_Items[1];
+
+	inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mE097DBD72433D1AFC11733F5678602603A756424_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindAnyObjectByType_TisRuntimeObject_mE7A79400E013891ADB85E4C6A5CF95B447D374BA_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared (RuntimeObject* ___0_original, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331 (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameManager_set_RemainingTime_m64F909285944D4EE9734D54246C59F8A6F766C74_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameManager_set_CurrentState_m7E72D28ED42D544DBB34FAEE1CC596017AE4AF6F_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateGameTimer_mA10D7DAB2B1403B78896A126A1287FB0FBFD814F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float GameManager_get_RemainingTime_m486161B7EC9488500D5A3A1D66F5D08B74246EA3_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_EndGame_m280CB4AB8F3243752E42BBAE128D1ABC092E6D62 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverUI_ShowGameOver_mC6053A57C0771CCEC869E38FB91F903EA62B490D (GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScoreManager_set_CurrentScore_mA2DAA6654DAFCD878C93AE0DE905A6C89DB4877C_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D (String_t* ___0_key, int32_t ___1_defaultValue, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScoreManager_set_HighScore_m9780186DFAD28E8823AC2CAA57ED1BA037838842_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScoreManager_set_IsNewHighScore_m990B979F76A5E7757E44B022745002F27B45428A_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948 (String_t* ___0_key, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ingredient_set_State_mEA63D391A4093E91C62929899119FD114663DC6A_inline (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ingredient_UpdateVisual_mA136E2A8FC6A82DDB2FFE4C3E1BDB8273C1DE921 (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47_inline (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderUI_Show_m1E1916305DEDA6C83D48A3B58BDD261F85CDE14F (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* ___0_order, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderUI_Hide_mB82A928CF0D277CD5A5841A37C40135D2228D8FF (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderUI_UpdateOrder_mEB6CD3E5F52B341E41529EE3C853F3D8108BCC99 (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* ___0_order, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8_inline (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Order_TryFulfill_mC851F95897702F0F9345477C91FCA476AD77077A (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* Ingredient_get_Data_mD757856A2AFDC995D218300C3B8055F47C4679A5_inline (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* PlayerHand_RemoveIngredient_m351BBB33469A338EA27E78CC706511ECA38B0123 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingScoreUI_ShowScore_mD674663A76184B9EF4D6174629E69CB59E9047DF (FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* __this, int32_t ___0_score, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Order_get_IsComplete_m475F3A02FC9A808284D5427D006EF84A84CED226 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_CompleteOrder_mA656300ED3AEA028599F21031FB90937C588CF8B (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Order_CalculateScore_mD62E432AE33175A4E5B7F39E224124A7F9F8A6E5 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_OrderCompleted_mF349EEFAB10D9E65225B17B137EB249EA93818C3 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* ___0_window, int32_t ___1_score, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_ClearOrder_m56457700729C42FE4DA86134652F1276301DF66B (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* Order_get_RequiredIngredients_mBEA257401B85202E42F55A6D610E04428118E840_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m0CE852F0BC654C52BB184A7BE9AB3AE046E08BA5_inline (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Order_get_StartTime_mC96ADCEAD71D93AF8FAF1C5A53C24AED1AB8EE36_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+inline void List_1__ctor_m384D584B56DA9565485EEEFA4227C8F913362299 (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*, RuntimeObject*, const RuntimeMethod*))List_1__ctor_mE097DBD72433D1AFC11733F5678602603A756424_gshared)(__this, ___0_collection, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Order_set_RequiredIngredients_mC9D4E41CE91F3C8108AB3A7C0F23C3CAF5ADE669_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Order_set_BaseScore_mE7234DA74B49BF9DDEA20F3735835CF9EBEC5427_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+inline Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1 List_1_GetEnumerator_m12C700AB2B4A0C3875CEF6F420AB1EE18D8C2182 (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1 (*) (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mBDB4BDE48EF38D7C67DD01C07D3EF0FBF9450181 (Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* Enumerator_get_Current_m3F426C90800A277E998126095C4507F4F0CE747D_inline (Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1* __this, const RuntimeMethod* method)
+{
+	return ((  IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* (*) (Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Order_get_BaseScore_m8C38AE2FEE92832D5CDEC109B9CDA4B4F8C10DD1_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) ;
+inline bool Enumerator_MoveNext_m778A48AEB1373307A3BFAB3EB1DB7512F84521F0 (Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Order_set_StartTime_mA2DDE75D33D2C0260B24993A928EAD3435FB5587_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, float ___0_value, const RuntimeMethod* method) ;
+inline IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* List_1_get_Item_mE62EA8714F9AE882F82B506053F01F3426E8ABAF (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* (*) (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Ingredient_IsPrepared_m9D1C40E0110F8F9E2F0963159ABFCA188428C967 (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) ;
+inline void List_1_RemoveAt_m24B34C7E09338911F11E35163C1AEB30196059CF (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Order_get_OpenDuration_mCAEA55B469A61BA8D86C1E022089ED545D275C21 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CustomerWindow_get_HasOrder_mCEEA5963E86E547177ADB8CAD1D9EFC21234609F (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_InitializeWindows_mC05B21448DD9BB68A71C246BE5FDB3DA94EEC426 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameManager_get_IsPlaying_m2FCB423637D8FE01E5EF3CE1FF8A3D0887750786 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_SpawnInitialOrders_m47EEE4CEAE51F4033DAE462D902DAB1D2DE75AEF (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CustomerWindow_Initialize_mED25791B558BBD810BEFFE9BD7DB9E0093647588_inline (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* ___0_manager, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_SpawnOrder_m4A8FAE6D6FB7219AF7557ADE0C31787BD6081571 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* ___0_window, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* OrderManager_GenerateRandomOrder_mBD4CAEF852376E46EC7942330A3951D930E01749 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_SetOrder_m535786FB5EC3DA649ADF9C301909BBE2A9B1206F (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* ___0_order, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B (const RuntimeMethod* method) ;
+inline void List_1__ctor_m7EEAE398A4B92CA74150C2C52D6D5ED21E4FE0A2 (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
+inline void List_1_Add_m4DDA1F2904AE9CD46261280A02C5A4B64D43E4F9_inline (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* __this, IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*, IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Order__ctor_m519310B9D682BB27AC333FB0256F8A6DFB3DEED7 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* ___0_ingredients, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_AddScore_mD0892948C003C34C1BA5570845F7BA0ABB36C9D1 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderManager_RespawnOrderAfterDelay_m3D239FE5FDE7C11809AD9BD583D18D1911705B81 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* ___0_window, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRespawnOrderAfterDelayU3Ed__13__ctor_mD0475CAA29AA5ADC3857E5C6C1DEE7359EDC7209 (U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+inline CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_HandleMovement_m507E9FBA62A559E59CC0BB8EECB022187FBBBADF (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_aKey_m532122A52C670F95ADC84B56A4DD32160DD1E7CB (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6 (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_dKey_m0973269D5752E5EEA607BAFB24B39AD9F45122DC (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_sKey_m2830A1BAA36CADA4783EFD815216A637363F1AB4 (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_wKey_m007A60195D3D483BA82BFD9B8650F326E2C58805 (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4 (CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_motion, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_RotateTowardsMovement_m827CF72A302EE54AE82802C2815BB5492FE5140E (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerHand_get_IsEmpty_m77C477802BD99D14D5A57D90B16ED21A39485CE2 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerHand_set_HeldIngredient_m3F357B3F6ABB6121EE06E6B0F69C025033699021_inline (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_p, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerHand_SetIngredientCollider_m2E60E0747DE58FFC225E321E96FDD8260EF45839 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, bool ___1_enabled, const RuntimeMethod* method) ;
+inline ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m64EB86DDB49F92CFAAF6003C9EAC7D7D8B0F35DB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentsInChildren_TisRuntimeObject_m1F5B6FC0689B07D4FAAC0C605D9B2933A9B32543_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_eKey_mC0BD3EF3515DE5B2445BFF7B353CD7EDF80E94C1 (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B (ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteractor_TryInteract_mD78E0EABFE6F6FFD969B08B3F8103DB2ECD2EFC1 (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* Physics_OverlapSphere_mCFA1C44458F8548C911C16F82077DA4C35D43F69 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, float ___1_radius, const RuntimeMethod* method) ;
+inline RuntimeObject* Component_GetComponent_TisIInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E_m83574D1D9EE09D47FAA56546DCF22DC6B07ED199 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_DrawWireSphere_m12C01EC9334C32425074A214C5B876271B3DDBA1 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, float ___1_radius, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ChoppingStation_get_RemainingTime_m0541B262AAD5C19FD1A923EE639D76D34CA808C8_inline (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) ;
+inline PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* Object_FindAnyObjectByType_TisPreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5_mAD6F10C3D7DFFE0AEBCA9068E0DE2FE4AEBB1DBC (const RuntimeMethod* method)
+{
+	return ((  PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* (*) (const RuntimeMethod*))Object_FindAnyObjectByType_TisRuntimeObject_mE7A79400E013891ADB85E4C6A5CF95B447D374BA_gshared)(method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PreparationUIManager_RegisterChoppingStation_m224965B9105718B8355013FEA177BD745C0FB21D_inline (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* ___0_station, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChoppingStation_set_RemainingTime_m7C1EBE8F9CF4F064288F6FB66A5075A889547605_inline (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation_FinishChopping_m1EC751A41916ED09E14D52782C90CF1FB1DE6D70 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerHand_TryPickup_m71E64A4EFB47F8D81F06DD233142B4B8981AACF2 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation_PlaceIngredient_m0A26B4DD09EA3CC9BBD58AFFF3745F738C5EAD1E (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___1_interactor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ingredient_SetState_mC97A719CE427598EBFD064A2F17A9D37FBA0713D (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, int32_t ___0_newState, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* CookingSlot_get_Ingredient_m95F09B1162F8D3FFCCC91D71802E393608D0EE10_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CookingSlot_get_TotalTime_mA55BB667F7CEDAC7E6BD17254C190B7E19984CA1_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CookingSlot_get_RemainingTime_mB3A0449F444F7481F4FB58C7FE0EF905E6139A40_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_Ingredient_m607A2EDE907C0063BAC558DC0E8BEC0DA61DF9A1_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_IsCooking_m829B34568588BF5BADB1CCA7743B4108C7351B6E_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_IsFinished_m8917A7523A41253075DD06AC700B959078820FBB_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_TotalTime_m33749C99869C24ECA81D27EBDD3FDD9F95A28066_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_RemainingTime_m850A447F1BA723EB904B3B0469F4FBB30D5C49E7_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CookingSlot_get_IsCooking_m5CA70CCD39E237C541A8DB19A76BD5AF2DF24D1F_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_FinishCooking_m9538AB368EC5372E86D49B9AA52F6AA15ED82B70 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CookingSlot_get_IsFinished_m0A8977A50DCB1264BD5C435A0883C7C4F77078C0_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_digit1Key_mF14196ECA5F74A57E43B84F5D225757C762724F5 (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refrigerator_SpawnIngredient_m555BF55086842BD474F3C10B124F366E16CCA3DC (Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_prefab, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_digit2Key_mC32B4CA11662D54938BCA30AF16F9A4C995458E8 (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_digit3Key_m28B12C574A44ED910551A1CB1CAB8220065F6A3C (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* Keyboard_get_escapeKey_mA4371467E72AA14713681C30A9B3AC41F3C9D707 (Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refrigerator_CloseSelection_mA8529A560C01743C76683C8FE271D2A7AB7F790F (Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25* __this, const RuntimeMethod* method) ;
+inline Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* Object_Instantiate_TisIngredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6_m6EFD82345CE39E15E76C5C86298C0D31757124FC (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_original, const RuntimeMethod* method)
+{
+	return ((  Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* (*) (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared)(___0_original, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot__ctor_mA4DB4DC5D8A27851D07AA7859093D9E997E0F1F6 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PreparationUIManager_RegisterStove_m95F607DCED79414C34E3FCD674179C1255F7DC46_inline (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* ___0_stoveStation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_Update_m346C2ED384C7372152828C3F19BCDA793E1F4793 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Stove_TryTakeFinishedIngredient_m76D143F5AE1E26317B6719F14095DFA3B8CDD11C (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* ___0_slot, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___1_interactor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Stove_TryPlaceIngredient_m4DDA28D90422F99FA8B9B39F6E8B4615339D7383 (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* ___0_slot, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_slotPoint, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___2_ingredient, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___3_interactor, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CookingSlot_get_IsOccupied_m5E694AEE1D4775F28AB1B5B8F5D23140C39267DB (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_PlaceIngredient_mDCBC2953A6724C2A37C6600DBF18964B39C0A9BF (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* CookingSlot_TakeIngredient_m4ACB3C49D14D55C053BA4105404ACA7CD20FCB0A (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FloatingScoreUI_ShowScoreCoroutine_mA54778DC111F84FC6E08EB33CA5F89681EC22BC5 (FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* __this, int32_t ___0_score, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowScoreCoroutineU3Ed__5__ctor_m7FBA5E6055B5D400E04F4EED8E27CDB877B1B9E6 (U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_FinalizeScore_mFE6B0D128DC4A6641EEB0446A1641C7C0FE1F563 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ScoreManager_get_IsNewHighScore_mD5318FF51B78991975C66BBE12741F4B5B3E4C34_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E (String_t* ___0_sceneName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameTimerUI_UpdateTimerDisplay_mECE8C9E78953FB3FF9692A9008B7DF937CBD0399 (GameTimerUI_t6A39CFA21F196BC90E254BB5F9AA49506B719646* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OrderUI_GetIngredientSymbol_m12776EA9B9F05525799702FED2DE040FB1803BCB (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, int32_t ___0_type, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m3A7D629DAA5E0E36B8A617A911E34F79AF84AE63 (StringBuilder_t* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OrderUI_FormatTime_m6BFE72E1BDCA83A4E9B6C80E0A23B7F731B0FE4A (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_TogglePause_m0ECA650E172B80A8664C907E43791523CC969FE1 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_OpenPauseMenu_m0E0CC7533A8CBC96C8834E9C76C3E706466E496D (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_ClosePauseMenu_m3219C11348E15C30E63C2F6CEC824ECED86A3529 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_PauseGame_m71EF0E0188E18168F8B12288BA3363109B0C5D5A (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ResumeGame_m4E9452E3FE77FD421C8178B1BFE541BA22FAC993 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_HideAll_m31A90AD100CB93E28EF782369D8292F9F9CFA50A (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_UpdateChoppingProgress_m5EEE3A5BB2DDAE80539D167520BF946F4E9B8F2E (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_UpdateStoveProgress_m515A6D26E72434BDE5AD41D080B4769746FC807B (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51 (PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ChoppingStation_get_IsChopping_mC8ECA3479151E41655DC4C2A28F8CC634FA35C7B_inline (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationProgressUI_Show_mC05687BCDB1A5258FE21EB79B0F49BD23303E59D (PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChoppingStation_get_Progress_m8F0D943A0C5915EE5E8D1781B4F8FE9BEEC90A58 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationProgressUI_UpdateProgress_mF4FC448B65A609AEE6A9CAA0CECB87C10DC845B7 (PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* __this, float ___0_progress, float ___1_remainingTime, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* Stove_get_Slot1_mC59ECDA17F1BCC5AAB6EDB2D317B30CC9C7257BD_inline (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_UpdateStoveSlot_m1D68A01081D54E246171DB417BE6896988B17E41 (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* ___0_slot, PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* ___1_progressUI, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* Stove_get_Slot2_mF350FA46F5CEFF3A2874CFCB404ACE71B217DD1D_inline (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CookingSlot_get_Progress_mE7A5F3812FA3778A30A4AFAA6F732C3D5075E61E (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreUI_UpdateScoreDisplay_m950D1259266C3B54D8CC735A6E7B2CB41A3312A2 (ScoreUI_t129DB09BDD97A1D22CA9CD0452C85E2784D3FA31* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_LookRotation_m489E6A5E916949FFE91C0B11A60C6016D996C1E0 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_forward, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_upwards, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_Slerp_mDD63B8384FB0F0AAD4B59635B1D66D6ECB49E763 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70261
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:18>
+		int32_t L_0 = __this->___U3CCurrentStateU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70262
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_set_CurrentState_m7E72D28ED42D544DBB34FAEE1CC596017AE4AF6F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:18>
+		int32_t L_0 = ___0_value;
+		__this->___U3CCurrentStateU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70263
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float GameManager_get_RemainingTime_m486161B7EC9488500D5A3A1D66F5D08B74246EA3 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:20>
+		float L_0 = __this->___U3CRemainingTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70264
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_set_RemainingTime_m64F909285944D4EE9734D54246C59F8A6F766C74 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:20>
+		float L_0 = ___0_value;
+		__this->___U3CRemainingTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70265
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameManager_get_IsPlaying_m2FCB423637D8FE01E5EF3CE1FF8A3D0887750786 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:23>
+		int32_t L_0;
+		L_0 = GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline(__this, NULL);
+		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 70266
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Awake_m4B6E8E2AF58C95C9A2A0C4637A34AE0892CB637F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:27>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:29>
+		float L_0 = __this->___gameDuration;
+		GameManager_set_RemainingTime_m64F909285944D4EE9734D54246C59F8A6F766C74_inline(__this, L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:30>
+		GameManager_set_CurrentState_m7E72D28ED42D544DBB34FAEE1CC596017AE4AF6F_inline(__this, 0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 70267
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_Update_m7F29D8E933B8D21D2E67507979C0F12ACF87BB41 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:35>
+		int32_t L_0;
+		L_0 = GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:36>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:38>
+		GameManager_UpdateGameTimer_mA10D7DAB2B1403B78896A126A1287FB0FBFD814F(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 70268
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_UpdateGameTimer_mA10D7DAB2B1403B78896A126A1287FB0FBFD814F (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:43>
+		float L_0;
+		L_0 = GameManager_get_RemainingTime_m486161B7EC9488500D5A3A1D66F5D08B74246EA3_inline(__this, NULL);
+		float L_1;
+		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		GameManager_set_RemainingTime_m64F909285944D4EE9734D54246C59F8A6F766C74_inline(__this, ((float)il2cpp_codegen_subtract(L_0, L_1)), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:45>
+		float L_2;
+		L_2 = GameManager_get_RemainingTime_m486161B7EC9488500D5A3A1D66F5D08B74246EA3_inline(__this, NULL);
+		if ((!(((float)L_2) <= ((float)(0.0f)))))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:47>
+		GameManager_set_RemainingTime_m64F909285944D4EE9734D54246C59F8A6F766C74_inline(__this, (0.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:48>
+		GameManager_EndGame_m280CB4AB8F3243752E42BBAE128D1ABC092E6D62(__this, NULL);
+	}
+
+IL_0030:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 70269
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_PauseGame_m71EF0E0188E18168F8B12288BA3363109B0C5D5A (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:54>
+		int32_t L_0;
+		L_0 = GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:55>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:57>
+		GameManager_set_CurrentState_m7E72D28ED42D544DBB34FAEE1CC596017AE4AF6F_inline(__this, 1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:59>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:60>
+		return;
+	}
+}
+// Method Definition Index: 70270
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_ResumeGame_m4E9452E3FE77FD421C8178B1BFE541BA22FAC993 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:64>
+		int32_t L_0;
+		L_0 = GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline(__this, NULL);
+		if ((((int32_t)L_0) == ((int32_t)1)))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:65>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:67>
+		GameManager_set_CurrentState_m7E72D28ED42D544DBB34FAEE1CC596017AE4AF6F_inline(__this, 0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:69>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:70>
+		return;
+	}
+}
+// Method Definition Index: 70271
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager_EndGame_m280CB4AB8F3243752E42BBAE128D1ABC092E6D62 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral19E30120BF148B4BD74A0C6CE7F85A461E68A628);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:74>
+		int32_t L_0;
+		L_0 = GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline(__this, NULL);
+		if ((!(((uint32_t)L_0) == ((uint32_t)2))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:75>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:77>
+		GameManager_set_CurrentState_m7E72D28ED42D544DBB34FAEE1CC596017AE4AF6F_inline(__this, 2, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:79>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((0.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:81>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral19E30120BF148B4BD74A0C6CE7F85A461E68A628, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:83>
+		GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* L_1 = __this->___gameOverUI;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:85>
+		GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* L_3 = __this->___gameOverUI;
+		NullCheck(L_3);
+		GameOverUI_ShowGameOver_mC6053A57C0771CCEC869E38FB91F903EA62B490D(L_3, NULL);
+	}
+
+IL_003e:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:87>
+		return;
+	}
+}
+// Method Definition Index: 70272
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameManager__ctor_mF453CED520617BFB65C52405A964E06CF17DB368 (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:13>
+		__this->___gameDuration = (180.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70273
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:7>
+		int32_t L_0 = __this->___U3CCurrentScoreU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70274
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_set_CurrentScore_mA2DAA6654DAFCD878C93AE0DE905A6C89DB4877C (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:7>
+		int32_t L_0 = ___0_value;
+		__this->___U3CCurrentScoreU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70275
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:8>
+		int32_t L_0 = __this->___U3CHighScoreU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70276
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_set_HighScore_m9780186DFAD28E8823AC2CAA57ED1BA037838842 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:8>
+		int32_t L_0 = ___0_value;
+		__this->___U3CHighScoreU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70277
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ScoreManager_get_IsNewHighScore_mD5318FF51B78991975C66BBE12741F4B5B3E4C34 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:10>
+		bool L_0 = __this->___U3CIsNewHighScoreU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70278
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_set_IsNewHighScore_m990B979F76A5E7757E44B022745002F27B45428A (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:10>
+		bool L_0 = ___0_value;
+		__this->___U3CIsNewHighScoreU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70279
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_Awake_mB3BB0D0448D4C240C4572B7395AF328615E76D8A (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD97991C25CB704FDE20A3204B3AF4A55F319172F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:14>
+		ScoreManager_set_CurrentScore_mA2DAA6654DAFCD878C93AE0DE905A6C89DB4877C_inline(__this, 0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:16>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:17>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:18>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:19>
+		int32_t L_0;
+		L_0 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteralD97991C25CB704FDE20A3204B3AF4A55F319172F, 0, NULL);
+		ScoreManager_set_HighScore_m9780186DFAD28E8823AC2CAA57ED1BA037838842_inline(__this, L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:21>
+		ScoreManager_set_IsNewHighScore_m990B979F76A5E7757E44B022745002F27B45428A_inline(__this, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 70280
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_AddScore_mD0892948C003C34C1BA5570845F7BA0ABB36C9D1 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, int32_t ___0_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58C7DC3DDD58A5115E9FC4D913D4B65FBCA68D81);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC4500C80FF2DD8CCB3BB56902A5E4CE400CC6C5C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:26>
+		int32_t L_0;
+		L_0 = ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7_inline(__this, NULL);
+		int32_t L_1 = ___0_amount;
+		ScoreManager_set_CurrentScore_mA2DAA6654DAFCD878C93AE0DE905A6C89DB4877C_inline(__this, ((int32_t)il2cpp_codegen_add(L_0, L_1)), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:28>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:29>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:30>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:31>
+		int32_t L_2;
+		L_2 = ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7_inline(__this, NULL);
+		int32_t L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_defaults.int32_class, &L_3);
+		String_t* L_5;
+		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralC4500C80FF2DD8CCB3BB56902A5E4CE400CC6C5C, L_4, NULL);
+		int32_t L_6;
+		L_6 = ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C_inline(__this, NULL);
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(il2cpp_defaults.int32_class, &L_7);
+		String_t* L_9;
+		L_9 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral58C7DC3DDD58A5115E9FC4D913D4B65FBCA68D81, L_8, NULL);
+		String_t* L_10;
+		L_10 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_5, L_9, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 70281
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_FinalizeScore_mFE6B0D128DC4A6641EEB0446A1641C7C0FE1F563 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB2B86CD64D7504E042D718B350C9ABE58D353C29);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD97991C25CB704FDE20A3204B3AF4A55F319172F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:36>
+		int32_t L_0;
+		L_0 = ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7_inline(__this, NULL);
+		int32_t L_1;
+		L_1 = ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C_inline(__this, NULL);
+		if ((((int32_t)L_0) <= ((int32_t)L_1)))
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:38>
+		int32_t L_2;
+		L_2 = ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7_inline(__this, NULL);
+		ScoreManager_set_HighScore_m9780186DFAD28E8823AC2CAA57ED1BA037838842_inline(__this, L_2, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:40>
+		ScoreManager_set_IsNewHighScore_m990B979F76A5E7757E44B022745002F27B45428A_inline(__this, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:42>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:43>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:44>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:45>
+		int32_t L_3;
+		L_3 = ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C_inline(__this, NULL);
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteralD97991C25CB704FDE20A3204B3AF4A55F319172F, L_3, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:47>
+		PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:49>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:50>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:51>
+		int32_t L_4;
+		L_4 = ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C_inline(__this, NULL);
+		int32_t L_5 = L_4;
+		RuntimeObject* L_6 = Box(il2cpp_defaults.int32_class, &L_5);
+		String_t* L_7;
+		L_7 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralB2B86CD64D7504E042D718B350C9ABE58D353C29, L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
+		return;
+	}
+
+IL_0051:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:55>
+		ScoreManager_set_IsNewHighScore_m990B979F76A5E7757E44B022745002F27B45428A_inline(__this, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 70282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager_ResetScore_mA68B63500D1B374A5521939092D187BF84D861B4 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:61>
+		ScoreManager_set_CurrentScore_mA2DAA6654DAFCD878C93AE0DE905A6C89DB4877C_inline(__this, 0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:62>
+		ScoreManager_set_IsNewHighScore_m990B979F76A5E7757E44B022745002F27B45428A_inline(__this, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:63>
+		return;
+	}
+}
+// Method Definition Index: 70283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreManager__ctor_mE5C264C34A9CBBAB72DCF99CCCC9841AF8F9FEE6 (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70284
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* Ingredient_get_Data_mD757856A2AFDC995D218300C3B8055F47C4679A5 (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:12>
+		IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_0 = __this->___data;
+		return L_0;
+	}
+}
+// Method Definition Index: 70285
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:13>
+		IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_0 = __this->___data;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___type;
+		return L_1;
+	}
+}
+// Method Definition Index: 70286
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47 (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:15>
+		int32_t L_0 = __this->___U3CStateU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70287
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ingredient_set_State_mEA63D391A4093E91C62929899119FD114663DC6A (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:15>
+		int32_t L_0 = ___0_value;
+		__this->___U3CStateU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70288
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ingredient_Awake_m26477748C6CD6A3E0FE169A5E2B862E0591A5B8B (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:19>
+		Ingredient_set_State_mEA63D391A4093E91C62929899119FD114663DC6A_inline(__this, 0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:20>
+		Ingredient_UpdateVisual_mA136E2A8FC6A82DDB2FFE4C3E1BDB8273C1DE921(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:21>
+		return;
+	}
+}
+// Method Definition Index: 70289
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ingredient_SetState_mC97A719CE427598EBFD064A2F17A9D37FBA0713D (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, int32_t ___0_newState, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:25>
+		int32_t L_0 = ___0_newState;
+		Ingredient_set_State_mEA63D391A4093E91C62929899119FD114663DC6A_inline(__this, L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:26>
+		Ingredient_UpdateVisual_mA136E2A8FC6A82DDB2FFE4C3E1BDB8273C1DE921(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:27>
+		return;
+	}
+}
+// Method Definition Index: 70290
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Ingredient_IsPrepared_m9D1C40E0110F8F9E2F0963159ABFCA188428C967 (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:32>
+		int32_t L_0;
+		L_0 = Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE(__this, NULL);
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:33>
+		return (bool)1;
+	}
+
+IL_000b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:35>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:36>
+		int32_t L_1;
+		L_1 = Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47_inline(__this, NULL);
+		if ((((int32_t)L_1) == ((int32_t)1)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		int32_t L_2;
+		L_2 = Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47_inline(__this, NULL);
+		return (bool)((((int32_t)L_2) == ((int32_t)2))? 1 : 0);
+	}
+
+IL_001e:
+	{
+		return (bool)1;
+	}
+}
+// Method Definition Index: 70291
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ingredient_UpdateVisual_mA136E2A8FC6A82DDB2FFE4C3E1BDB8273C1DE921 (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B5_0 = 0;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* G_B7_0 = NULL;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* G_B6_0 = NULL;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B8_0 = NULL;
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* G_B8_1 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:41>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___ingredientRenderer;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:42>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:44>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:45>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:46>
+		int32_t L_2;
+		L_2 = Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47_inline(__this, NULL);
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		int32_t L_3;
+		L_3 = Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47_inline(__this, NULL);
+		G_B5_0 = ((((int32_t)L_3) == ((int32_t)2))? 1 : 0);
+		goto IL_0024;
+	}
+
+IL_0023:
+	{
+		G_B5_0 = 1;
+	}
+
+IL_0024:
+	{
+		V_0 = (bool)G_B5_0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:48>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:49>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:50>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:51>
+		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = __this->___ingredientRenderer;
+		bool L_5 = V_0;
+		if (L_5)
+		{
+			G_B7_0 = L_4;
+			goto IL_0036;
+		}
+		G_B6_0 = L_4;
+	}
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_6 = __this->___rawMaterial;
+		G_B8_0 = L_6;
+		G_B8_1 = G_B6_0;
+		goto IL_003c;
+	}
+
+IL_0036:
+	{
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_7 = __this->___preparedMaterial;
+		G_B8_0 = L_7;
+		G_B8_1 = G_B7_0;
+	}
+
+IL_003c:
+	{
+		NullCheck(G_B8_1);
+		Renderer_set_material_m21E88977071E0A914D62F3D9CFF0193B3117C45A(G_B8_1, G_B8_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:52>
+		return;
+	}
+}
+// Method Definition Index: 70292
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Ingredient__ctor_m2CE9B796B3D94FD9FEAD567A27F6D6A8BA717558 (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70293
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IngredientData__ctor_m5AA205957BEE19FD81989CD6D2126306F4929050 (IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70294
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CustomerWindow_get_HasOrder_mCEEA5963E86E547177ADB8CAD1D9EFC21234609F (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:12>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_0 = __this->___currentOrder;
+		return (bool)((!(((RuntimeObject*)(Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
+// Method Definition Index: 70295
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* CustomerWindow_get_CurrentOrder_m244A7B7C3C520F85099438CD479E6F8AF2ECE1B6 (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:15>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_0 = __this->___currentOrder;
+		return L_0;
+	}
+}
+// Method Definition Index: 70296
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_Initialize_mED25791B558BBD810BEFFE9BD7DB9E0093647588 (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* ___0_manager, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:19>
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_0 = ___0_manager;
+		__this->___orderManager = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___orderManager), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 70297
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_SetOrder_m535786FB5EC3DA649ADF9C301909BBE2A9B1206F (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* ___0_order, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:24>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_0 = ___0_order;
+		__this->___currentOrder = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentOrder), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:26>
+		OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* L_1 = __this->___orderUI;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:28>
+		OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* L_3 = __this->___orderUI;
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_4 = __this->___currentOrder;
+		NullCheck(L_3);
+		OrderUI_Show_m1E1916305DEDA6C83D48A3B58BDD261F85CDE14F(L_3, L_4, NULL);
+	}
+
+IL_0026:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 70298
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_ClearOrder_m56457700729C42FE4DA86134652F1276301DF66B (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:34>
+		__this->___currentOrder = (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentOrder), (void*)(Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B*)NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:36>
+		OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* L_0 = __this->___orderUI;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:38>
+		OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* L_2 = __this->___orderUI;
+		NullCheck(L_2);
+		OrderUI_Hide_mB82A928CF0D277CD5A5841A37C40135D2228D8FF(L_2, NULL);
+	}
+
+IL_0020:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 70299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_Update_mBBE87A6146CB5FBB7F04CC240F6D06DA1EE23EA8 (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:44>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_0 = __this->___currentOrder;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:45>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:47>
+		OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* L_1 = __this->___orderUI;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:49>
+		OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* L_3 = __this->___orderUI;
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_4 = __this->___currentOrder;
+		NullCheck(L_3);
+		OrderUI_UpdateOrder_mEB6CD3E5F52B341E41529EE3C853F3D8108BCC99(L_3, L_4, NULL);
+	}
+
+IL_0028:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 70300
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_Interact_m331591A2DE25EAF59DE287139F84366BFA547F71 (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___0_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1656A3259720F5FAFEB4668F706DB840D5145D90);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral36624137CD309CCF5BB9CCF672DF5FCD52FBB8E5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral76C2A406A097643EEEA7B4B9880B09D9C4565C9C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB9598297C58EC45625BAE3E3953373EB4E2D4F1E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDF0A644F13CC53812773220FA84F15A30F573469);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_0 = NULL;
+	int32_t V_1 = 0;
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_2 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:55>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_0 = ___0_interactor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:56>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:58>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_2 = __this->___currentOrder;
+		if (L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:60>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:61>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:62>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral1656A3259720F5FAFEB4668F706DB840D5145D90, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:64>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:67>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:68>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_3 = ___0_interactor;
+		NullCheck(L_3);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_4;
+		L_4 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_3, NULL);
+		NullCheck(L_4);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_5;
+		L_5 = PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8_inline(L_4, NULL);
+		V_0 = L_5;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:70>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_6 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:72>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:73>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:74>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral36624137CD309CCF5BB9CCF672DF5FCD52FBB8E5, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:76>
+		return;
+	}
+
+IL_003d:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:79>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:80>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:81>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:82>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_8 = __this->___currentOrder;
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_9 = V_0;
+		NullCheck(L_8);
+		bool L_10;
+		L_10 = Order_TryFulfill_mC851F95897702F0F9345477C91FCA476AD77077A(L_8, L_9, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:84>
+		if (L_10)
+		{
+			goto IL_0056;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:86>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:87>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:88>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:89>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralB9598297C58EC45625BAE3E3953373EB4E2D4F1E, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:91>
+		return;
+	}
+
+IL_0056:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:96>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:97>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_11 = V_0;
+		NullCheck(L_11);
+		IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_12;
+		L_12 = Ingredient_get_Data_mD757856A2AFDC995D218300C3B8055F47C4679A5_inline(L_11, NULL);
+		NullCheck(L_12);
+		int32_t L_13 = L_12->___scoreValue;
+		V_1 = L_13;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:99>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:100>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_14 = ___0_interactor;
+		NullCheck(L_14);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_15;
+		L_15 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_14, NULL);
+		NullCheck(L_15);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_16;
+		L_16 = PlayerHand_RemoveIngredient_m351BBB33469A338EA27E78CC706511ECA38B0123(L_15, NULL);
+		V_2 = L_16;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:102>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:104>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:105>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:106>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:107>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_19 = V_2;
+		NullCheck(L_19);
+		int32_t L_20;
+		L_20 = Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE(L_19, NULL);
+		int32_t L_21 = L_20;
+		RuntimeObject* L_22 = Box(IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var, &L_21);
+		String_t* L_23;
+		L_23 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral76C2A406A097643EEEA7B4B9880B09D9C4565C9C, L_22, NULL);
+		int32_t L_24 = V_1;
+		int32_t L_25 = L_24;
+		RuntimeObject* L_26 = Box(il2cpp_defaults.int32_class, &L_25);
+		String_t* L_27;
+		L_27 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralDF0A644F13CC53812773220FA84F15A30F573469, L_26, NULL);
+		String_t* L_28;
+		L_28 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_23, L_27, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_28, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:109>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:110>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:111>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_29 = V_2;
+		NullCheck(L_29);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30;
+		L_30 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_29, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_30, NULL);
+	}
+
+IL_00b1:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:115>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_31 = __this->___floatingScoreUI;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_32;
+		L_32 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_31, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_32)
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:117>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:118>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:119>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_33 = __this->___floatingScoreUI;
+		int32_t L_34 = V_1;
+		NullCheck(L_33);
+		FloatingScoreUI_ShowScore_mD674663A76184B9EF4D6174629E69CB59E9047DF(L_33, L_34, NULL);
+	}
+
+IL_00cb:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:124>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_35 = __this->___currentOrder;
+		NullCheck(L_35);
+		bool L_36;
+		L_36 = Order_get_IsComplete_m475F3A02FC9A808284D5427D006EF84A84CED226(L_35, NULL);
+		if (!L_36)
+		{
+			goto IL_00de;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:126>
+		CustomerWindow_CompleteOrder_mA656300ED3AEA028599F21031FB90937C588CF8B(__this, NULL);
+	}
+
+IL_00de:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:128>
+		return;
+	}
+}
+// Method Definition Index: 70301
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow_CompleteOrder_mA656300ED3AEA028599F21031FB90937C588CF8B (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7FEEF9DD4418BF7C830804EFB61D7812E3E7C672);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:132>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:133>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_0 = __this->___currentOrder;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Order_CalculateScore_mD62E432AE33175A4E5B7F39E224124A7F9F8A6E5(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:135>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:136>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:137>
+		int32_t L_2 = V_0;
+		int32_t L_3 = L_2;
+		RuntimeObject* L_4 = Box(il2cpp_defaults.int32_class, &L_3);
+		String_t* L_5;
+		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral7FEEF9DD4418BF7C830804EFB61D7812E3E7C672, L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:139>
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_6 = __this->___orderManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:141>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:142>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:143>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:144>
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_8 = __this->___orderManager;
+		int32_t L_9 = V_0;
+		NullCheck(L_8);
+		OrderManager_OrderCompleted_mF349EEFAB10D9E65225B17B137EB249EA93818C3(L_8, __this, L_9, NULL);
+	}
+
+IL_003c:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:147>
+		CustomerWindow_ClearOrder_m56457700729C42FE4DA86134652F1276301DF66B(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:148>
+		return;
+	}
+}
+// Method Definition Index: 70302
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CustomerWindow__ctor_mADC4C0785129869C7EB5C924FD3E1E2EAD89BCEE (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70303
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* Order_get_RequiredIngredients_mBEA257401B85202E42F55A6D610E04428118E840 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:6>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_0 = __this->___U3CRequiredIngredientsU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70304
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Order_set_RequiredIngredients_mC9D4E41CE91F3C8108AB3A7C0F23C3CAF5ADE669 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:6>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_0 = ___0_value;
+		__this->___U3CRequiredIngredientsU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRequiredIngredientsU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 70305
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Order_get_StartTime_mC96ADCEAD71D93AF8FAF1C5A53C24AED1AB8EE36 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:8>
+		float L_0 = __this->___U3CStartTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70306
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Order_set_StartTime_mA2DDE75D33D2C0260B24993A928EAD3435FB5587 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:8>
+		float L_0 = ___0_value;
+		__this->___U3CStartTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70307
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Order_get_IsComplete_m475F3A02FC9A808284D5427D006EF84A84CED226 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m0CE852F0BC654C52BB184A7BE9AB3AE046E08BA5_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:11>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_0;
+		L_0 = Order_get_RequiredIngredients_mBEA257401B85202E42F55A6D610E04428118E840_inline(__this, NULL);
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_m0CE852F0BC654C52BB184A7BE9AB3AE046E08BA5_inline(L_0, List_1_get_Count_m0CE852F0BC654C52BB184A7BE9AB3AE046E08BA5_RuntimeMethod_var);
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 70308
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Order_get_OpenDuration_mCAEA55B469A61BA8D86C1E022089ED545D275C21 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:14>
+		float L_0;
+		L_0 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_1;
+		L_1 = Order_get_StartTime_mC96ADCEAD71D93AF8FAF1C5A53C24AED1AB8EE36_inline(__this, NULL);
+		return ((float)il2cpp_codegen_subtract(L_0, L_1));
+	}
+}
+// Method Definition Index: 70309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Order_get_BaseScore_m8C38AE2FEE92832D5CDEC109B9CDA4B4F8C10DD1 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:16>
+		int32_t L_0 = __this->___U3CBaseScoreU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Order_set_BaseScore_mE7234DA74B49BF9DDEA20F3735835CF9EBEC5427 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:16>
+		int32_t L_0 = ___0_value;
+		__this->___U3CBaseScoreU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Order__ctor_m519310B9D682BB27AC333FB0256F8A6DFB3DEED7 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* ___0_ingredients, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mBDB4BDE48EF38D7C67DD01C07D3EF0FBF9450181_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m778A48AEB1373307A3BFAB3EB1DB7512F84521F0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m3F426C90800A277E998126095C4507F4F0CE747D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m12C700AB2B4A0C3875CEF6F420AB1EE18D8C2182_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m384D584B56DA9565485EEEFA4227C8F913362299_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* V_1 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:18>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:20>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:21>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_0 = ___0_ingredients;
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_1 = (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*)il2cpp_codegen_object_new(List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A_il2cpp_TypeInfo_var);
+		List_1__ctor_m384D584B56DA9565485EEEFA4227C8F913362299(L_1, L_0, List_1__ctor_m384D584B56DA9565485EEEFA4227C8F913362299_RuntimeMethod_var);
+		Order_set_RequiredIngredients_mC9D4E41CE91F3C8108AB3A7C0F23C3CAF5ADE669_inline(__this, L_1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:23>
+		Order_set_BaseScore_mE7234DA74B49BF9DDEA20F3735835CF9EBEC5427_inline(__this, 0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:25>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_2 = ___0_ingredients;
+		NullCheck(L_2);
+		Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1 L_3;
+		L_3 = List_1_GetEnumerator_m12C700AB2B4A0C3875CEF6F420AB1EE18D8C2182(L_2, List_1_GetEnumerator_m12C700AB2B4A0C3875CEF6F420AB1EE18D8C2182_RuntimeMethod_var);
+		V_0 = L_3;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0051:
+			{
+				Enumerator_Dispose_mBDB4BDE48EF38D7C67DD01C07D3EF0FBF9450181((&V_0), Enumerator_Dispose_mBDB4BDE48EF38D7C67DD01C07D3EF0FBF9450181_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0046_1;
+			}
+
+IL_0022_1:
+			{
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:25>
+				IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_4;
+				L_4 = Enumerator_get_Current_m3F426C90800A277E998126095C4507F4F0CE747D_inline((&V_0), Enumerator_get_Current_m3F426C90800A277E998126095C4507F4F0CE747D_RuntimeMethod_var);
+				V_1 = L_4;
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:27>
+				IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_5 = V_1;
+				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+				bool L_6;
+				L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+				if (!L_6)
+				{
+					goto IL_0046_1;
+				}
+			}
+			{
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:29>
+				int32_t L_7;
+				L_7 = Order_get_BaseScore_m8C38AE2FEE92832D5CDEC109B9CDA4B4F8C10DD1_inline(__this, NULL);
+				IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_8 = V_1;
+				NullCheck(L_8);
+				int32_t L_9 = L_8->___scoreValue;
+				Order_set_BaseScore_mE7234DA74B49BF9DDEA20F3735835CF9EBEC5427_inline(__this, ((int32_t)il2cpp_codegen_add(L_7, L_9)), NULL);
+			}
+
+IL_0046_1:
+			{
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:25>
+				bool L_10;
+				L_10 = Enumerator_MoveNext_m778A48AEB1373307A3BFAB3EB1DB7512F84521F0((&V_0), Enumerator_MoveNext_m778A48AEB1373307A3BFAB3EB1DB7512F84521F0_RuntimeMethod_var);
+				if (L_10)
+				{
+					goto IL_0022_1;
+				}
+			}
+			{
+				goto IL_005f;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_005f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:33>
+		float L_11;
+		L_11 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		Order_set_StartTime_mA2DDE75D33D2C0260B24993A928EAD3435FB5587_inline(__this, L_11, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 70312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Order_TryFulfill_mC851F95897702F0F9345477C91FCA476AD77077A (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m24B34C7E09338911F11E35163C1AEB30196059CF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m0CE852F0BC654C52BB184A7BE9AB3AE046E08BA5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE62EA8714F9AE882F82B506053F01F3426E8ABAF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:38>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_ingredient;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:39>
+		return (bool)0;
+	}
+
+IL_000b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:41>
+		V_0 = 0;
+		goto IL_0042;
+	}
+
+IL_000f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:45>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:46>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_2;
+		L_2 = Order_get_RequiredIngredients_mBEA257401B85202E42F55A6D610E04428118E840_inline(__this, NULL);
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_4;
+		L_4 = List_1_get_Item_mE62EA8714F9AE882F82B506053F01F3426E8ABAF(L_2, L_3, List_1_get_Item_mE62EA8714F9AE882F82B506053F01F3426E8ABAF_RuntimeMethod_var);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:48>
+		NullCheck(L_4);
+		int32_t L_5 = L_4->___type;
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_6 = ___0_ingredient;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE(L_6, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)L_7))))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:51>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_8 = ___0_ingredient;
+		NullCheck(L_8);
+		bool L_9;
+		L_9 = Ingredient_IsPrepared_m9D1C40E0110F8F9E2F0963159ABFCA188428C967(L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:54>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_10;
+		L_10 = Order_get_RequiredIngredients_mBEA257401B85202E42F55A6D610E04428118E840_inline(__this, NULL);
+		int32_t L_11 = V_0;
+		NullCheck(L_10);
+		List_1_RemoveAt_m24B34C7E09338911F11E35163C1AEB30196059CF(L_10, L_11, List_1_RemoveAt_m24B34C7E09338911F11E35163C1AEB30196059CF_RuntimeMethod_var);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:56>
+		return (bool)1;
+	}
+
+IL_003e:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:43>
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+	}
+
+IL_0042:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:42>
+		int32_t L_13 = V_0;
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_14;
+		L_14 = Order_get_RequiredIngredients_mBEA257401B85202E42F55A6D610E04428118E840_inline(__this, NULL);
+		NullCheck(L_14);
+		int32_t L_15;
+		L_15 = List_1_get_Count_m0CE852F0BC654C52BB184A7BE9AB3AE046E08BA5_inline(L_14, List_1_get_Count_m0CE852F0BC654C52BB184A7BE9AB3AE046E08BA5_RuntimeMethod_var);
+		if ((((int32_t)L_13) < ((int32_t)L_15)))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:59>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 70313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Order_CalculateScore_mD62E432AE33175A4E5B7F39E224124A7F9F8A6E5 (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:64>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:65>
+		float L_0;
+		L_0 = Order_get_OpenDuration_mCAEA55B469A61BA8D86C1E022089ED545D275C21(__this, NULL);
+		int32_t L_1;
+		L_1 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:67>
+		int32_t L_2;
+		L_2 = Order_get_BaseScore_m8C38AE2FEE92832D5CDEC109B9CDA4B4F8C10DD1_inline(__this, NULL);
+		int32_t L_3 = V_0;
+		return ((int32_t)il2cpp_codegen_subtract(L_2, L_3));
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70314
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OrderManager_get_ActiveOrderCount_mCC65B482871AD0D36D372920A2F2DE776518B125 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* V_1 = NULL;
+	int32_t V_2 = 0;
+	CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* V_3 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:26>
+		V_0 = 0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:28>
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_0 = __this->___customerWindows;
+		V_1 = L_0;
+		V_2 = 0;
+		goto IL_002a;
+	}
+
+IL_000d:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:28>
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_1 = V_1;
+		int32_t L_2 = V_2;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_3 = L_4;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:30>
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_5 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_7 = V_3;
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = CustomerWindow_get_HasOrder_mCEEA5963E86E547177ADB8CAD1D9EFC21234609F(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:32>
+		int32_t L_9 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0026:
+	{
+		int32_t L_10 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_10, 1));
+	}
+
+IL_002a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:28>
+		int32_t L_11 = V_2;
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_12 = V_1;
+		NullCheck(L_12);
+		if ((((int32_t)L_11) < ((int32_t)((int32_t)(((RuntimeArray*)L_12)->max_length)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:36>
+		int32_t L_13 = V_0;
+		return L_13;
+	}
+}
+// Method Definition Index: 70315
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_Start_m6020432BA85E6815123F579B0C92504A4CF20EE1 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:42>
+		OrderManager_InitializeWindows_mC05B21448DD9BB68A71C246BE5FDB3DA94EEC426(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:44>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:45>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = __this->___gameManager;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = GameManager_get_IsPlaying_m2FCB423637D8FE01E5EF3CE1FF8A3D0887750786(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0027;
+		}
+	}
+
+IL_0021:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:47>
+		OrderManager_SpawnInitialOrders_m47EEE4CEAE51F4033DAE462D902DAB1D2DE75AEF(__this, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 70316
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_InitializeWindows_mC05B21448DD9BB68A71C246BE5FDB3DA94EEC426 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* V_0 = NULL;
+	int32_t V_1 = 0;
+	CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* V_2 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:53>
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_0 = __this->___customerWindows;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0023;
+	}
+
+IL_000b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:53>
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_2 = L_4;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:55>
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_5 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_5, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_6)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:57>
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_7 = V_2;
+		NullCheck(L_7);
+		CustomerWindow_Initialize_mED25791B558BBD810BEFFE9BD7DB9E0093647588_inline(L_7, __this, NULL);
+	}
+
+IL_001f:
+	{
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 1));
+	}
+
+IL_0023:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:53>
+		int32_t L_9 = V_1;
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_10 = V_0;
+		NullCheck(L_10);
+		if ((((int32_t)L_9) < ((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:60>
+		return;
+	}
+}
+// Method Definition Index: 70317
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_SpawnInitialOrders_m47EEE4CEAE51F4033DAE462D902DAB1D2DE75AEF (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) 
+{
+	CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* V_0 = NULL;
+	int32_t V_1 = 0;
+	CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* V_2 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:64>
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_0 = __this->___customerWindows;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_001a;
+	}
+
+IL_000b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:64>
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_2 = L_4;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:66>
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_5 = V_2;
+		OrderManager_SpawnOrder_m4A8FAE6D6FB7219AF7557ADE0C31787BD6081571(__this, L_5, NULL);
+		int32_t L_6 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_6, 1));
+	}
+
+IL_001a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:64>
+		int32_t L_7 = V_1;
+		CustomerWindowU5BU5D_t15DCEEA8477D2B1509C838ED74B8E00E286D2ACD* L_8 = V_0;
+		NullCheck(L_8);
+		if ((((int32_t)L_7) < ((int32_t)((int32_t)(((RuntimeArray*)L_8)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 70318
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_SpawnOrder_m4A8FAE6D6FB7219AF7557ADE0C31787BD6081571 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* ___0_window, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* V_0 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:72>
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_0 = ___0_window;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:73>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:75>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:76>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = __this->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = __this->___gameManager;
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = GameManager_get_IsPlaying_m2FCB423637D8FE01E5EF3CE1FF8A3D0887750786(L_4, NULL);
+		if (L_5)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:78>
+		return;
+	}
+
+IL_0026:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:81>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:82>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_6;
+		L_6 = OrderManager_GenerateRandomOrder_mBD4CAEF852376E46EC7942330A3951D930E01749(__this, NULL);
+		V_0 = L_6;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:84>
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_7 = ___0_window;
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_8 = V_0;
+		NullCheck(L_7);
+		CustomerWindow_SetOrder_m535786FB5EC3DA649ADF9C301909BBE2A9B1206F(L_7, L_8, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:85>
+		return;
+	}
+}
+// Method Definition Index: 70319
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* OrderManager_GenerateRandomOrder_mBD4CAEF852376E46EC7942330A3951D930E01749 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m4DDA1F2904AE9CD46261280A02C5A4B64D43E4F9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m7EEAE398A4B92CA74150C2C52D6D5ED21E4FE0A2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:89>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:90>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:91>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:92>
+		float L_0;
+		L_0 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		if ((((float)L_0) < ((float)(0.5f))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		G_B3_0 = 3;
+		goto IL_0010;
+	}
+
+IL_000f:
+	{
+		G_B3_0 = 2;
+	}
+
+IL_0010:
+	{
+		V_0 = G_B3_0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:94>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:95>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_1 = (List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A*)il2cpp_codegen_object_new(List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A_il2cpp_TypeInfo_var);
+		List_1__ctor_m7EEAE398A4B92CA74150C2C52D6D5ED21E4FE0A2(L_1, List_1__ctor_m7EEAE398A4B92CA74150C2C52D6D5ED21E4FE0A2_RuntimeMethod_var);
+		V_1 = L_1;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:97>
+		V_2 = 0;
+		goto IL_003c;
+	}
+
+IL_001b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:101>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:102>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:103>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:104>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:105>
+		IngredientDataU5BU5D_t72844ADBB86210141966DD1EE645A7E45C332B2C* L_2 = __this->___ingredientData;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_2)->max_length)), NULL);
+		V_3 = L_3;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:107>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:108>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:109>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_4 = V_1;
+		IngredientDataU5BU5D_t72844ADBB86210141966DD1EE645A7E45C332B2C* L_5 = __this->___ingredientData;
+		int32_t L_6 = V_3;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		NullCheck(L_4);
+		List_1_Add_m4DDA1F2904AE9CD46261280A02C5A4B64D43E4F9_inline(L_4, L_8, List_1_Add_m4DDA1F2904AE9CD46261280A02C5A4B64D43E4F9_RuntimeMethod_var);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:99>
+		int32_t L_9 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_003c:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:98>
+		int32_t L_10 = V_2;
+		int32_t L_11 = V_0;
+		if ((((int32_t)L_10) < ((int32_t)L_11)))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:112>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_12 = V_1;
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_13 = (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B*)il2cpp_codegen_object_new(Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B_il2cpp_TypeInfo_var);
+		Order__ctor_m519310B9D682BB27AC333FB0256F8A6DFB3DEED7(L_13, L_12, NULL);
+		return L_13;
+	}
+}
+// Method Definition Index: 70320
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager_OrderCompleted_mF349EEFAB10D9E65225B17B137EB249EA93818C3 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* ___0_window, int32_t ___1_score, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2E70354345FBAEA9D67F70E6B6422851212896F3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:119>
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_0 = __this->___scoreManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:121>
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_2 = __this->___scoreManager;
+		int32_t L_3 = ___1_score;
+		NullCheck(L_2);
+		ScoreManager_AddScore_mD0892948C003C34C1BA5570845F7BA0ABB36C9D1(L_2, L_3, NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:124>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:125>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:126>
+		int32_t L_4 = ___1_score;
+		int32_t L_5 = L_4;
+		RuntimeObject* L_6 = Box(il2cpp_defaults.int32_class, &L_5);
+		String_t* L_7;
+		L_7 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral2E70354345FBAEA9D67F70E6B6422851212896F3, L_6, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:128>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:129>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_8 = __this->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_10 = __this->___gameManager;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = GameManager_get_IsPlaying_m2FCB423637D8FE01E5EF3CE1FF8A3D0887750786(L_10, NULL);
+		if (L_11)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:131>
+		return;
+	}
+
+IL_004b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:134>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:135>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:136>
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_12 = ___0_window;
+		RuntimeObject* L_13;
+		L_13 = OrderManager_RespawnOrderAfterDelay_m3D239FE5FDE7C11809AD9BD583D18D1911705B81(__this, L_12, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
+		L_14 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_13, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:137>
+		return;
+	}
+}
+// Method Definition Index: 70321
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OrderManager_RespawnOrderAfterDelay_m3D239FE5FDE7C11809AD9BD583D18D1911705B81 (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* ___0_window, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* L_0 = (U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425*)il2cpp_codegen_object_new(U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425_il2cpp_TypeInfo_var);
+		U3CRespawnOrderAfterDelayU3Ed__13__ctor_mD0475CAA29AA5ADC3857E5C6C1DEE7359EDC7209(L_0, 0, NULL);
+		U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* L_2 = L_1;
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_3 = ___0_window;
+		NullCheck(L_2);
+		L_2->___window = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___window), (void*)L_3);
+		return L_2;
+	}
+}
+// Method Definition Index: 70322
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderManager__ctor_mCF6812838AFE714AAEB39FA0C610887FE4D2E6AD (OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:14>
+		__this->___respawnDelay = (5.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70323
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRespawnOrderAfterDelayU3Ed__13__ctor_mD0475CAA29AA5ADC3857E5C6C1DEE7359EDC7209 (U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70324
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRespawnOrderAfterDelayU3Ed__13_System_IDisposable_Dispose_mD018F5256A2AC9B541E87B2F8877ECD33B1589A5 (U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 70325
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRespawnOrderAfterDelayU3Ed__13_MoveNext_m701D1F737C0525356CF28149E84CF1FA97DC1D02 (U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:142>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:143>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:144>
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___respawnDelay;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_6 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_6, L_5, NULL);
+		__this->___U3CU3E2__current = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_6);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0038:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:146>
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_7 = __this->___window;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_8;
+		L_8 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_8)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:147>
+		return (bool)0;
+	}
+
+IL_004f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:149>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:150>
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_9 = V_1;
+		NullCheck(L_9);
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_10 = L_9->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_12 = V_1;
+		NullCheck(L_12);
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_13 = L_12->___gameManager;
+		NullCheck(L_13);
+		bool L_14;
+		L_14 = GameManager_get_IsPlaying_m2FCB423637D8FE01E5EF3CE1FF8A3D0887750786(L_13, NULL);
+		if (L_14)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:152>
+		return (bool)0;
+	}
+
+IL_006c:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:155>
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_15 = V_1;
+		CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* L_16 = __this->___window;
+		NullCheck(L_15);
+		OrderManager_SpawnOrder_m4A8FAE6D6FB7219AF7557ADE0C31787BD6081571(L_15, L_16, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/OrderManager.cs:156>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 70326
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRespawnOrderAfterDelayU3Ed__13_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m25FD41B8CC07CBC89C753D8ACBEE0C3B45D0C8BE (U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 70327
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRespawnOrderAfterDelayU3Ed__13_System_Collections_IEnumerator_Reset_mBE331F91C36472D7652487CF3AD2C311EF641C17 (U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRespawnOrderAfterDelayU3Ed__13_System_Collections_IEnumerator_Reset_mBE331F91C36472D7652487CF3AD2C311EF641C17_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 70328
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRespawnOrderAfterDelayU3Ed__13_System_Collections_IEnumerator_get_Current_m538FF091057CE5C5E378230802A9954AACF607C5 (U3CRespawnOrderAfterDelayU3Ed__13_t0042D799D217CD7A6FFEE7D6707EF5E9C55F7425* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70330
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Awake_m82639826DE098DC447C79B43900C5F2A630B3DC3 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:14>
+		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_0;
+		L_0 = Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040(__this, Component_GetComponent_TisCharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A_m96B48A644EDC97C5C82F154D1FEA551B2E392040_RuntimeMethod_var);
+		__this->___characterController = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___characterController), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 70331
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_Update_m1F4051EB5BCBCCE5EEE2E3E49B7E278C3B14EC33 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:19>
+		PlayerController_HandleMovement_m507E9FBA62A559E59CC0BB8EECB022187FBBBADF(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 70332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_HandleMovement_m507E9FBA62A559E59CC0BB8EECB022187FBBBADF (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:24>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		V_0 = L_0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:26>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_1;
+		L_1 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		if (!L_1)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:28>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_2;
+		L_2 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_2);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_3;
+		L_3 = Keyboard_get_aKey_m532122A52C670F95ADC84B56A4DD32160DD1E7CB(L_2, NULL);
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:29>
+		float* L_5 = (float*)(&(&V_0)->___x);
+		float* L_6 = L_5;
+		float L_7 = *((float*)L_6);
+		*((float*)L_6) = (float)((float)il2cpp_codegen_subtract(L_7, (1.0f)));
+	}
+
+IL_0031:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:31>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_8;
+		L_8 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_8);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_9;
+		L_9 = Keyboard_get_dKey_m0973269D5752E5EEA607BAFB24B39AD9F45122DC(L_8, NULL);
+		NullCheck(L_9);
+		bool L_10;
+		L_10 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:32>
+		float* L_11 = (float*)(&(&V_0)->___x);
+		float* L_12 = L_11;
+		float L_13 = *((float*)L_12);
+		*((float*)L_12) = (float)((float)il2cpp_codegen_add(L_13, (1.0f)));
+	}
+
+IL_0052:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:34>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_14;
+		L_14 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_14);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_15;
+		L_15 = Keyboard_get_sKey_m2830A1BAA36CADA4783EFD815216A637363F1AB4(L_14, NULL);
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0073;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:35>
+		float* L_17 = (float*)(&(&V_0)->___y);
+		float* L_18 = L_17;
+		float L_19 = *((float*)L_18);
+		*((float*)L_18) = (float)((float)il2cpp_codegen_subtract(L_19, (1.0f)));
+	}
+
+IL_0073:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:37>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_20;
+		L_20 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_20);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_21;
+		L_21 = Keyboard_get_wKey_m007A60195D3D483BA82BFD9B8650F326E2C58805(L_20, NULL);
+		NullCheck(L_21);
+		bool L_22;
+		L_22 = ButtonControl_get_isPressed_m947621402F6EC1B957C2DE984806A6500D422EA6(L_21, NULL);
+		if (!L_22)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:38>
+		float* L_23 = (float*)(&(&V_0)->___y);
+		float* L_24 = L_23;
+		float L_25 = *((float*)L_24);
+		*((float*)L_24) = (float)((float)il2cpp_codegen_add(L_25, (1.0f)));
+	}
+
+IL_0094:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:41>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:42>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:43>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:44>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:45>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26 = V_0;
+		float L_27 = L_26.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = V_0;
+		float L_29 = L_28.___y;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_1), L_27, (0.0f), L_29, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:47>
+		float L_30;
+		L_30 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_1), NULL);
+		if ((!(((float)L_30) > ((float)(1.0f)))))
+		{
+			goto IL_00c1;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:49>
+		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline((&V_1), NULL);
+	}
+
+IL_00c1:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:52>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:53>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:54>
+		CharacterController_t847C1A2719F60547D7D6077B648D6CE2D1EF3A6A* L_31 = __this->___characterController;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_1;
+		float L_33 = __this->___moveSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_32, L_33, NULL);
+		float L_35;
+		L_35 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36;
+		L_36 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_34, L_35, NULL);
+		NullCheck(L_31);
+		int32_t L_37;
+		L_37 = CharacterController_Move_mE3F7AC1B4A2D6955980811C088B68ED3A31D2DA4(L_31, L_36, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:56>
+		float L_38;
+		L_38 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&V_1), NULL);
+		if ((!(((float)L_38) > ((float)(0.00999999978f)))))
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:58>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = V_1;
+		PlayerController_RotateTowardsMovement_m827CF72A302EE54AE82802C2815BB5492FE5140E(__this, L_39, NULL);
+	}
+
+IL_00f8:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:60>
+		return;
+	}
+}
+// Method Definition Index: 70333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController_RotateTowardsMovement_m827CF72A302EE54AE82802C2815BB5492FE5140E (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:64>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:65>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_direction;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
+		L_1 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:67>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:68>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:69>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:70>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:71>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_3);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_3, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_5 = V_0;
+		float L_6 = __this->___rotationSpeed;
+		float L_7;
+		L_7 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline(L_4, L_5, ((float)il2cpp_codegen_multiply(L_6, L_7)), NULL);
+		NullCheck(L_2);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_2, L_8, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:72>
+		return;
+	}
+}
+// Method Definition Index: 70334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:7>
+		__this->___moveSpeed = (5.0f);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerController.cs:8>
+		__this->___rotationSpeed = (12.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:7>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = __this->___U3CHeldIngredientU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerHand_set_HeldIngredient_m3F357B3F6ABB6121EE06E6B0F69C025033699021 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:7>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_value;
+		__this->___U3CHeldIngredientU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeldIngredientU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 70337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerHand_get_IsEmpty_m77C477802BD99D14D5A57D90B16ED21A39485CE2 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:9>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0;
+		L_0 = PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 70338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerHand_TryPickup_m71E64A4EFB47F8D81F06DD233142B4B8981AACF2 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:13>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_ingredient;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		bool L_2;
+		L_2 = PlayerHand_get_IsEmpty_m77C477802BD99D14D5A57D90B16ED21A39485CE2(__this, NULL);
+		if (L_2)
+		{
+			goto IL_0013;
+		}
+	}
+
+IL_0011:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:14>
+		return (bool)0;
+	}
+
+IL_0013:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:16>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_3 = ___0_ingredient;
+		PlayerHand_set_HeldIngredient_m3F357B3F6ABB6121EE06E6B0F69C025033699021_inline(__this, L_3, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:18>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_4 = ___0_ingredient;
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_4, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___handPoint;
+		NullCheck(L_5);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_5, L_6, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:19>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_7 = ___0_ingredient;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_8);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_8, L_9, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:20>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_10 = ___0_ingredient;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_10, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
+		L_12 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_11);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_11, L_12, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:22>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_13 = ___0_ingredient;
+		PlayerHand_SetIngredientCollider_m2E60E0747DE58FFC225E321E96FDD8260EF45839(__this, L_13, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:24>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 70339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* PlayerHand_RemoveIngredient_m351BBB33469A338EA27E78CC706511ECA38B0123 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_0 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:29>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0;
+		L_0 = PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8_inline(__this, NULL);
+		V_0 = L_0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:31>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_1 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:32>
+		return (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6*)NULL;
+	}
+
+IL_0012:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:34>
+		PlayerHand_set_HeldIngredient_m3F357B3F6ABB6121EE06E6B0F69C025033699021_inline(__this, (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6*)NULL, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:36>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_3 = V_0;
+		NullCheck(L_3);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
+		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_3, NULL);
+		NullCheck(L_4);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_4, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:38>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_5 = V_0;
+		PlayerHand_SetIngredientCollider_m2E60E0747DE58FFC225E321E96FDD8260EF45839(__this, L_5, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:40>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 70340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerHand_SetIngredientCollider_m2E60E0747DE58FFC225E321E96FDD8260EF45839 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, bool ___1_enabled, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m64EB86DDB49F92CFAAF6003C9EAC7D7D8B0F35DB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:47>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:48>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_ingredient;
+		NullCheck(L_0);
+		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_1;
+		L_1 = Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m64EB86DDB49F92CFAAF6003C9EAC7D7D8B0F35DB(L_0, Component_GetComponentsInChildren_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m64EB86DDB49F92CFAAF6003C9EAC7D7D8B0F35DB_RuntimeMethod_var);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:50>
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_0018;
+	}
+
+IL_000b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:50>
+		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_2 = V_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:52>
+		bool L_6 = ___1_enabled;
+		NullCheck(L_5);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_5, L_6, NULL);
+		int32_t L_7 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_7, 1));
+	}
+
+IL_0018:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:50>
+		int32_t L_8 = V_1;
+		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_9 = V_0;
+		NullCheck(L_9);
+		if ((((int32_t)L_8) < ((int32_t)((int32_t)(((RuntimeArray*)L_9)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 70341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerHand__ctor_m1572D0A97465D50F9D6511133648F3F60AB73638 (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41 (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:11>
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_0 = __this->___playerHand;
+		return L_0;
+	}
+}
+// Method Definition Index: 70343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteractor_Update_m1C520E6400C3BFA4ED90038CA0BBDB540ABDA234 (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:15>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:16>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = __this->___gameManager;
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = GameManager_get_IsPlaying_m2FCB423637D8FE01E5EF3CE1FF8A3D0887750786(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:18>
+		return;
+	}
+
+IL_001c:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:21>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:22>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_4;
+		L_4 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		if (!L_4)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_5;
+		L_5 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_5);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_6;
+		L_6 = Keyboard_get_eKey_mC0BD3EF3515DE5B2445BFF7B353CD7EDF80E94C1(L_5, NULL);
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:24>
+		PlayerInteractor_TryInteract_mD78E0EABFE6F6FFD969B08B3F8103DB2ECD2EFC1(__this, NULL);
+	}
+
+IL_003a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 70344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteractor_TryInteract_mD78E0EABFE6F6FFD969B08B3F8103DB2ECD2EFC1 (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisIInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E_m83574D1D9EE09D47FAA56546DCF22DC6B07ED199_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RuntimeObject* V_0 = NULL;
+	float V_1 = 0.0f;
+	ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* V_2 = NULL;
+	int32_t V_3 = 0;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* V_4 = NULL;
+	RuntimeObject* V_5 = NULL;
+	float V_6 = 0.0f;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:30>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:31>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:32>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:33>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:34>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___interactionOrigin;
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		float L_2 = __this->___interactionRange;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_3;
+		L_3 = Physics_OverlapSphere_mCFA1C44458F8548C911C16F82077DA4C35D43F69(L_1, L_2, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:36>
+		V_0 = (RuntimeObject*)NULL;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:37>
+		V_1 = ((std::numeric_limits<float>::max)());
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:39>
+		V_2 = L_3;
+		V_3 = 0;
+		goto IL_0062;
+	}
+
+IL_0023:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:39>
+		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_4 = V_2;
+		int32_t L_5 = V_3;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		V_4 = L_7;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:41>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:42>
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_8 = V_4;
+		NullCheck(L_8);
+		RuntimeObject* L_9;
+		L_9 = Component_GetComponent_TisIInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E_m83574D1D9EE09D47FAA56546DCF22DC6B07ED199(L_8, Component_GetComponent_TisIInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E_m83574D1D9EE09D47FAA56546DCF22DC6B07ED199_RuntimeMethod_var);
+		V_5 = L_9;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:44>
+		RuntimeObject* L_10 = V_5;
+		if (!L_10)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:47>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:48>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:49>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:50>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:51>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___interactionOrigin;
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_13 = V_4;
+		NullCheck(L_13);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
+		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_13, NULL);
+		NullCheck(L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_14, NULL);
+		float L_16;
+		L_16 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_12, L_15, NULL);
+		V_6 = L_16;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:53>
+		float L_17 = V_6;
+		float L_18 = V_1;
+		if ((!(((float)L_17) < ((float)L_18))))
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:55>
+		float L_19 = V_6;
+		V_1 = L_19;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:56>
+		RuntimeObject* L_20 = V_5;
+		V_0 = L_20;
+	}
+
+IL_005e:
+	{
+		int32_t L_21 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+	}
+
+IL_0062:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:39>
+		int32_t L_22 = V_3;
+		ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787* L_23 = V_2;
+		NullCheck(L_23);
+		if ((((int32_t)L_22) < ((int32_t)((int32_t)(((RuntimeArray*)L_23)->max_length)))))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:60>
+		RuntimeObject* L_24 = V_0;
+		if (!L_24)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		RuntimeObject* L_25 = V_0;
+		NullCheck(L_25);
+		InterfaceActionInvoker1< PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* >::Invoke(0, IInteractable_t4C33DA21473F9F2FC3EFD9EF14EB596BE384DC9E_il2cpp_TypeInfo_var, L_25, __this);
+	}
+
+IL_0072:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 70345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteractor_OnDrawGizmosSelected_m1E0E3C75CFFE93336E1DB0471D0623BB9F38813A (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:65>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___interactionOrigin;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:66>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:68>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:69>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:70>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:71>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___interactionOrigin;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4 = __this->___interactionRange;
+		Gizmos_DrawWireSphere_m12C01EC9334C32425074A214C5B876271B3DDBA1(L_3, L_4, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:72>
+		return;
+	}
+}
+// Method Definition Index: 70346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerInteractor__ctor_m408D6E85C097FEFAF4767D6418A7F4C06E022184 (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:6>
+		__this->___interactionRange = (2.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChoppingStation_get_IsOccupied_m210BE6C8B98B056D5A2590746DEA819B0C4CA8B6 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:14>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = __this->___currentIngredient;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 70348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ChoppingStation_get_IsChopping_mC8ECA3479151E41655DC4C2A28F8CC634FA35C7B (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:16>
+		bool L_0 = __this->___isChopping;
+		return L_0;
+	}
+}
+// Method Definition Index: 70349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChoppingStation_get_RemainingTime_m0541B262AAD5C19FD1A923EE639D76D34CA808C8 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:18>
+		float L_0 = __this->___U3CRemainingTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation_set_RemainingTime_m7C1EBE8F9CF4F064288F6FB66A5075A889547605 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:18>
+		float L_0 = ___0_value;
+		__this->___U3CRemainingTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ChoppingStation_get_Progress_m8F0D943A0C5915EE5E8D1781B4F8FE9BEEC90A58 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:24>
+		float L_0 = __this->___choppingDuration;
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:25>
+		return (1.0f);
+	}
+
+IL_0013:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:27>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:28>
+		float L_1;
+		L_1 = ChoppingStation_get_RemainingTime_m0541B262AAD5C19FD1A923EE639D76D34CA808C8_inline(__this, NULL);
+		float L_2 = __this->___choppingDuration;
+		return ((float)il2cpp_codegen_subtract((1.0f), ((float)(L_1/L_2))));
+	}
+}
+// Method Definition Index: 70352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation_Start_mFC940084EC83ABB793365A83888869BEBFBA6E70 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindAnyObjectByType_TisPreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5_mAD6F10C3D7DFFE0AEBCA9068E0DE2FE4AEBB1DBC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* V_0 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:34>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:35>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* L_0;
+		L_0 = Object_FindAnyObjectByType_TisPreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5_mAD6F10C3D7DFFE0AEBCA9068E0DE2FE4AEBB1DBC(Object_FindAnyObjectByType_TisPreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5_mAD6F10C3D7DFFE0AEBCA9068E0DE2FE4AEBB1DBC_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:37>
+		PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* L_1 = V_0;
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:39>
+		PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* L_3 = V_0;
+		NullCheck(L_3);
+		PreparationUIManager_RegisterChoppingStation_m224965B9105718B8355013FEA177BD745C0FB21D_inline(L_3, __this, NULL);
+	}
+
+IL_0016:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:41>
+		return;
+	}
+}
+// Method Definition Index: 70353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation_Update_m774358401B43C0EF74CAE2C1F7D903106B1F5502 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:45>
+		bool L_0 = __this->___isChopping;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_1 = __this->___currentIngredient;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+
+IL_0016:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:46>
+		return;
+	}
+
+IL_0017:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:48>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:49>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:50>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:51>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:52>
+		float L_3 = __this->___choppingFinishTime;
+		float L_4;
+		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_5;
+		L_5 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(L_3, L_4)), NULL);
+		ChoppingStation_set_RemainingTime_m7C1EBE8F9CF4F064288F6FB66A5075A889547605_inline(__this, L_5, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:54>
+		float L_6;
+		L_6 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_7 = __this->___choppingFinishTime;
+		if ((!(((float)L_6) >= ((float)L_7))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:56>
+		ChoppingStation_FinishChopping_m1EC751A41916ED09E14D52782C90CF1FB1DE6D70(__this, NULL);
+	}
+
+IL_0046:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 70354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation_Interact_mE2F2213C7C6AF193CBBAD1413C45055C6BCC2CD8 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___0_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16A760C6FBBD8B58B87A84E3A64D159FDDACD765);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7DE05BAF24EF001D3805B3DAC0CF7FB7EF5E15D3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8DDD74C40BDFB3F654161FC63A965B50083CBF17);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA1880C1F12027D7490DB96D2C770C5E31CEB69BB);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_0 = NULL;
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_1 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:62>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_0 = ___0_interactor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:63>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:66>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_2 = __this->___currentIngredient;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_005e;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:68>
+		bool L_4 = __this->___isChopping;
+		if (!L_4)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:70>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:71>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:72>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8DDD74C40BDFB3F654161FC63A965B50083CBF17, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:74>
+		return;
+	}
+
+IL_002b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:77>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_5 = ___0_interactor;
+		NullCheck(L_5);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_6;
+		L_6 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_5, NULL);
+		NullCheck(L_6);
+		bool L_7;
+		L_7 = PlayerHand_get_IsEmpty_m77C477802BD99D14D5A57D90B16ED21A39485CE2(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:79>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:80>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_8 = __this->___currentIngredient;
+		V_1 = L_8;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:82>
+		__this->___currentIngredient = (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentIngredient), (void*)(Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6*)NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:84>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:85>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:86>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_9 = ___0_interactor;
+		NullCheck(L_9);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_10;
+		L_10 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_9, NULL);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_11 = V_1;
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = PlayerHand_TryPickup_m71E64A4EFB47F8D81F06DD233142B4B8981AACF2(L_10, L_11, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:88>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:89>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:90>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral7DE05BAF24EF001D3805B3DAC0CF7FB7EF5E15D3, NULL);
+	}
+
+IL_005d:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:93>
+		return;
+	}
+
+IL_005e:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:97>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:98>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_13 = ___0_interactor;
+		NullCheck(L_13);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_14;
+		L_14 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_13, NULL);
+		NullCheck(L_14);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_15;
+		L_15 = PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8_inline(L_14, NULL);
+		V_0 = L_15;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:100>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_16 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_17;
+		L_17 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_16, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_17)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:101>
+		return;
+	}
+
+IL_0074:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:103>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:104>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_18 = V_0;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE(L_18, NULL);
+		if (!L_19)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:106>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:107>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:108>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral16A760C6FBBD8B58B87A84E3A64D159FDDACD765, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:110>
+		return;
+	}
+
+IL_0087:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:113>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:114>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_20 = V_0;
+		NullCheck(L_20);
+		int32_t L_21;
+		L_21 = Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47_inline(L_20, NULL);
+		if (!L_21)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:116>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:117>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:118>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralA1880C1F12027D7490DB96D2C770C5E31CEB69BB, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:120>
+		return;
+	}
+
+IL_009a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:123>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:124>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:125>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:126>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_22 = V_0;
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_23 = ___0_interactor;
+		ChoppingStation_PlaceIngredient_m0A26B4DD09EA3CC9BBD58AFFF3745F738C5EAD1E(__this, L_22, L_23, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:127>
+		return;
+	}
+}
+// Method Definition Index: 70355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation_PlaceIngredient_m0A26B4DD09EA3CC9BBD58AFFF3745F738C5EAD1E (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___1_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6FCA0CECBC80FA2DCB8732487A54B7A82956124E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9D59519899633F841B5620CC2037B9B55F46472F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:133>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_0 = ___1_interactor;
+		NullCheck(L_0);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_1;
+		L_1 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_0, NULL);
+		NullCheck(L_1);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_2;
+		L_2 = PlayerHand_RemoveIngredient_m351BBB33469A338EA27E78CC706511ECA38B0123(L_1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:135>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_3 = ___0_ingredient;
+		__this->___currentIngredient = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentIngredient), (void*)L_3);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:137>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:138>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:139>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_4 = ___0_ingredient;
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_4, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___ingredientPoint;
+		NullCheck(L_5);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_5, L_6, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:141>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:142>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_7 = ___0_ingredient;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_8);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_8, L_9, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:144>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:145>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_10 = ___0_ingredient;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_10, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12;
+		L_12 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_11);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_11, L_12, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:147>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:148>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_13 = ___0_ingredient;
+		NullCheck(L_13);
+		IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_14;
+		L_14 = Ingredient_get_Data_mD757856A2AFDC995D218300C3B8055F47C4679A5_inline(L_13, NULL);
+		NullCheck(L_14);
+		float L_15 = L_14->___preparationTime;
+		__this->___choppingDuration = L_15;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:150>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:151>
+		float L_16;
+		L_16 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_17 = __this->___choppingDuration;
+		__this->___choppingFinishTime = ((float)il2cpp_codegen_add(L_16, L_17));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:153>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:154>
+		float L_18 = __this->___choppingDuration;
+		ChoppingStation_set_RemainingTime_m7C1EBE8F9CF4F064288F6FB66A5075A889547605_inline(__this, L_18, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:156>
+		__this->___isChopping = (bool)1;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:158>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:159>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:160>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:161>
+		float L_19 = __this->___choppingDuration;
+		float L_20 = L_19;
+		RuntimeObject* L_21 = Box(il2cpp_defaults.single_class, &L_20);
+		String_t* L_22;
+		L_22 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral9D59519899633F841B5620CC2037B9B55F46472F, L_21, NULL);
+		String_t* L_23;
+		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral6FCA0CECBC80FA2DCB8732487A54B7A82956124E, L_22, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_23, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:162>
+		return;
+	}
+}
+// Method Definition Index: 70356
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation_FinishChopping_m1EC751A41916ED09E14D52782C90CF1FB1DE6D70 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2446498657E07D94CCC525F5C4E73DB878030B2D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:166>
+		__this->___isChopping = (bool)0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:168>
+		ChoppingStation_set_RemainingTime_m7C1EBE8F9CF4F064288F6FB66A5075A889547605_inline(__this, (0.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:170>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:171>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:172>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = __this->___currentIngredient;
+		NullCheck(L_0);
+		Ingredient_SetState_mC97A719CE427598EBFD064A2F17A9D37FBA0713D(L_0, 1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:174>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:175>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:176>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral2446498657E07D94CCC525F5C4E73DB878030B2D, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:177>
+		return;
+	}
+}
+// Method Definition Index: 70357
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChoppingStation__ctor_m2CA9BC4C022A180C6BC4F86A7AACA87099F6FD94 (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70358
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* CookingSlot_get_Ingredient_m95F09B1162F8D3FFCCC91D71802E393608D0EE10 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:5>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = __this->___U3CIngredientU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70359
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_set_Ingredient_m607A2EDE907C0063BAC558DC0E8BEC0DA61DF9A1 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:5>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_value;
+		__this->___U3CIngredientU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIngredientU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 70360
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CookingSlot_get_IsOccupied_m5E694AEE1D4775F28AB1B5B8F5D23140C39267DB (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:7>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0;
+		L_0 = CookingSlot_get_Ingredient_m95F09B1162F8D3FFCCC91D71802E393608D0EE10_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 70361
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CookingSlot_get_IsCooking_m5CA70CCD39E237C541A8DB19A76BD5AF2DF24D1F (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:9>
+		bool L_0 = __this->___U3CIsCookingU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70362
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_set_IsCooking_m829B34568588BF5BADB1CCA7743B4108C7351B6E (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:9>
+		bool L_0 = ___0_value;
+		__this->___U3CIsCookingU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70363
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CookingSlot_get_IsFinished_m0A8977A50DCB1264BD5C435A0883C7C4F77078C0 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:11>
+		bool L_0 = __this->___U3CIsFinishedU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70364
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_set_IsFinished_m8917A7523A41253075DD06AC700B959078820FBB (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:11>
+		bool L_0 = ___0_value;
+		__this->___U3CIsFinishedU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70365
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CookingSlot_get_RemainingTime_mB3A0449F444F7481F4FB58C7FE0EF905E6139A40 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:13>
+		float L_0 = __this->___U3CRemainingTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70366
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_set_RemainingTime_m850A447F1BA723EB904B3B0469F4FBB30D5C49E7 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:13>
+		float L_0 = ___0_value;
+		__this->___U3CRemainingTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CookingSlot_get_TotalTime_mA55BB667F7CEDAC7E6BD17254C190B7E19984CA1 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:15>
+		float L_0 = __this->___U3CTotalTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_set_TotalTime_m33749C99869C24ECA81D27EBDD3FDD9F95A28066 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:15>
+		float L_0 = ___0_value;
+		__this->___U3CTotalTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CookingSlot_get_Progress_mE7A5F3812FA3778A30A4AFAA6F732C3D5075E61E (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:21>
+		float L_0;
+		L_0 = CookingSlot_get_TotalTime_mA55BB667F7CEDAC7E6BD17254C190B7E19984CA1_inline(__this, NULL);
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:22>
+		return (1.0f);
+	}
+
+IL_0013:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:24>
+		float L_1;
+		L_1 = CookingSlot_get_RemainingTime_mB3A0449F444F7481F4FB58C7FE0EF905E6139A40_inline(__this, NULL);
+		float L_2;
+		L_2 = CookingSlot_get_TotalTime_mA55BB667F7CEDAC7E6BD17254C190B7E19984CA1_inline(__this, NULL);
+		return ((float)il2cpp_codegen_subtract((1.0f), ((float)(L_1/L_2))));
+	}
+}
+// Method Definition Index: 70370
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_PlaceIngredient_mDCBC2953A6724C2A37C6600DBF18964B39C0A9BF (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_ingredient, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:32>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_ingredient;
+		CookingSlot_set_Ingredient_m607A2EDE907C0063BAC558DC0E8BEC0DA61DF9A1_inline(__this, L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:34>
+		CookingSlot_set_IsCooking_m829B34568588BF5BADB1CCA7743B4108C7351B6E_inline(__this, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:35>
+		CookingSlot_set_IsFinished_m8917A7523A41253075DD06AC700B959078820FBB_inline(__this, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:37>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_1 = ___0_ingredient;
+		NullCheck(L_1);
+		IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_2;
+		L_2 = Ingredient_get_Data_mD757856A2AFDC995D218300C3B8055F47C4679A5_inline(L_1, NULL);
+		NullCheck(L_2);
+		float L_3 = L_2->___preparationTime;
+		CookingSlot_set_TotalTime_m33749C99869C24ECA81D27EBDD3FDD9F95A28066_inline(__this, L_3, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:39>
+		float L_4;
+		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_5;
+		L_5 = CookingSlot_get_TotalTime_mA55BB667F7CEDAC7E6BD17254C190B7E19984CA1_inline(__this, NULL);
+		__this->___finishTime = ((float)il2cpp_codegen_add(L_4, L_5));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:41>
+		float L_6;
+		L_6 = CookingSlot_get_TotalTime_mA55BB667F7CEDAC7E6BD17254C190B7E19984CA1_inline(__this, NULL);
+		CookingSlot_set_RemainingTime_m850A447F1BA723EB904B3B0469F4FBB30D5C49E7_inline(__this, L_6, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:42>
+		return;
+	}
+}
+// Method Definition Index: 70371
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_Update_m346C2ED384C7372152828C3F19BCDA793E1F4793 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:46>
+		bool L_0;
+		L_0 = CookingSlot_get_IsCooking_m5CA70CCD39E237C541A8DB19A76BD5AF2DF24D1F_inline(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_1;
+		L_1 = CookingSlot_get_Ingredient_m95F09B1162F8D3FFCCC91D71802E393608D0EE10_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+
+IL_0016:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:47>
+		return;
+	}
+
+IL_0017:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:49>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:50>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:51>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:52>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:53>
+		float L_3 = __this->___finishTime;
+		float L_4;
+		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_5;
+		L_5 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(L_3, L_4)), NULL);
+		CookingSlot_set_RemainingTime_m850A447F1BA723EB904B3B0469F4FBB30D5C49E7_inline(__this, L_5, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:55>
+		float L_6;
+		L_6 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_7 = __this->___finishTime;
+		if ((!(((float)L_6) >= ((float)L_7))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:57>
+		CookingSlot_FinishCooking_m9538AB368EC5372E86D49B9AA52F6AA15ED82B70(__this, NULL);
+	}
+
+IL_0046:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 70372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot_FinishCooking_m9538AB368EC5372E86D49B9AA52F6AA15ED82B70 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:63>
+		CookingSlot_set_IsCooking_m829B34568588BF5BADB1CCA7743B4108C7351B6E_inline(__this, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:64>
+		CookingSlot_set_IsFinished_m8917A7523A41253075DD06AC700B959078820FBB_inline(__this, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:65>
+		CookingSlot_set_RemainingTime_m850A447F1BA723EB904B3B0469F4FBB30D5C49E7_inline(__this, (0.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:67>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:68>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:69>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0;
+		L_0 = CookingSlot_get_Ingredient_m95F09B1162F8D3FFCCC91D71802E393608D0EE10_inline(__this, NULL);
+		NullCheck(L_0);
+		Ingredient_SetState_mC97A719CE427598EBFD064A2F17A9D37FBA0713D(L_0, 2, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:70>
+		return;
+	}
+}
+// Method Definition Index: 70373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* CookingSlot_TakeIngredient_m4ACB3C49D14D55C053BA4105404ACA7CD20FCB0A (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:74>
+		bool L_0;
+		L_0 = CookingSlot_get_IsFinished_m0A8977A50DCB1264BD5C435A0883C7C4F77078C0_inline(__this, NULL);
+		if (L_0)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:75>
+		return (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6*)NULL;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:77>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_1;
+		L_1 = CookingSlot_get_Ingredient_m95F09B1162F8D3FFCCC91D71802E393608D0EE10_inline(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:79>
+		CookingSlot_set_Ingredient_m607A2EDE907C0063BAC558DC0E8BEC0DA61DF9A1_inline(__this, (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6*)NULL, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:81>
+		CookingSlot_set_IsFinished_m8917A7523A41253075DD06AC700B959078820FBB_inline(__this, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:82>
+		CookingSlot_set_IsCooking_m829B34568588BF5BADB1CCA7743B4108C7351B6E_inline(__this, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:84>
+		CookingSlot_set_RemainingTime_m850A447F1BA723EB904B3B0469F4FBB30D5C49E7_inline(__this, (0.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:85>
+		CookingSlot_set_TotalTime_m33749C99869C24ECA81D27EBDD3FDD9F95A28066_inline(__this, (0.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:87>
+		return L_1;
+	}
+}
+// Method Definition Index: 70374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CookingSlot__ctor_mA4DB4DC5D8A27851D07AA7859093D9E997E0F1F6 (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refrigerator_Interact_m89F32C157CD29B1690796B0326A22B046458768F (Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25* __this, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___0_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral395A4A029DE8D9375C9ED5D58CE1A21E418ED560);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDFE74026C9F8073D12CF8D729B82E71A090A5DB0);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:15>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_0 = ___0_interactor;
+		NullCheck(L_0);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_1;
+		L_1 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_0, NULL);
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = PlayerHand_get_IsEmpty_m77C477802BD99D14D5A57D90B16ED21A39485CE2(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:17>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralDFE74026C9F8073D12CF8D729B82E71A090A5DB0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:18>
+		return;
+	}
+
+IL_0018:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:21>
+		bool L_3 = __this->___selectionOpen;
+		if (!L_3)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:22>
+		return;
+	}
+
+IL_0021:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:24>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_4 = ___0_interactor;
+		__this->___currentInteractor = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentInteractor), (void*)L_4);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:25>
+		__this->___selectionOpen = (bool)1;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:27>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral395A4A029DE8D9375C9ED5D58CE1A21E418ED560, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 70376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refrigerator_Update_mD0930D7BDDBB609C242B7EBAC39FB206EF88B995 (Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:32>
+		bool L_0 = __this->___selectionOpen;
+		if (L_0)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:33>
+		return;
+	}
+
+IL_0009:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:35>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_1;
+		L_1 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		if (L_1)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:36>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:38>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_2;
+		L_2 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_2);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_3;
+		L_3 = Keyboard_get_digit1Key_mF14196ECA5F74A57E43B84F5D225757C762724F5(L_2, NULL);
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:40>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_5 = __this->___vegetablePrefab;
+		Refrigerator_SpawnIngredient_m555BF55086842BD474F3C10B124F366E16CCA3DC(__this, L_5, NULL);
+		goto IL_006c;
+	}
+
+IL_0030:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:42>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_6;
+		L_6 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_6);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_7;
+		L_7 = Keyboard_get_digit2Key_mC32B4CA11662D54938BCA30AF16F9A4C995458E8(L_6, NULL);
+		NullCheck(L_7);
+		bool L_8;
+		L_8 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:44>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_9 = __this->___cheesePrefab;
+		Refrigerator_SpawnIngredient_m555BF55086842BD474F3C10B124F366E16CCA3DC(__this, L_9, NULL);
+		goto IL_006c;
+	}
+
+IL_004f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:46>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_10;
+		L_10 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_10);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_11;
+		L_11 = Keyboard_get_digit3Key_m28B12C574A44ED910551A1CB1CAB8220065F6A3C(L_10, NULL);
+		NullCheck(L_11);
+		bool L_12;
+		L_12 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:48>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_13 = __this->___meatPrefab;
+		Refrigerator_SpawnIngredient_m555BF55086842BD474F3C10B124F366E16CCA3DC(__this, L_13, NULL);
+	}
+
+IL_006c:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:52>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_14;
+		L_14 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_14);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_15;
+		L_15 = Keyboard_get_escapeKey_mA4371467E72AA14713681C30A9B3AC41F3C9D707(L_14, NULL);
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:54>
+		Refrigerator_CloseSelection_mA8529A560C01743C76683C8FE271D2A7AB7F790F(__this, NULL);
+	}
+
+IL_0083:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:56>
+		return;
+	}
+}
+// Method Definition Index: 70377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refrigerator_SpawnIngredient_m555BF55086842BD474F3C10B124F366E16CCA3DC (Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_prefab, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisIngredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6_m6EFD82345CE39E15E76C5C86298C0D31757124FC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70692651222C0F3108D99236FC245A926CDBA68D);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_0 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:60>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_prefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_2 = __this->___currentInteractor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0018;
+		}
+	}
+
+IL_0017:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:61>
+		return;
+	}
+
+IL_0018:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:63>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_4 = __this->___currentInteractor;
+		NullCheck(L_4);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_5;
+		L_5 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_4, NULL);
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = PlayerHand_get_IsEmpty_m77C477802BD99D14D5A57D90B16ED21A39485CE2(L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:65>
+		Refrigerator_CloseSelection_mA8529A560C01743C76683C8FE271D2A7AB7F790F(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:66>
+		return;
+	}
+
+IL_0031:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:69>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_7 = ___0_prefab;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_8;
+		L_8 = Object_Instantiate_TisIngredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6_m6EFD82345CE39E15E76C5C86298C0D31757124FC(L_7, Object_Instantiate_TisIngredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6_m6EFD82345CE39E15E76C5C86298C0D31757124FC_RuntimeMethod_var);
+		V_0 = L_8;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:71>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_9 = __this->___currentInteractor;
+		NullCheck(L_9);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_10;
+		L_10 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_9, NULL);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_11 = V_0;
+		NullCheck(L_10);
+		bool L_12;
+		L_12 = PlayerHand_TryPickup_m71E64A4EFB47F8D81F06DD233142B4B8981AACF2(L_10, L_11, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:73>
+		if (L_12)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:75>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_13 = V_0;
+		NullCheck(L_13);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14;
+		L_14 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_13, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_14, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:76>
+		return;
+	}
+
+IL_0057:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:79>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_15 = V_0;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE(L_15, NULL);
+		int32_t L_17 = L_16;
+		RuntimeObject* L_18 = Box(IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var, &L_17);
+		String_t* L_19;
+		L_19 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral70692651222C0F3108D99236FC245A926CDBA68D, L_18, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_19, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:81>
+		Refrigerator_CloseSelection_mA8529A560C01743C76683C8FE271D2A7AB7F790F(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 70378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refrigerator_CloseSelection_mA8529A560C01743C76683C8FE271D2A7AB7F790F (Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:86>
+		__this->___selectionOpen = (bool)0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:87>
+		__this->___currentInteractor = (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentInteractor), (void*)(PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F*)NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Refrigerator.cs:88>
+		return;
+	}
+}
+// Method Definition Index: 70379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Refrigerator__ctor_m1421BD73AD6D757D7760589C82405E1A214ECC62 (Refrigerator_tD1B0E8C25BCA45F85267BFF69FEE67264B2A3F25* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* Stove_get_Slot1_mC59ECDA17F1BCC5AAB6EDB2D317B30CC9C7257BD (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:11>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = __this->___slot1;
+		return L_0;
+	}
+}
+// Method Definition Index: 70381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* Stove_get_Slot2_mF350FA46F5CEFF3A2874CFCB404ACE71B217DD1D (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:12>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = __this->___slot2;
+		return L_0;
+	}
+}
+// Method Definition Index: 70382
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stove_Awake_mD49B1E2FF6A0DB88B924C4B397BBB08B30CC6E68 (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:16>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702*)il2cpp_codegen_object_new(CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702_il2cpp_TypeInfo_var);
+		CookingSlot__ctor_mA4DB4DC5D8A27851D07AA7859093D9E997E0F1F6(L_0, NULL);
+		__this->___slot1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___slot1), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:17>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_1 = (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702*)il2cpp_codegen_object_new(CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702_il2cpp_TypeInfo_var);
+		CookingSlot__ctor_mA4DB4DC5D8A27851D07AA7859093D9E997E0F1F6(L_1, NULL);
+		__this->___slot2 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___slot2), (void*)L_1);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 70383
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stove_Start_m3DE1A4527F8F91A03937C50DCD71AAF5FBCF1A91 (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_FindAnyObjectByType_TisPreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5_mAD6F10C3D7DFFE0AEBCA9068E0DE2FE4AEBB1DBC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* V_0 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:22>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:23>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* L_0;
+		L_0 = Object_FindAnyObjectByType_TisPreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5_mAD6F10C3D7DFFE0AEBCA9068E0DE2FE4AEBB1DBC(Object_FindAnyObjectByType_TisPreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5_mAD6F10C3D7DFFE0AEBCA9068E0DE2FE4AEBB1DBC_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:25>
+		PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* L_1 = V_0;
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:27>
+		PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* L_3 = V_0;
+		NullCheck(L_3);
+		PreparationUIManager_RegisterStove_m95F607DCED79414C34E3FCD674179C1255F7DC46_inline(L_3, __this, NULL);
+	}
+
+IL_0016:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:29>
+		return;
+	}
+}
+// Method Definition Index: 70384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stove_Update_m70AEB6FC8C5B7D861A45E722C6C0AF9501194845 (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:33>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = __this->___slot1;
+		NullCheck(L_0);
+		CookingSlot_Update_m346C2ED384C7372152828C3F19BCDA793E1F4793(L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:34>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_1 = __this->___slot2;
+		NullCheck(L_1);
+		CookingSlot_Update_m346C2ED384C7372152828C3F19BCDA793E1F4793(L_1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:35>
+		return;
+	}
+}
+// Method Definition Index: 70385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stove_Interact_mE266773E306DD2045ACD17B63013D601D4E0901C (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___0_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral16F779FD4828272AE85589C8D4D27A847CA7D468);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D402F80A0058CB1396DCF166F6F50F5599C6380);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFC4F004994ADB7624BDD54B6DC94B83F76CB7174);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_0 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:39>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_0 = ___0_interactor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:40>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:43>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_2 = ___0_interactor;
+		NullCheck(L_2);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_3;
+		L_3 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_2, NULL);
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = PlayerHand_get_IsEmpty_m77C477802BD99D14D5A57D90B16ED21A39485CE2(L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:45>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:46>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:47>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_5 = __this->___slot1;
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_6 = ___0_interactor;
+		bool L_7;
+		L_7 = Stove_TryTakeFinishedIngredient_m76D143F5AE1E26317B6719F14095DFA3B8CDD11C(__this, L_5, L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:49>
+		return;
+	}
+
+IL_0027:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:52>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:53>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:54>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_8 = __this->___slot2;
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_9 = ___0_interactor;
+		bool L_10;
+		L_10 = Stove_TryTakeFinishedIngredient_m76D143F5AE1E26317B6719F14095DFA3B8CDD11C(__this, L_8, L_9, NULL);
+		if (!L_10)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:56>
+		return;
+	}
+
+IL_0037:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:60>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:61>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_11 = ___0_interactor;
+		NullCheck(L_11);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_12;
+		L_12 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_11, NULL);
+		NullCheck(L_12);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_13;
+		L_13 = PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8_inline(L_12, NULL);
+		V_0 = L_13;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:63>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_14 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_15;
+		L_15 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_14, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_15)
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:64>
+		return;
+	}
+
+IL_004d:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:66>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:67>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_16 = V_0;
+		NullCheck(L_16);
+		int32_t L_17;
+		L_17 = Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE(L_16, NULL);
+		if ((((int32_t)L_17) == ((int32_t)2)))
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:69>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:70>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:71>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralFC4F004994ADB7624BDD54B6DC94B83F76CB7174, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:73>
+		return;
+	}
+
+IL_0061:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:76>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:77>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_18 = V_0;
+		NullCheck(L_18);
+		int32_t L_19;
+		L_19 = Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47_inline(L_18, NULL);
+		if (!L_19)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:79>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:80>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:81>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral16F779FD4828272AE85589C8D4D27A847CA7D468, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:83>
+		return;
+	}
+
+IL_0074:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:86>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:87>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:88>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:89>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:90>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_20 = __this->___slot1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = __this->___slotPoint1;
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_22 = V_0;
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_23 = ___0_interactor;
+		bool L_24;
+		L_24 = Stove_TryPlaceIngredient_m4DDA28D90422F99FA8B9B39F6E8B4615339D7383(__this, L_20, L_21, L_22, L_23, NULL);
+		if (!L_24)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:92>
+		return;
+	}
+
+IL_008b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:95>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:96>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:97>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:98>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:99>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_25 = __this->___slot2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_26 = __this->___slotPoint2;
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_27 = V_0;
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_28 = ___0_interactor;
+		bool L_29;
+		L_29 = Stove_TryPlaceIngredient_m4DDA28D90422F99FA8B9B39F6E8B4615339D7383(__this, L_25, L_26, L_27, L_28, NULL);
+		if (!L_29)
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:101>
+		return;
+	}
+
+IL_00a2:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:104>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:105>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:106>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5D402F80A0058CB1396DCF166F6F50F5599C6380, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:107>
+		return;
+	}
+}
+// Method Definition Index: 70386
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Stove_TryPlaceIngredient_m4DDA28D90422F99FA8B9B39F6E8B4615339D7383 (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* ___0_slot, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_slotPoint, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___2_ingredient, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___3_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral31109A1C04FD12F1B5514AE2D2CCA2428B6FD280);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:115>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = ___0_slot;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = CookingSlot_get_IsOccupied_m5E694AEE1D4775F28AB1B5B8F5D23140C39267DB(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:116>
+		return (bool)0;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:118>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_2 = ___3_interactor;
+		NullCheck(L_2);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_3;
+		L_3 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_2, NULL);
+		NullCheck(L_3);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_4;
+		L_4 = PlayerHand_RemoveIngredient_m351BBB33469A338EA27E78CC706511ECA38B0123(L_3, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:120>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:121>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:122>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_5 = ___0_slot;
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_6 = ___2_ingredient;
+		NullCheck(L_5);
+		CookingSlot_PlaceIngredient_mDCBC2953A6724C2A37C6600DBF18964B39C0A9BF(L_5, L_6, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:124>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:125>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:126>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_7 = ___2_ingredient;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_7, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = ___1_slotPoint;
+		NullCheck(L_8);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_8, L_9, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:128>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:129>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_10 = ___2_ingredient;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_10, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		NullCheck(L_11);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_11, L_12, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:131>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:132>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_13 = ___2_ingredient;
+		NullCheck(L_13);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14;
+		L_14 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_13, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_15;
+		L_15 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		NullCheck(L_14);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_14, L_15, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:134>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:135>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:136>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral31109A1C04FD12F1B5514AE2D2CCA2428B6FD280, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:138>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 70387
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Stove_TryTakeFinishedIngredient_m76D143F5AE1E26317B6719F14095DFA3B8CDD11C (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* ___0_slot, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___1_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral690E4D552E54C51D9C45F129F48D79864452A991);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_0 = NULL;
+	bool G_B6_0 = false;
+	bool G_B5_0 = false;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:145>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = ___0_slot;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = CookingSlot_get_IsFinished_m0A8977A50DCB1264BD5C435A0883C7C4F77078C0_inline(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:146>
+		return (bool)0;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:148>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:149>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_2 = ___0_slot;
+		NullCheck(L_2);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_3;
+		L_3 = CookingSlot_TakeIngredient_m4ACB3C49D14D55C053BA4105404ACA7CD20FCB0A(L_2, NULL);
+		V_0 = L_3;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:151>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:152>
+		return (bool)0;
+	}
+
+IL_001c:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:154>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_6 = V_0;
+		NullCheck(L_6);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_6, NULL);
+		NullCheck(L_7);
+		Transform_SetParent_m6677538B60246D958DD91F931C50F969CCBB5250(L_7, (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:156>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:157>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:158>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:159>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_8 = ___1_interactor;
+		NullCheck(L_8);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_9;
+		L_9 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_8, NULL);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_10 = V_0;
+		NullCheck(L_9);
+		bool L_11;
+		L_11 = PlayerHand_TryPickup_m71E64A4EFB47F8D81F06DD233142B4B8981AACF2(L_9, L_10, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:161>
+		bool L_12 = L_11;
+		if (!L_12)
+		{
+			G_B6_0 = L_12;
+			goto IL_0041;
+		}
+		G_B5_0 = L_12;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:163>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:164>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:165>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral690E4D552E54C51D9C45F129F48D79864452A991, NULL);
+		G_B6_0 = G_B5_0;
+	}
+
+IL_0041:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:168>
+		return G_B6_0;
+	}
+}
+// Method Definition Index: 70388
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stove__ctor_mA0E743A7D004ECC8859ADF9C681EC0B6053A7237 (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70389
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestInteractable_Interact_m2966E45FA81899C001509F0FD677BD9ED1053AF9 (TestInteractable_t72C9F815BDF6AD4FBF90844A0CACD48CC75B27BA* __this, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___0_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3BD49FAE6144AF7FCA61D6B3232A69073EA99CAD);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TestInteractable.cs:7>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		String_t* L_1;
+		L_1 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_0, NULL);
+		String_t* L_2;
+		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral3BD49FAE6144AF7FCA61D6B3232A69073EA99CAD, L_1, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TestInteractable.cs:8>
+		return;
+	}
+}
+// Method Definition Index: 70390
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TestInteractable__ctor_m85D65A1A65458618624808AC985E32B5D9577D9E (TestInteractable_t72C9F815BDF6AD4FBF90844A0CACD48CC75B27BA* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70391
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrashBin_Interact_m5D17629CDDF3050D42B38C0FF530F051B684988B (TrashBin_t1BC703CBE84DB437AF75681AE60C5E4921D2D853* __this, PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* ___0_interactor, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAB033203FDE20DD78C6E473F1B01979FF309A495);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF69158F86D9ECCA85CC5E02E72699C9046125690);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* V_0 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:7>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_0 = ___0_interactor;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:8>
+		return;
+	}
+
+IL_000a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:10>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:11>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_2 = ___0_interactor;
+		NullCheck(L_2);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_3;
+		L_3 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_2, NULL);
+		NullCheck(L_3);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_4;
+		L_4 = PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8_inline(L_3, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:13>
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:15>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF69158F86D9ECCA85CC5E02E72699C9046125690, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:16>
+		return;
+	}
+
+IL_0028:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:19>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:20>
+		PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* L_6 = ___0_interactor;
+		NullCheck(L_6);
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_7;
+		L_7 = PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline(L_6, NULL);
+		NullCheck(L_7);
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_8;
+		L_8 = PlayerHand_RemoveIngredient_m351BBB33469A338EA27E78CC706511ECA38B0123(L_7, NULL);
+		V_0 = L_8;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:22>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_9 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:24>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:25>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:26>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_11 = V_0;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = Ingredient_get_Type_m9D6FEF6302831D48EAB3D70139D5237E3E1A3CAE(L_11, NULL);
+		int32_t L_13 = L_12;
+		RuntimeObject* L_14 = Box(IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var, &L_13);
+		String_t* L_15;
+		L_15 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralAB033203FDE20DD78C6E473F1B01979FF309A495, L_14, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:28>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:29>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:30>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_16 = V_0;
+		NullCheck(L_16);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
+		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_16, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_17, NULL);
+	}
+
+IL_0062:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/TrashBin.cs:32>
+		return;
+	}
+}
+// Method Definition Index: 70392
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrashBin__ctor_mBAF50EB90BAEAF5C0BCBCFF7A6C9D9AB977522D8 (TrashBin_t1BC703CBE84DB437AF75681AE60C5E4921D2D853* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70393
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingScoreUI_ShowScore_mD674663A76184B9EF4D6174629E69CB59E9047DF (FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* __this, int32_t ___0_score, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:15>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___scoreText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:16>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:19>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:21>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_3 = __this->___displayCoroutine;
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:23>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4 = __this->___displayCoroutine;
+		MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A(__this, L_4, NULL);
+	}
+
+IL_002f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:26>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:27>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:28>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:29>
+		int32_t L_5 = ___0_score;
+		RuntimeObject* L_6;
+		L_6 = FloatingScoreUI_ShowScoreCoroutine_mA54778DC111F84FC6E08EB33CA5F89681EC22BC5(__this, L_5, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
+		L_7 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_6, NULL);
+		__this->___displayCoroutine = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___displayCoroutine), (void*)L_7);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 70394
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FloatingScoreUI_ShowScoreCoroutine_mA54778DC111F84FC6E08EB33CA5F89681EC22BC5 (FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* __this, int32_t ___0_score, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* L_0 = (U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C*)il2cpp_codegen_object_new(U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C_il2cpp_TypeInfo_var);
+		U3CShowScoreCoroutineU3Ed__5__ctor_m7FBA5E6055B5D400E04F4EED8E27CDB877B1B9E6(L_0, 0, NULL);
+		U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* L_2 = L_1;
+		int32_t L_3 = ___0_score;
+		NullCheck(L_2);
+		L_2->___score = L_3;
+		return L_2;
+	}
+}
+// Method Definition Index: 70395
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatingScoreUI__ctor_mB1B1E30AA46269F5616C1BF0A99206C7DA328171 (FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:8>
+		__this->___displayDuration = (2.0f);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:9>
+		__this->___moveDistance = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70396
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowScoreCoroutineU3Ed__5__ctor_m7FBA5E6055B5D400E04F4EED8E27CDB877B1B9E6 (U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70397
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowScoreCoroutineU3Ed__5_System_IDisposable_Dispose_m4743C448B6E602EB84976F922D6C4F7B15F299C4 (U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 70398
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CShowScoreCoroutineU3Ed__5_MoveNext_mFA7CDB7B7DDB4A85A6F1ECB607AB0970F8F4DAF4 (U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B1340CD5A7B722CBA512201F52BB1E5DFCCF7A2);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* V_1 = NULL;
+	float V_2 = 0.0f;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0108;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:34>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_4 = V_1;
+		NullCheck(L_4);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = L_4->___scoreText;
+		int32_t L_6 = __this->___score;
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(il2cpp_defaults.int32_class, &L_7);
+		String_t* L_9;
+		L_9 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1B1340CD5A7B722CBA512201F52BB1E5DFCCF7A2, L_8, NULL);
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, L_9);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:36>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:37>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_10 = V_1;
+		NullCheck(L_10);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
+		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_10, NULL);
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_11, NULL);
+		__this->___U3CstartPositionU3E5__2 = L_12;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:39>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:40>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:41>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = __this->___U3CstartPositionU3E5__2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_15 = V_1;
+		NullCheck(L_15);
+		float L_16 = L_15->___moveDistance;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
+		L_17 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_14, L_16, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_13, L_17, NULL);
+		__this->___U3CtargetPositionU3E5__3 = L_18;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:43>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:44>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_19 = V_1;
+		NullCheck(L_19);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_20 = L_19->___scoreText;
+		NullCheck(L_20);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_21;
+		L_21 = VirtualFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(22, L_20);
+		__this->___U3CstartColorU3E5__4 = L_21;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:46>
+		__this->___U3CelapsedU3E5__5 = (0.0f);
+		goto IL_010f;
+	}
+
+IL_0091:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:50>
+		float L_22 = __this->___U3CelapsedU3E5__5;
+		float L_23;
+		L_23 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		__this->___U3CelapsedU3E5__5 = ((float)il2cpp_codegen_add(L_22, L_23));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:52>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:53>
+		float L_24 = __this->___U3CelapsedU3E5__5;
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_25 = V_1;
+		NullCheck(L_25);
+		float L_26 = L_25->___displayDuration;
+		V_2 = ((float)(L_24/L_26));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:55>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:56>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:57>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:58>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:59>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:60>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_27 = V_1;
+		NullCheck(L_27);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_28;
+		L_28 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_27, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = __this->___U3CstartPositionU3E5__2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = __this->___U3CtargetPositionU3E5__3;
+		float L_31 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_29, L_30, L_31, NULL);
+		NullCheck(L_28);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_28, L_32, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:62>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:63>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_33 = __this->___U3CstartColorU3E5__4;
+		V_3 = L_33;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:65>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:66>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:67>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:68>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:69>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:70>
+		float L_34 = V_2;
+		float L_35;
+		L_35 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline((1.0f), (0.0f), L_34, NULL);
+		(&V_3)->___a = L_35;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:72>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:73>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_36 = V_1;
+		NullCheck(L_36);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_37 = L_36->___scoreText;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_38 = V_3;
+		NullCheck(L_37);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_37, L_38);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:75>
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0108:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_010f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:48>
+		float L_39 = __this->___U3CelapsedU3E5__5;
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_40 = V_1;
+		NullCheck(L_40);
+		float L_41 = L_40->___displayDuration;
+		if ((((float)L_39) < ((float)L_41)))
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:78>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:79>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_42 = V_1;
+		NullCheck(L_42);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43;
+		L_43 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_42, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44 = __this->___U3CstartPositionU3E5__2;
+		NullCheck(L_43);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_43, L_44, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:81>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:82>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_45 = V_1;
+		NullCheck(L_45);
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_46 = L_45->___scoreText;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_47 = __this->___U3CstartColorU3E5__4;
+		NullCheck(L_46);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_46, L_47);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:84>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_48 = V_1;
+		NullCheck(L_48);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_49;
+		L_49 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_48, NULL);
+		NullCheck(L_49);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_49, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:86>
+		FloatingScoreUI_t5395ACB93CE1481D34D15CB3C7C1FDAC6A7970F6* L_50 = V_1;
+		NullCheck(L_50);
+		L_50->___displayCoroutine = (Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_50->___displayCoroutine), (void*)(Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B*)NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/FloatingScoreUI.cs:87>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 70399
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowScoreCoroutineU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF6E1D21A5A2E205C38EB64CACA05712C878C7D3F (U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 70400
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CShowScoreCoroutineU3Ed__5_System_Collections_IEnumerator_Reset_m6C9F9C77427627B8FF8A65E19A8F3B3098638106 (U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CShowScoreCoroutineU3Ed__5_System_Collections_IEnumerator_Reset_m6C9F9C77427627B8FF8A65E19A8F3B3098638106_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 70401
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CShowScoreCoroutineU3Ed__5_System_Collections_IEnumerator_get_Current_mC23FDFDBE0A4FA2474D0C7D1290C6A79910B964B (U3CShowScoreCoroutineU3Ed__5_t6D1086C74A601F7451744DFAD88CDA02E680E35C* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70402
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverUI_Start_m84CA359C6D8294B13515A99B16C97C0DA2734DEC (GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:18>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___gameOverPanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:20>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_1 = __this->___newHighScoreText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:22>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_3 = __this->___newHighScoreText;
+		NullCheck(L_3);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
+		NullCheck(L_4);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, (bool)0, NULL);
+	}
+
+IL_002b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 70403
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverUI_ShowGameOver_mC6053A57C0771CCEC869E38FB91F903EA62B490D (GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral518D34A6E4F1574A69E8A1CF90CFCA1F8084D364);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58C7DC3DDD58A5115E9FC4D913D4B65FBCA68D81);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:28>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:29>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_2 = __this->___scoreManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:31>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:34>
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_4 = __this->___scoreManager;
+		NullCheck(L_4);
+		ScoreManager_FinalizeScore_mFE6B0D128DC4A6641EEB0446A1641C7C0FE1F563(L_4, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:36>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:37>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___finalScoreText;
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_6 = __this->___scoreManager;
+		NullCheck(L_6);
+		int32_t L_7;
+		L_7 = ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7_inline(L_6, NULL);
+		int32_t L_8 = L_7;
+		RuntimeObject* L_9 = Box(il2cpp_defaults.int32_class, &L_8);
+		String_t* L_10;
+		L_10 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral518D34A6E4F1574A69E8A1CF90CFCA1F8084D364, L_9, NULL);
+		NullCheck(L_5);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_5, L_10);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:39>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:40>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___highScoreText;
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_12 = __this->___scoreManager;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C_inline(L_12, NULL);
+		int32_t L_14 = L_13;
+		RuntimeObject* L_15 = Box(il2cpp_defaults.int32_class, &L_14);
+		String_t* L_16;
+		L_16 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral58C7DC3DDD58A5115E9FC4D913D4B65FBCA68D81, L_15, NULL);
+		NullCheck(L_11);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, L_16);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:42>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_17 = __this->___newHighScoreText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_18;
+		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:44>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:45>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:46>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_19 = __this->___newHighScoreText;
+		NullCheck(L_19);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
+		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_19, NULL);
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_21 = __this->___scoreManager;
+		NullCheck(L_21);
+		bool L_22;
+		L_22 = ScoreManager_get_IsNewHighScore_mD5318FF51B78991975C66BBE12741F4B5B3E4C34_inline(L_21, NULL);
+		NullCheck(L_20);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, L_22, NULL);
+	}
+
+IL_009b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:49>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___gameOverPanel;
+		NullCheck(L_23);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_23, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 70404
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverUI_Retry_m3D59E2183230ABB3B3CC45D3C7CDCE7D961651EE (GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:54>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:56>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:57>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:58>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
+		L_0 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
+		V_0 = L_0;
+		String_t* L_1;
+		L_1 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_0), NULL);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 70405
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverUI_MainMenu_mC07BD56C189D1EB3E88AD7FCB01656E2DB00432B (GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:63>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:65>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:66>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:67>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameOverUI.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 70406
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameOverUI__ctor_m4B0946014D6506CDF3EEB50FE0E45A95F320766F (GameOverUI_tED6E1D9D1616BF7C870AEDB25B882281D25F4914* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70407
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameTimerUI_Update_mD42C60A7D35A05E040DC783ABF8CD953B6219797 (GameTimerUI_t6A39CFA21F196BC90E254BB5F9AA49506B719646* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:11>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___timerText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_001c:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:12>
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:14>
+		GameTimerUI_UpdateTimerDisplay_mECE8C9E78953FB3FF9692A9008B7DF937CBD0399(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 70408
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameTimerUI_UpdateTimerDisplay_mECE8C9E78953FB3FF9692A9008B7DF937CBD0399 (GameTimerUI_t6A39CFA21F196BC90E254BB5F9AA49506B719646* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:19>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:20>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		NullCheck(L_0);
+		float L_1;
+		L_1 = GameManager_get_RemainingTime_m486161B7EC9488500D5A3A1D66F5D08B74246EA3_inline(L_0, NULL);
+		int32_t L_2;
+		L_2 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(L_1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:22>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:23>
+		int32_t L_3 = L_2;
+		V_0 = ((int32_t)(L_3/((int32_t)60)));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:25>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:26>
+		V_1 = ((int32_t)(L_3%((int32_t)60)));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:28>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:29>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = __this->___timerText;
+		int32_t L_5 = V_0;
+		int32_t L_6 = L_5;
+		RuntimeObject* L_7 = Box(il2cpp_defaults.int32_class, &L_6);
+		int32_t L_8 = V_1;
+		int32_t L_9 = L_8;
+		RuntimeObject* L_10 = Box(il2cpp_defaults.int32_class, &L_9);
+		String_t* L_11;
+		L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8, L_7, L_10, NULL);
+		NullCheck(L_4);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, L_11);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/GameTimerUI.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 70409
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameTimerUI__ctor_mB712C7F7D17663AAD1CDC9205536F934A8E8248D (GameTimerUI_t6A39CFA21F196BC90E254BB5F9AA49506B719646* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70410
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_StartGame_m8FB75C50790940C87A983517C4C08F4159A8A7D0 (MainMenu_t5A8A8E4906FD2B24D16567A6BFFDAA6B91DD12DF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:10>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:12>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:13>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:14>
+		String_t* L_0 = __this->___gameplaySceneName;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 70411
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_QuitGame_mBF761274C14BD7341FE8C32A538D28343B63EDC4 (MainMenu_t5A8A8E4906FD2B24D16567A6BFFDAA6B91DD12DF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFAB26B76C5BC4AB82BD5FDE8AA07D8BD73DC951B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:19>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:21>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:23>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralFAB26B76C5BC4AB82BD5FDE8AA07D8BD73DC951B, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 70412
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD (MainMenu_t5A8A8E4906FD2B24D16567A6BFFDAA6B91DD12DF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral884820433266E121D9AF505AF4DE98B3BA081DC8);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/MainMenu.cs:6>
+		__this->___gameplaySceneName = _stringLiteral884820433266E121D9AF505AF4DE98B3BA081DC8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___gameplaySceneName), (void*)_stringLiteral884820433266E121D9AF505AF4DE98B3BA081DC8);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70413
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderUI_Show_m1E1916305DEDA6C83D48A3B58BDD261F85CDE14F (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* ___0_order, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:12>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:14>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_1 = ___0_order;
+		OrderUI_UpdateOrder_mEB6CD3E5F52B341E41529EE3C853F3D8108BCC99(__this, L_1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:15>
+		return;
+	}
+}
+// Method Definition Index: 70414
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderUI_UpdateOrder_mEB6CD3E5F52B341E41529EE3C853F3D8108BCC99 (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* ___0_order, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mBDB4BDE48EF38D7C67DD01C07D3EF0FBF9450181_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m778A48AEB1373307A3BFAB3EB1DB7512F84521F0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m3F426C90800A277E998126095C4507F4F0CE747D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m12C700AB2B4A0C3875CEF6F420AB1EE18D8C2182_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringBuilder_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t* V_0 = NULL;
+	Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* V_2 = NULL;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:19>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_0 = ___0_order;
+		if (L_0)
+		{
+			goto IL_0004;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:20>
+		return;
+	}
+
+IL_0004:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:22>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:23>
+		StringBuilder_t* L_1 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_1, NULL);
+		V_0 = L_1;
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:26>
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_2 = ___0_order;
+		NullCheck(L_2);
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_3;
+		L_3 = Order_get_RequiredIngredients_mBEA257401B85202E42F55A6D610E04428118E840_inline(L_2, NULL);
+		NullCheck(L_3);
+		Enumerator_tD522C256283253C120C45989F985F5F0E7CF00E1 L_4;
+		L_4 = List_1_GetEnumerator_m12C700AB2B4A0C3875CEF6F420AB1EE18D8C2182(L_3, List_1_GetEnumerator_m12C700AB2B4A0C3875CEF6F420AB1EE18D8C2182_RuntimeMethod_var);
+		V_1 = L_4;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0068:
+			{
+				Enumerator_Dispose_mBDB4BDE48EF38D7C67DD01C07D3EF0FBF9450181((&V_1), Enumerator_Dispose_mBDB4BDE48EF38D7C67DD01C07D3EF0FBF9450181_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_005d_1;
+			}
+
+IL_0018_1:
+			{
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:25>
+				IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_5;
+				L_5 = Enumerator_get_Current_m3F426C90800A277E998126095C4507F4F0CE747D_inline((&V_1), Enumerator_get_Current_m3F426C90800A277E998126095C4507F4F0CE747D_RuntimeMethod_var);
+				V_2 = L_5;
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:28>
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:29>
+				StringBuilder_t* L_6 = V_0;
+				IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_7 = V_2;
+				NullCheck(L_7);
+				int32_t L_8 = L_7->___type;
+				String_t* L_9;
+				L_9 = OrderUI_GetIngredientSymbol_m12776EA9B9F05525799702FED2DE040FB1803BCB(__this, L_8, NULL);
+				NullCheck(L_6);
+				StringBuilder_t* L_10;
+				L_10 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_6, L_9, NULL);
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:31>
+				StringBuilder_t* L_11 = V_0;
+				NullCheck(L_11);
+				StringBuilder_t* L_12;
+				L_12 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_11, _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745, NULL);
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:33>
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:34>
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:35>
+				StringBuilder_t* L_13 = V_0;
+				IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_14 = V_2;
+				NullCheck(L_14);
+				int32_t L_15 = L_14->___type;
+				int32_t L_16 = L_15;
+				RuntimeObject* L_17 = Box(IngredientType_tCF79FFF112314BA6CFEF0DB738B13290782C58AC_il2cpp_TypeInfo_var, &L_16);
+				NullCheck(L_13);
+				StringBuilder_t* L_18;
+				L_18 = StringBuilder_Append_m3A7D629DAA5E0E36B8A617A911E34F79AF84AE63(L_13, L_17, NULL);
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:37>
+				StringBuilder_t* L_19 = V_0;
+				NullCheck(L_19);
+				StringBuilder_t* L_20;
+				L_20 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_19, _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD, NULL);
+			}
+
+IL_005d_1:
+			{
+				//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:26>
+				bool L_21;
+				L_21 = Enumerator_MoveNext_m778A48AEB1373307A3BFAB3EB1DB7512F84521F0((&V_1), Enumerator_MoveNext_m778A48AEB1373307A3BFAB3EB1DB7512F84521F0_RuntimeMethod_var);
+				if (L_21)
+				{
+					goto IL_0018_1;
+				}
+			}
+			{
+				goto IL_0076;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0076:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:40>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:41>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_22 = __this->___ingredientsText;
+		StringBuilder_t* L_23 = V_0;
+		NullCheck(L_23);
+		String_t* L_24;
+		L_24 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_23);
+		NullCheck(L_22);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_22, L_24);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:43>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:44>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25 = __this->___timerText;
+		Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* L_26 = ___0_order;
+		NullCheck(L_26);
+		float L_27;
+		L_27 = Order_get_OpenDuration_mCAEA55B469A61BA8D86C1E022089ED545D275C21(L_26, NULL);
+		String_t* L_28;
+		L_28 = OrderUI_FormatTime_m6BFE72E1BDCA83A4E9B6C80E0A23B7F731B0FE4A(__this, L_27, NULL);
+		NullCheck(L_25);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_28);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:45>
+		return;
+	}
+}
+// Method Definition Index: 70415
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderUI_Hide_mB82A928CF0D277CD5A5841A37C40135D2228D8FF (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:49>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 70416
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OrderUI_FormatTime_m6BFE72E1BDCA83A4E9B6C80E0A23B7F731B0FE4A (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, float ___0_seconds, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:54>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:55>
+		float L_0 = ___0_seconds;
+		int32_t L_1;
+		L_1 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:57>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:58>
+		int32_t L_2 = L_1;
+		V_0 = ((int32_t)(L_2/((int32_t)60)));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:60>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:61>
+		V_1 = ((int32_t)(L_2%((int32_t)60)));
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:63>
+		int32_t L_3 = V_0;
+		int32_t L_4 = L_3;
+		RuntimeObject* L_5 = Box(il2cpp_defaults.int32_class, &L_4);
+		int32_t L_6 = V_1;
+		int32_t L_7 = L_6;
+		RuntimeObject* L_8 = Box(il2cpp_defaults.int32_class, &L_7);
+		String_t* L_9;
+		L_9 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8, L_5, L_8, NULL);
+		return L_9;
+	}
+}
+// Method Definition Index: 70417
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OrderUI_GetIngredientSymbol_m12776EA9B9F05525799702FED2DE040FB1803BCB (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, int32_t ___0_type, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral55706C7EEE13B573CED539A60499C76B0ADB0451);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral68B1697B014FE16A16FE8D9A8095E3582C8BF865);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8E0BF8A2047266257FC4376A05577CA290A1A9DA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral9DDB2E0D948AEA069663122B5CE08F313B4AE61F);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___0_type;
+		switch (L_0)
+		{
+			case 0:
+			{
+				goto IL_0014;
+			}
+			case 1:
+			{
+				goto IL_001a;
+			}
+			case 2:
+			{
+				goto IL_0020;
+			}
+		}
+	}
+	{
+		goto IL_0026;
+	}
+
+IL_0014:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:72>
+		return _stringLiteral55706C7EEE13B573CED539A60499C76B0ADB0451;
+	}
+
+IL_001a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:75>
+		return _stringLiteral68B1697B014FE16A16FE8D9A8095E3582C8BF865;
+	}
+
+IL_0020:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:78>
+		return _stringLiteral8E0BF8A2047266257FC4376A05577CA290A1A9DA;
+	}
+
+IL_0026:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/OrderUI.cs:81>
+		return _stringLiteral9DDB2E0D948AEA069663122B5CE08F313B4AE61F;
+	}
+}
+// Method Definition Index: 70418
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrderUI__ctor_m8AB00920CD58E505CFACA3C0538317FF4F73E4EB (OrderUI_t32084737D79B22183025CA5757B7C0A90DFC23DA* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70419
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_Start_m4BBF1E67B42A2E936C792E83778ADCD87DE3C80E (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:12>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___pausePanel;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:13>
+		return;
+	}
+}
+// Method Definition Index: 70420
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_Update_m5097E74BFD4385B73BA9EF7198886DCEC7DF9A83 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral202817957E925A0976480F265A2C60F529845B8A);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:17>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_0;
+		L_0 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:18>
+		return;
+	}
+
+IL_0008:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:20>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_1;
+		L_1 = Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline(NULL);
+		NullCheck(L_1);
+		KeyControl_t1686D14A78AEC9364B8C7628DD482DE99CC20FE0* L_2;
+		L_2 = Keyboard_get_escapeKey_mA4371467E72AA14713681C30A9B3AC41F3C9D707(L_1, NULL);
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = ButtonControl_get_wasPressedThisFrame_m6ED1DB185035A406B0659A055C3096A5058DBD5B(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:22>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral202817957E925A0976480F265A2C60F529845B8A, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:24>
+		PauseMenu_TogglePause_m0ECA650E172B80A8664C907E43791523CC969FE1(__this, NULL);
+	}
+
+IL_0029:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:26>
+		return;
+	}
+}
+// Method Definition Index: 70421
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_TogglePause_m0ECA650E172B80A8664C907E43791523CC969FE1 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral26E8BDE9915DF2D5F52CB03181CA01C4854A0AB3);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:30>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:32>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:33>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:34>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral26E8BDE9915DF2D5F52CB03181CA01C4854A0AB3, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:36>
+		return;
+	}
+
+IL_0019:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:39>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:40>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = __this->___gameManager;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline(L_2, NULL);
+		if (L_3)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:42>
+		PauseMenu_OpenPauseMenu_m0E0CC7533A8CBC96C8834E9C76C3E706466E496D(__this, NULL);
+		return;
+	}
+
+IL_002d:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:44>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:45>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = __this->___gameManager;
+		NullCheck(L_4);
+		int32_t L_5;
+		L_5 = GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline(L_4, NULL);
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:47>
+		PauseMenu_ClosePauseMenu_m3219C11348E15C30E63C2F6CEC824ECED86A3529(__this, NULL);
+	}
+
+IL_0041:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 70422
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_OpenPauseMenu_m0E0CC7533A8CBC96C8834E9C76C3E706466E496D (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral215CFA1248FF7BC7D31A02CCCC75E64D8A728AF7);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:53>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral215CFA1248FF7BC7D31A02CCCC75E64D8A728AF7, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:55>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		NullCheck(L_0);
+		GameManager_PauseGame_m71EF0E0188E18168F8B12288BA3363109B0C5D5A(L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:57>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___pausePanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:58>
+		return;
+	}
+}
+// Method Definition Index: 70423
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_ClosePauseMenu_m3219C11348E15C30E63C2F6CEC824ECED86A3529 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral558AE68FDF4115DE1C84526C8A5C6EE1330FEA6C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:62>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral558AE68FDF4115DE1C84526C8A5C6EE1330FEA6C, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:64>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		NullCheck(L_0);
+		GameManager_ResumeGame_m4E9452E3FE77FD421C8178B1BFE541BA22FAC993(L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:66>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___pausePanel;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:67>
+		return;
+	}
+}
+// Method Definition Index: 70424
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_Resume_mA45D6E4F27172EF775FC2D3F694BE90882DBE831 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:71>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_0 = __this->___gameManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:72>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:74>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:75>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_2 = __this->___gameManager;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline(L_2, NULL);
+		if ((!(((uint32_t)L_3) == ((uint32_t)1))))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:77>
+		GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* L_4 = __this->___gameManager;
+		NullCheck(L_4);
+		GameManager_ResumeGame_m4E9452E3FE77FD421C8178B1BFE541BA22FAC993(L_4, NULL);
+	}
+
+IL_0028:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:80>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___pausePanel;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:81>
+		return;
+	}
+}
+// Method Definition Index: 70425
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_MainMenu_mEB01C45B5CC2F6E8EE0A84D839C4697B00913B25 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:85>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:87>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral000E6F488C4BFBAD929A9ED558662797D830E719, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:88>
+		return;
+	}
+}
+// Method Definition Index: 70426
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu_QuitGame_m699C16B5AE66C12C48F4D7B4821169679C5FF760 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFAB26B76C5BC4AB82BD5FDE8AA07D8BD73DC951B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:92>
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331((1.0f), NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:94>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:96>
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralFAB26B76C5BC4AB82BD5FDE8AA07D8BD73DC951B, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PauseMenu.cs:97>
+		return;
+	}
+}
+// Method Definition Index: 70427
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PauseMenu__ctor_m81B0E020DC5008DA4D414200BAAF7122B430D826 (PauseMenu_t36539DEACE8377BD498A235C80769301799E1985* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70428
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationProgressUI_UpdateProgress_mF4FC448B65A609AEE6A9CAA0CECB87C10DC845B7 (PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* __this, float ___0_progress, float ___1_remainingTime, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral458268149182DF497B8C679578D8CFD2D648D098);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationProgressUI.cs:12>
+		Slider_t87EA570E3D6556CABF57456C2F3873FFD86E652F* L_0 = __this->___progressSlider;
+		float L_1 = ___0_progress;
+		NullCheck(L_0);
+		VirtualActionInvoker1< float >::Invoke(47, L_0, L_1);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationProgressUI.cs:13>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___timeText;
+		float L_3 = ___1_remainingTime;
+		float L_4 = L_3;
+		RuntimeObject* L_5 = Box(il2cpp_defaults.single_class, &L_4);
+		String_t* L_6;
+		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral458268149182DF497B8C679578D8CFD2D648D098, L_5, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_6);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationProgressUI.cs:14>
+		return;
+	}
+}
+// Method Definition Index: 70429
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationProgressUI_Show_mC05687BCDB1A5258FE21EB79B0F49BD23303E59D (PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationProgressUI.cs:18>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationProgressUI.cs:19>
+		return;
+	}
+}
+// Method Definition Index: 70430
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51 (PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationProgressUI.cs:23>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationProgressUI.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 70431
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationProgressUI__ctor_m09C36C2D4298C0A6892ADA63E9CA30F120C67039 (PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70432
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_Start_mFEA8DB25BDCF41EA75331101A7D8988C19005318 (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:15>
+		PreparationUIManager_HideAll_m31A90AD100CB93E28EF782369D8292F9F9CFA50A(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:16>
+		return;
+	}
+}
+// Method Definition Index: 70433
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_Update_mB02A1C86577856E68CC04A7C28396D77373D7EEE (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:20>
+		PreparationUIManager_UpdateChoppingProgress_m5EEE3A5BB2DDAE80539D167520BF946F4E9B8F2E(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:21>
+		PreparationUIManager_UpdateStoveProgress_m515A6D26E72434BDE5AD41D080B4769746FC807B(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 70434
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_RegisterChoppingStation_m224965B9105718B8355013FEA177BD745C0FB21D (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* ___0_station, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:27>
+		ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* L_0 = ___0_station;
+		__this->___choppingStation = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___choppingStation), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 70435
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_RegisterStove_m95F607DCED79414C34E3FCD674179C1255F7DC46 (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* ___0_stoveStation, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:33>
+		Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* L_0 = ___0_stoveStation;
+		__this->___stove = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___stove), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 70436
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_UpdateChoppingProgress_m5EEE3A5BB2DDAE80539D167520BF946F4E9B8F2E (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:38>
+		ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* L_0 = __this->___choppingStation;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:40>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_2 = __this->___chopProgress;
+		NullCheck(L_2);
+		PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51(L_2, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:41>
+		return;
+	}
+
+IL_001a:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:44>
+		ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* L_3 = __this->___choppingStation;
+		NullCheck(L_3);
+		bool L_4;
+		L_4 = ChoppingStation_get_IsChopping_mC8ECA3479151E41655DC4C2A28F8CC634FA35C7B_inline(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:46>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_5 = __this->___chopProgress;
+		NullCheck(L_5);
+		PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51(L_5, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:47>
+		return;
+	}
+
+IL_0033:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:50>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_6 = __this->___chopProgress;
+		NullCheck(L_6);
+		PreparationProgressUI_Show_mC05687BCDB1A5258FE21EB79B0F49BD23303E59D(L_6, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:52>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:53>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:54>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:55>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_7 = __this->___chopProgress;
+		ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* L_8 = __this->___choppingStation;
+		NullCheck(L_8);
+		float L_9;
+		L_9 = ChoppingStation_get_Progress_m8F0D943A0C5915EE5E8D1781B4F8FE9BEEC90A58(L_8, NULL);
+		ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* L_10 = __this->___choppingStation;
+		NullCheck(L_10);
+		float L_11;
+		L_11 = ChoppingStation_get_RemainingTime_m0541B262AAD5C19FD1A923EE639D76D34CA808C8_inline(L_10, NULL);
+		NullCheck(L_7);
+		PreparationProgressUI_UpdateProgress_mF4FC448B65A609AEE6A9CAA0CECB87C10DC845B7(L_7, L_9, L_11, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:56>
+		return;
+	}
+}
+// Method Definition Index: 70437
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_UpdateStoveProgress_m515A6D26E72434BDE5AD41D080B4769746FC807B (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:60>
+		Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* L_0 = __this->___stove;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:62>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_2 = __this->___stoveProgress1;
+		NullCheck(L_2);
+		PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51(L_2, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:63>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_3 = __this->___stoveProgress2;
+		NullCheck(L_3);
+		PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51(L_3, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:64>
+		return;
+	}
+
+IL_0025:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:67>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:68>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:69>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:70>
+		Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* L_4 = __this->___stove;
+		NullCheck(L_4);
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_5;
+		L_5 = Stove_get_Slot1_mC59ECDA17F1BCC5AAB6EDB2D317B30CC9C7257BD_inline(L_4, NULL);
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_6 = __this->___stoveProgress1;
+		PreparationUIManager_UpdateStoveSlot_m1D68A01081D54E246171DB417BE6896988B17E41(__this, L_5, L_6, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:72>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:73>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:74>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:75>
+		Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* L_7 = __this->___stove;
+		NullCheck(L_7);
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_8;
+		L_8 = Stove_get_Slot2_mF350FA46F5CEFF3A2874CFCB404ACE71B217DD1D_inline(L_7, NULL);
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_9 = __this->___stoveProgress2;
+		PreparationUIManager_UpdateStoveSlot_m1D68A01081D54E246171DB417BE6896988B17E41(__this, L_8, L_9, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 70438
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_UpdateStoveSlot_m1D68A01081D54E246171DB417BE6896988B17E41 (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* ___0_slot, PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* ___1_progressUI, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:82>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = ___0_slot;
+		if (!L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_1 = ___0_slot;
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = CookingSlot_get_IsCooking_m5CA70CCD39E237C541A8DB19A76BD5AF2DF24D1F_inline(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_0012;
+		}
+	}
+
+IL_000b:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:84>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_3 = ___1_progressUI;
+		NullCheck(L_3);
+		PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51(L_3, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:85>
+		return;
+	}
+
+IL_0012:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:88>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_4 = ___1_progressUI;
+		NullCheck(L_4);
+		PreparationProgressUI_Show_mC05687BCDB1A5258FE21EB79B0F49BD23303E59D(L_4, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:90>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:91>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:92>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:93>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_5 = ___1_progressUI;
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_6 = ___0_slot;
+		NullCheck(L_6);
+		float L_7;
+		L_7 = CookingSlot_get_Progress_mE7A5F3812FA3778A30A4AFAA6F732C3D5075E61E(L_6, NULL);
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_8 = ___0_slot;
+		NullCheck(L_8);
+		float L_9;
+		L_9 = CookingSlot_get_RemainingTime_mB3A0449F444F7481F4FB58C7FE0EF905E6139A40_inline(L_8, NULL);
+		NullCheck(L_5);
+		PreparationProgressUI_UpdateProgress_mF4FC448B65A609AEE6A9CAA0CECB87C10DC845B7(L_5, L_7, L_9, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:94>
+		return;
+	}
+}
+// Method Definition Index: 70439
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager_HideAll_m31A90AD100CB93E28EF782369D8292F9F9CFA50A (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:98>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_0 = __this->___chopProgress;
+		NullCheck(L_0);
+		PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51(L_0, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:99>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_1 = __this->___stoveProgress1;
+		NullCheck(L_1);
+		PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51(L_1, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:100>
+		PreparationProgressUI_t437B8E1D35EE51877B11EBEA987ACDE6AC5E68DC* L_2 = __this->___stoveProgress2;
+		NullCheck(L_2);
+		PreparationProgressUI_Hide_m7EBA1306A79FE3861244473794E86BD05D394E51(L_2, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:101>
+		return;
+	}
+}
+// Method Definition Index: 70440
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreparationUIManager__ctor_mC41A856A622DA7BCB927D7D435BA8C07EBF63B90 (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70441
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreUI_Update_mDD5EDCB72E1EE85D7016F18E74B493C88B9DF92E (ScoreUI_t129DB09BDD97A1D22CA9CD0452C85E2784D3FA31* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:12>
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_0 = __this->___scoreManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:13>
+		return;
+	}
+
+IL_000f:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:15>
+		ScoreUI_UpdateScoreDisplay_m950D1259266C3B54D8CC735A6E7B2CB41A3312A2(__this, NULL);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:16>
+		return;
+	}
+}
+// Method Definition Index: 70442
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreUI_UpdateScoreDisplay_m950D1259266C3B54D8CC735A6E7B2CB41A3312A2 (ScoreUI_t129DB09BDD97A1D22CA9CD0452C85E2784D3FA31* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral58C7DC3DDD58A5115E9FC4D913D4B65FBCA68D81);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral679C291DDDABA344C75D8BC842F0F95E46B6B2EA);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:20>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___scoreText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:22>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:23>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___scoreText;
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_3 = __this->___scoreManager;
+		NullCheck(L_3);
+		int32_t L_4;
+		L_4 = ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7_inline(L_3, NULL);
+		int32_t L_5 = L_4;
+		RuntimeObject* L_6 = Box(il2cpp_defaults.int32_class, &L_5);
+		String_t* L_7;
+		L_7 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral679C291DDDABA344C75D8BC842F0F95E46B6B2EA, L_6, NULL);
+		NullCheck(L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_2, L_7);
+	}
+
+IL_0033:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:26>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = __this->___highScoreText;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:28>
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:29>
+		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_10 = __this->___highScoreText;
+		ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* L_11 = __this->___scoreManager;
+		NullCheck(L_11);
+		int32_t L_12;
+		L_12 = ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C_inline(L_11, NULL);
+		int32_t L_13 = L_12;
+		RuntimeObject* L_14 = Box(il2cpp_defaults.int32_class, &L_13);
+		String_t* L_15;
+		L_15 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral58C7DC3DDD58A5115E9FC4D913D4B65FBCA68D81, L_14, NULL);
+		NullCheck(L_10);
+		VirtualActionInvoker1< String_t* >::Invoke(66, L_10, L_15);
+	}
+
+IL_0066:
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/ScoreUI.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 70443
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScoreUI__ctor_m4B5951252F3A98C676CFF9796A610D01F1B536A2 (ScoreUI_t129DB09BDD97A1D22CA9CD0452C85E2784D3FA31* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70444
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (Readme_tE17B99201D0F52BD5727638AD3F41072A65B3BBB* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70445
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (Section_t50C894D0A717C2368EBAAE5477D4E8626D0B5401* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 70446
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3C7184C085FD01A0B7E755F49160DC63F0C063B89953A4D98EC5D4B80534B05D_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____D6F6E0E16A71CA5FE0B3B34C12B9865F84DBDA0B79111C9C3ECA2765AB264F6C_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Unity.SourceGenerators/Unity.MonoScriptGenerator.MonoScriptInfoGenerator/AssemblyMonoScriptTypes.generated.cs:121>
+		il2cpp_codegen_initobj((&V_0), sizeof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)1212));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____D6F6E0E16A71CA5FE0B3B34C12B9865F84DBDA0B79111C9C3ECA2765AB264F6C_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		(&V_0)->___FilePathsData = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___FilePathsData), (void*)L_1);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)495));
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3C7184C085FD01A0B7E755F49160DC63F0C063B89953A4D98EC5D4B80534B05D_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		(&V_0)->___TypesData = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&(&V_0)->___TypesData), (void*)L_4);
+		(&V_0)->___TotalFiles = ((int32_t)27);
+		(&V_0)->___TotalTypes = ((int32_t)28);
+		(&V_0)->___IsEditorOnly = (bool)0;
+		MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 70447
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tC95F24D0C6E6B77389433852BB389F39C692926E* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_pinvoke_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_pinvoke& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	marshaled.___FilePathsData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___FilePathsData);
+	marshaled.___TypesData = il2cpp_codegen_com_marshal_safe_array(IL2CPP_VT_I1, unmarshaled.___TypesData);
+	marshaled.___TotalTypes = unmarshaled.___TotalTypes;
+	marshaled.___TotalFiles = unmarshaled.___TotalFiles;
+	marshaled.___IsEditorOnly = static_cast<int32_t>(unmarshaled.___IsEditorOnly);
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_back(const MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled, MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E& unmarshaled)
+{
+	unmarshaled.___FilePathsData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___FilePathsData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___FilePathsData));
+	unmarshaled.___TypesData = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData);
+	Il2CppCodeGenWriteBarrier((void**)(&unmarshaled.___TypesData), (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)il2cpp_codegen_com_marshal_safe_array_result(IL2CPP_VT_I1, il2cpp_defaults.byte_class, marshaled.___TypesData));
+	int32_t unmarshaledTotalTypes_temp_2 = 0;
+	unmarshaledTotalTypes_temp_2 = marshaled.___TotalTypes;
+	unmarshaled.___TotalTypes = unmarshaledTotalTypes_temp_2;
+	int32_t unmarshaledTotalFiles_temp_3 = 0;
+	unmarshaledTotalFiles_temp_3 = marshaled.___TotalFiles;
+	unmarshaled.___TotalFiles = unmarshaledTotalFiles_temp_3;
+	bool unmarshaledIsEditorOnly_temp_4 = false;
+	unmarshaledIsEditorOnly_temp_4 = static_cast<bool>(marshaled.___IsEditorOnly);
+	unmarshaled.___IsEditorOnly = unmarshaledIsEditorOnly_temp_4;
+}
+IL2CPP_EXTERN_C void MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshal_com_cleanup(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E_marshaled_com& marshaled)
+{
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___FilePathsData);
+	marshaled.___FilePathsData = NULL;
+	il2cpp_codegen_com_destroy_safe_array(marshaled.___TypesData);
+	marshaled.___TypesData = NULL;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 70261
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GameManager_get_CurrentState_m8601F6495AD59D3C4FDAD41364A66205F0295345_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:18>
+		int32_t L_0 = __this->___U3CCurrentStateU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70264
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameManager_set_RemainingTime_m64F909285944D4EE9734D54246C59F8A6F766C74_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:20>
+		float L_0 = ___0_value;
+		__this->___U3CRemainingTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70262
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GameManager_set_CurrentState_m7E72D28ED42D544DBB34FAEE1CC596017AE4AF6F_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:18>
+		int32_t L_0 = ___0_value;
+		__this->___U3CCurrentStateU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70263
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float GameManager_get_RemainingTime_m486161B7EC9488500D5A3A1D66F5D08B74246EA3_inline (GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/GameManager.cs:20>
+		float L_0 = __this->___U3CRemainingTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70274
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScoreManager_set_CurrentScore_mA2DAA6654DAFCD878C93AE0DE905A6C89DB4877C_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:7>
+		int32_t L_0 = ___0_value;
+		__this->___U3CCurrentScoreU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70276
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScoreManager_set_HighScore_m9780186DFAD28E8823AC2CAA57ED1BA037838842_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:8>
+		int32_t L_0 = ___0_value;
+		__this->___U3CHighScoreU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70278
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ScoreManager_set_IsNewHighScore_m990B979F76A5E7757E44B022745002F27B45428A_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:10>
+		bool L_0 = ___0_value;
+		__this->___U3CIsNewHighScoreU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70273
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ScoreManager_get_CurrentScore_mDFDAB75D8E123907A5EF23A726701FB52A89D9D7_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:7>
+		int32_t L_0 = __this->___U3CCurrentScoreU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70275
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ScoreManager_get_HighScore_m81BC44C7E3BBF261557426B320E16874D63D026C_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:8>
+		int32_t L_0 = __this->___U3CHighScoreU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70287
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ingredient_set_State_mEA63D391A4093E91C62929899119FD114663DC6A_inline (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:15>
+		int32_t L_0 = ___0_value;
+		__this->___U3CStateU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70286
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Ingredient_get_State_m6338AA10ED8FA82B5E6F8A089A3CE9EDB0184A47_inline (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:15>
+		int32_t L_0 = __this->___U3CStateU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70342
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* PlayerInteractor_get_Hand_mA7C66C27AC4CCE6C96F611BDC759D958827B2B41_inline (PlayerInteractor_t03CBB40B86524FE52575F98CCB32ABA565A0A34F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerInteractor.cs:11>
+		PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* L_0 = __this->___playerHand;
+		return L_0;
+	}
+}
+// Method Definition Index: 70335
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* PlayerHand_get_HeldIngredient_m710C2B66432F93A0E8F02D133E3D381B732AB0B8_inline (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:7>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = __this->___U3CHeldIngredientU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70284
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* Ingredient_get_Data_mD757856A2AFDC995D218300C3B8055F47C4679A5_inline (Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Ingredients/Ingredient.cs:12>
+		IngredientData_t28B031FF201B2C1EAFDEB44FCF04E23ED868C21D* L_0 = __this->___data;
+		return L_0;
+	}
+}
+// Method Definition Index: 70303
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* Order_get_RequiredIngredients_mBEA257401B85202E42F55A6D610E04428118E840_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:6>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_0 = __this->___U3CRequiredIngredientsU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70305
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Order_get_StartTime_mC96ADCEAD71D93AF8FAF1C5A53C24AED1AB8EE36_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:8>
+		float L_0 = __this->___U3CStartTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70304
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Order_set_RequiredIngredients_mC9D4E41CE91F3C8108AB3A7C0F23C3CAF5ADE669_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:6>
+		List_1_t1D97DA1B1346D75FC17DFFB8C5E9998CE67E426A* L_0 = ___0_value;
+		__this->___U3CRequiredIngredientsU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRequiredIngredientsU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 70310
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Order_set_BaseScore_mE7234DA74B49BF9DDEA20F3735835CF9EBEC5427_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:16>
+		int32_t L_0 = ___0_value;
+		__this->___U3CBaseScoreU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70309
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Order_get_BaseScore_m8C38AE2FEE92832D5CDEC109B9CDA4B4F8C10DD1_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:16>
+		int32_t L_0 = __this->___U3CBaseScoreU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70306
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Order_set_StartTime_mA2DDE75D33D2C0260B24993A928EAD3435FB5587_inline (Order_t383E22D7AFB774A8EE15F96D88EC48D15D0FDA5B* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/Order.cs:8>
+		float L_0 = ___0_value;
+		__this->___U3CStartTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 35463
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:248>
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = floor(((double)L_0));
+		return il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+	}
+}
+// Method Definition Index: 70296
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CustomerWindow_Initialize_mED25791B558BBD810BEFFE9BD7DB9E0093647588_inline (CustomerWindow_t5821B01C1143DFF3F71E818AA6D276B0E7BD9115* __this, OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* ___0_manager, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:19>
+		OrderManager_t3286C54022CE2700AD1BA4BBED22FA787F3C72B9* L_0 = ___0_manager;
+		__this->___orderManager = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___orderManager), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Orders/CustomerWindow.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 35517
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:657>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 29020
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* Keyboard_get_current_mDE773B54C9975CEFEAA469AD091C49E150A3FEC3_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Devices/Keyboard.cs:2389>
+		Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43* L_0 = ((Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_StaticFields*)il2cpp_codegen_static_fields_for(Keyboard_t015BD1A6508137D20B4395295F6E002773FAAF43_il2cpp_TypeInfo_var))->___U3CcurrentU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 35348
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:330>
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:330>
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:330>
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:330>
+		return;
+	}
+}
+// Method Definition Index: 35369
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:687>
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))));
+	}
+}
+// Method Definition Index: 35359
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:436>
+		float L_0;
+		L_0 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(__this, NULL);
+		V_0 = L_0;
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:437>
+		float L_1 = V_0;
+		if ((!(((float)L_1) > ((float)(9.99999975E-06f)))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:439>
+		float L_2 = __this->___x;
+		float L_3 = V_0;
+		__this->___x = ((float)(L_2/L_3));
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:440>
+		float L_4 = __this->___y;
+		float L_5 = V_0;
+		__this->___y = ((float)(L_4/L_5));
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:441>
+		float L_6 = __this->___z;
+		float L_7 = V_0;
+		__this->___z = ((float)(L_6/L_7));
+		return;
+	}
+
+IL_003a:
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:445>
+		__this->___x = (0.0f);
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:446>
+		__this->___y = (0.0f);
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:447>
+		__this->___z = (0.0f);
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:449>
+		return;
+	}
+}
+// Method Definition Index: 35385
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:786>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 35406
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Math.bindings.cs:185>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		V_0 = L_0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
+		L_1 = Quaternion_Internal_LookRotation_m489E6A5E916949FFE91C0B11A60C6016D996C1E0((&___0_forward), (&V_0), NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 35398
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Slerp_m0A9969F500E7716EA4F6BC4E7D5464372D8E9E15_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Math.bindings.cs:151>
+		float L_0 = ___2_t;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
+		L_1 = Quaternion_Internal_Slerp_mDD63B8384FB0F0AAD4B59635B1D66D6ECB49E763((&___0_a), (&___1_b), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 70336
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerHand_set_HeldIngredient_m3F357B3F6ABB6121EE06E6B0F69C025033699021_inline (PlayerHand_t3BE9B1E21D6CF8ED808EAABEB7354EF245E4D1ED* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Player/PlayerHand.cs:7>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_value;
+		__this->___U3CHeldIngredientU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHeldIngredientU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 35374
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:721>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35408
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Quaternion.cs:75>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		return L_0;
+	}
+}
+// Method Definition Index: 35366
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:598>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:599>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_0 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:600>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_1 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:601>
+		float L_12 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		float L_13 = V_0;
+		float L_14 = V_0;
+		float L_15 = V_1;
+		float L_16 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_17;
+		L_17 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_12)), ((float)il2cpp_codegen_multiply(L_13, L_14)))), ((float)il2cpp_codegen_multiply(L_15, L_16))))));
+		return ((float)L_17);
+	}
+}
+// Method Definition Index: 70349
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ChoppingStation_get_RemainingTime_m0541B262AAD5C19FD1A923EE639D76D34CA808C8_inline (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:18>
+		float L_0 = __this->___U3CRemainingTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70434
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PreparationUIManager_RegisterChoppingStation_m224965B9105718B8355013FEA177BD745C0FB21D_inline (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* ___0_station, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:27>
+		ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* L_0 = ___0_station;
+		__this->___choppingStation = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___choppingStation), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 35452
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:148>
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		return L_2;
+	}
+
+IL_0006:
+	{
+		float L_3 = ___0_a;
+		return L_3;
+	}
+}
+// Method Definition Index: 70350
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ChoppingStation_set_RemainingTime_m7C1EBE8F9CF4F064288F6FB66A5075A889547605_inline (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:18>
+		float L_0 = ___0_value;
+		__this->___U3CRemainingTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70358
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* CookingSlot_get_Ingredient_m95F09B1162F8D3FFCCC91D71802E393608D0EE10_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:5>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = __this->___U3CIngredientU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70367
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CookingSlot_get_TotalTime_mA55BB667F7CEDAC7E6BD17254C190B7E19984CA1_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:15>
+		float L_0 = __this->___U3CTotalTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70365
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float CookingSlot_get_RemainingTime_mB3A0449F444F7481F4FB58C7FE0EF905E6139A40_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:13>
+		float L_0 = __this->___U3CRemainingTimeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70359
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_Ingredient_m607A2EDE907C0063BAC558DC0E8BEC0DA61DF9A1_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:5>
+		Ingredient_t90138F3306F2C6E871393C2BBC8B3F2E0A0AC4E6* L_0 = ___0_value;
+		__this->___U3CIngredientU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIngredientU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 70362
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_IsCooking_m829B34568588BF5BADB1CCA7743B4108C7351B6E_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:9>
+		bool L_0 = ___0_value;
+		__this->___U3CIsCookingU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70364
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_IsFinished_m8917A7523A41253075DD06AC700B959078820FBB_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:11>
+		bool L_0 = ___0_value;
+		__this->___U3CIsFinishedU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70368
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_TotalTime_m33749C99869C24ECA81D27EBDD3FDD9F95A28066_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:15>
+		float L_0 = ___0_value;
+		__this->___U3CTotalTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70366
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CookingSlot_set_RemainingTime_m850A447F1BA723EB904B3B0469F4FBB30D5C49E7_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:13>
+		float L_0 = ___0_value;
+		__this->___U3CRemainingTimeU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 70361
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CookingSlot_get_IsCooking_m5CA70CCD39E237C541A8DB19A76BD5AF2DF24D1F_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:9>
+		bool L_0 = __this->___U3CIsCookingU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70363
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CookingSlot_get_IsFinished_m0A8977A50DCB1264BD5C435A0883C7C4F77078C0_inline (CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/CookingSlot.cs:11>
+		bool L_0 = __this->___U3CIsFinishedU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 70435
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PreparationUIManager_RegisterStove_m95F607DCED79414C34E3FCD674179C1255F7DC46_inline (PreparationUIManager_tBE6D840D779BECCB5C595CD1413929D3ED9620A5* __this, Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* ___0_stoveStation, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:33>
+		Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* L_0 = ___0_stoveStation;
+		__this->___stove = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___stove), (void*)L_0);
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/UI/PreparationUIManager.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 35378
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:744>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35382
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:777>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 35344
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:36>
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:39>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:40>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:41>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:42>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
+		return L_23;
+	}
+}
+// Method Definition Index: 35469
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:308>
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		return ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+	}
+}
+// Method Definition Index: 70277
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ScoreManager_get_IsNewHighScore_mD5318FF51B78991975C66BBE12741F4B5B3E4C34_inline (ScoreManager_t86D4A06D4B38717B8C529883F37DA25BA5750F39* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Core/ScoreManager.cs:10>
+		bool L_0 = __this->___U3CIsNewHighScoreU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 35462
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:242>
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = ceil(((double)L_0));
+		return il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+	}
+}
+// Method Definition Index: 70348
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ChoppingStation_get_IsChopping_mC8ECA3479151E41655DC4C2A28F8CC634FA35C7B_inline (ChoppingStation_t75D9DC1B25419A16EB6476D39F8A3BD1CC824950* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/ChoppingStation.cs:16>
+		bool L_0 = __this->___isChopping;
+		return L_0;
+	}
+}
+// Method Definition Index: 70380
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* Stove_get_Slot1_mC59ECDA17F1BCC5AAB6EDB2D317B30CC9C7257BD_inline (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:11>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = __this->___slot1;
+		return L_0;
+	}
+}
+// Method Definition Index: 70381
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* Stove_get_Slot2_mF350FA46F5CEFF3A2874CFCB404ACE71B217DD1D_inline (Stove_tE6673483FFC05426B365AC7FF0B96016C62F79F5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:E:/Unity/Unity_Project_Files/Yes Chef/Assets/Scripts/Stations/Stove.cs:12>
+		CookingSlot_t0EA007D7A17C9EE15EE6375C5F416C455AF03702* L_0 = __this->___slot2;
+		return L_0;
+	}
+}
+// Method Definition Index: 8926
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 8985
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 8936
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 35367
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:672>
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		return ((float)L_6);
+	}
+}
+// Method Definition Index: 35468
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:302>
+		float L_0 = ___0_value;
+		if ((((float)L_0) < ((float)(0.0f))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		float L_1 = ___0_value;
+		if ((((float)L_1) > ((float)(1.0f))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		float L_2 = ___0_value;
+		return L_2;
+	}
+
+IL_0012:
+	{
+		return (1.0f);
+	}
+
+IL_0018:
+	{
+		return (0.0f);
+	}
+}
